@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Raw data
+data/raw/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/graphs/.gitkeep
+!outputs/results/.gitkeep
+!outputs/figures/.gitkeep
+
+# Large generated graph files
+outputs/graphs/*.graphml
+outputs/graphs/*.gexf
+
+# Temporary files
+*.log
