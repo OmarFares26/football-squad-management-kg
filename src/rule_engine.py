@@ -121,12 +121,13 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
         )
 
     # Loan:
-    # Young and promising player blocked by stronger same-role teammates.
-    # Sending this player on loan gives them the game time they need to develop.
-    if age < 23 and minutes < 900 and percentile >= 50 and score < same_role_average:
+    # Young player with low minutes who is blocked by same-role teammates.
+    # A loan gives the player regular game time for development,
+    # even if current performance is not yet strong.
+    if age < 23 and minutes < 900 and score < same_role_average:
         return (
             "Loan",
-            "Young player with low minutes and promising performance, but blocked by same-role teammates.",
+            "Young player with low minutes and blocked by same-role teammates.",
         )
 
     # Sell low-used older player:
