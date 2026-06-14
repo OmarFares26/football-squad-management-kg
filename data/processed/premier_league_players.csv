@@ -1,0 +1,563 @@
+player_id,team_id,player_name,nationality,raw_position,broad_position_group,team_name,league_name,age,matches_played,games_started,minutes_played,nineties_played,goals,assists,expected_goals,expected_assisted_goals,tackles,interceptions,clearances,blocks,goals_against,saves,save_percentage,clean_sheets
+matz_sels_nott'ham_forest,nott'ham_forest,Matz Sels,be BEL,GK,Goalkeeper,Nott'ham Forest,eng Premier League,32.0,38,38,3420,38.0,0,0,0.0,0.4,1,0,26,0,46.0,119.0,73.9,13.0
+nathan_collins_brentford,brentford,Nathan Collins,ie IRL,DF,Defender,Brentford,eng Premier League,23.0,38,38,3420,38.0,2,3,2.5,1.8,40,34,226,77,0.0,0.0,0.0,0.0
+david_raya_arsenal,arsenal,David Raya,es ESP,GK,Goalkeeper,Arsenal,eng Premier League,28.0,38,38,3420,38.0,0,0,0.0,0.0,0,2,21,0,34.0,86.0,74.2,13.0
+jordan_pickford_everton,everton,Jordan Pickford,eng ENG,GK,Goalkeeper,Everton,eng Premier League,30.0,38,38,3420,38.0,0,1,0.0,0.4,1,1,30,0,44.0,117.0,73.0,12.0
+dean_henderson_crystal_palace,crystal_palace,Dean Henderson,eng ENG,GK,Goalkeeper,Crystal Palace,eng Premier League,27.0,38,38,3420,38.0,0,0,0.0,0.2,2,0,22,0,51.0,101.0,66.7,11.0
+bernd_leno_fulham,fulham,Bernd Leno,de GER,GK,Goalkeeper,Fulham,eng Premier League,32.0,38,38,3420,38.0,0,1,0.0,0.1,2,0,11,1,54.0,106.0,67.9,5.0
+bryan_mbeumo_brentford,brentford,Bryan Mbeumo,cm CMR,FW,Forward,Brentford,eng Premier League,24.0,38,38,3414,37.9,20,7,12.3,8.3,49,14,55,26,0.0,0.0,0.0,0.0
+mohamed_salah_liverpool,liverpool,Mohamed Salah,eg EGY,FW,Forward,Liverpool,eng Premier League,32.0,38,38,3371,37.5,29,18,25.2,14.2,21,9,5,12,0.0,0.0,0.0,0.0
+moisés_caicedo_chelsea,chelsea,Moisés Caicedo,ec ECU,"MF,DF",Midfielder,Chelsea,eng Premier League,22.0,38,38,3351,37.2,1,2,0.8,3.0,114,49,60,49,0.0,0.0,0.0,0.0
+max_kilman_west_ham,west_ham,Max Kilman,eng ENG,DF,Defender,West Ham,eng Premier League,27.0,38,38,3348,37.2,0,1,1.6,1.2,39,38,212,58,0.0,0.0,0.0,0.0
+milos_kerkez_bournemouth,bournemouth,Milos Kerkez,hu HUN,DF,Defender,Bournemouth,eng Premier League,20.0,38,38,3336,37.1,2,5,0.6,3.9,52,45,106,38,0.0,0.0,0.0,0.0
+dan_burn_newcastle_utd,newcastle_utd,Dan Burn,eng ENG,DF,Defender,Newcastle Utd,eng Premier League,32.0,37,37,3330,37.0,1,1,2.0,0.9,39,27,197,36,0.0,0.0,0.0,0.0
+virgil_van_dijk_liverpool,liverpool,Virgil van Dijk,nl NED,DF,Defender,Liverpool,eng Premier League,33.0,37,37,3330,37.0,3,1,2.2,0.7,38,56,190,27,0.0,0.0,0.0,0.0
+nikola_milenković_nott'ham_forest,nott'ham_forest,Nikola Milenković,rs SRB,DF,Defender,Nott'ham Forest,eng Premier League,26.0,37,37,3330,37.0,5,2,4.0,1.1,51,27,209,41,0.0,0.0,0.0,0.0
+joško_gvardiol_manchester_city,manchester_city,Joško Gvardiol,hr CRO,DF,Defender,Manchester City,eng Premier League,22.0,37,36,3277,36.4,5,0,4.6,2.1,58,44,122,42,0.0,0.0,0.0,0.0
+mark_flekken_brentford,brentford,Mark Flekken,nl NED,GK,Goalkeeper,Brentford,eng Premier League,31.0,37,37,3275,36.4,0,2,0.0,0.5,4,0,26,2,55.0,150.0,73.4,7.0
+bruno_guimarães_newcastle_utd,newcastle_utd,Bruno Guimarães,br BRA,MF,Midfielder,Newcastle Utd,eng Premier League,26.0,38,38,3271,36.3,5,6,4.3,6.1,83,29,44,36,0.0,0.0,0.0,0.0
+bart_verbruggen_brighton,brighton,Bart Verbruggen,nl NED,GK,Goalkeeper,Brighton,eng Premier League,21.0,36,36,3240,36.0,0,1,0.0,0.0,0,0,29,1,58.0,87.0,65.7,7.0
+daniel_muñoz_crystal_palace,crystal_palace,Daniel Muñoz,co COL,DF,Defender,Crystal Palace,eng Premier League,28.0,37,37,3228,35.9,4,5,4.9,5.5,123,44,108,40,0.0,0.0,0.0,0.0
+antoine_semenyo_bournemouth,bournemouth,Antoine Semenyo,gh GHA,FW,Forward,Bournemouth,eng Premier League,24.0,37,36,3203,35.6,11,5,10.0,5.8,55,11,39,67,0.0,0.0,0.0,0.0
+emiliano_martínez_aston_villa,aston_villa,Emiliano Martínez,ar ARG,GK,Goalkeeper,Aston Villa,eng Premier League,31.0,37,37,3194,35.5,0,0,0.0,0.5,3,0,17,1,45.0,96.0,69.0,8.0
+cole_palmer_chelsea,chelsea,Cole Palmer,eng ENG,"MF,FW",Midfielder,Chelsea,eng Premier League,22.0,37,36,3191,35.5,15,8,17.3,10.9,34,11,20,16,0.0,0.0,0.0,0.0
+murillo_nott'ham_forest,nott'ham_forest,Murillo,br BRA,DF,Defender,Nott'ham Forest,eng Premier League,22.0,36,36,3188,35.4,2,0,1.4,1.2,53,36,249,69,0.0,0.0,0.0,0.0
+antonee_robinson_fulham,fulham,Antonee Robinson,us USA,DF,Defender,Fulham,eng Premier League,26.0,36,35,3167,35.2,0,10,0.7,4.2,95,62,133,43,0.0,0.0,0.0,0.0
+ryan_gravenberch_liverpool,liverpool,Ryan Gravenberch,nl NED,MF,Midfielder,Liverpool,eng Premier League,22.0,37,37,3160,35.1,0,4,1.1,3.1,69,60,59,35,0.0,0.0,0.0,0.0
+aaron_wan-bissaka_west_ham,west_ham,Aaron Wan-Bissaka,eng ENG,DF,Defender,West Ham,eng Premier League,26.0,36,35,3154,35.0,2,5,1.2,3.5,70,66,125,37,0.0,0.0,0.0,0.0
+levi_colwill_chelsea,chelsea,Levi Colwill,eng ENG,DF,Defender,Chelsea,eng Premier League,21.0,35,35,3149,35.0,2,1,1.9,1.1,47,33,118,37,0.0,0.0,0.0,0.0
+dara_o'shea_ipswich_town,ipswich_town,Dara O'Shea,ie IRL,DF,Defender,Ipswich Town,eng Premier League,25.0,35,35,3122,34.7,0,2,1.3,0.5,49,33,225,62,0.0,0.0,0.0,0.0
+maxence_lacroix_crystal_palace,crystal_palace,Maxence Lacroix,fr FRA,DF,Defender,Crystal Palace,eng Premier League,24.0,35,35,3116,34.6,1,1,3.4,1.0,68,54,207,48,0.0,0.0,0.0,0.0
+morgan_rogers_aston_villa,aston_villa,Morgan Rogers,eng ENG,"FW,MF",Forward,Aston Villa,eng Premier League,22.0,37,37,3114,34.6,8,10,6.6,7.8,43,6,20,26,0.0,0.0,0.0,0.0
+rayan_aït-nouri_wolves,wolves,Rayan Aït-Nouri,dz ALG,DF,Defender,Wolves,eng Premier League,23.0,37,37,3109,34.5,4,7,2.7,5.5,89,26,75,42,0.0,0.0,0.0,0.0
+illia_zabarnyi_bournemouth,bournemouth,Illia Zabarnyi,ua UKR,DF,Defender,Bournemouth,eng Premier League,21.0,36,35,3109,34.5,0,1,1.3,0.7,52,41,182,33,0.0,0.0,0.0,0.0
+keane_lewis-potter_brentford,brentford,Keane Lewis-Potter,eng ENG,"DF,FW",Defender,Brentford,eng Premier League,23.0,38,36,3093,34.4,1,3,3.1,3.2,49,21,76,28,0.0,0.0,0.0,0.0
+tyrick_mitchell_crystal_palace,crystal_palace,Tyrick Mitchell,eng ENG,DF,Defender,Crystal Palace,eng Premier League,24.0,37,37,3092,34.4,0,5,1.3,6.4,91,19,108,68,0.0,0.0,0.0,0.0
+vitaliy_mykolenko_everton,everton,Vitaliy Mykolenko,ua UKR,DF,Defender,Everton,eng Premier League,25.0,35,35,3082,34.2,1,2,0.5,2.6,63,44,145,25,0.0,0.0,0.0,0.0
+calvin_bassey_fulham,fulham,Calvin Bassey,ng NGA,DF,Defender,Fulham,eng Premier League,24.0,35,34,3074,34.2,1,0,1.0,0.1,54,20,118,40,0.0,0.0,0.0,0.0
+idrissa_gana_gueye_everton,everton,Idrissa Gana Gueye,sn SEN,MF,Midfielder,Everton,eng Premier League,34.0,37,35,3063,34.0,0,3,1.1,1.7,133,48,36,48,0.0,0.0,0.0,0.0
+andré_onana_manchester_utd,manchester_utd,André Onana,cm CMR,GK,Goalkeeper,Manchester Utd,eng Premier League,28.0,34,34,3060,34.0,0,0,0.0,0.2,2,0,11,0,44.0,88.0,68.9,9.0
+marc_guéhi_crystal_palace,crystal_palace,Marc Guéhi,eng ENG,DF,Defender,Crystal Palace,eng Premier League,24.0,34,34,3059,34.0,3,2,2.0,1.8,61,28,163,55,0.0,0.0,0.0,0.0
+william_saliba_arsenal,arsenal,William Saliba,fr FRA,DF,Defender,Arsenal,eng Premier League,23.0,35,35,3039,33.8,2,0,2.3,0.9,62,21,119,25,0.0,0.0,0.0,0.0
+youri_tielemans_aston_villa,aston_villa,Youri Tielemans,be BEL,MF,Midfielder,Aston Villa,eng Premier League,27.0,36,35,3026,33.6,3,7,3.3,7.0,84,23,47,38,0.0,0.0,0.0,0.0
+bruno_fernandes_manchester_utd,manchester_utd,Bruno Fernandes,pt POR,MF,Midfielder,Manchester Utd,eng Premier League,29.0,36,35,3018,33.5,8,10,9.9,8.5,84,26,35,35,0.0,0.0,0.0,0.0
+ola_aina_nott'ham_forest,nott'ham_forest,Ola Aina,ng NGA,DF,Defender,Nott'ham Forest,eng Premier League,27.0,35,35,2995,33.3,2,1,0.6,1.4,55,33,115,34,0.0,0.0,0.0,0.0
+marc_cucurella_chelsea,chelsea,Marc Cucurella,es ESP,DF,Defender,Chelsea,eng Premier League,26.0,36,33,2988,33.2,5,1,2.8,2.1,67,28,95,49,0.0,0.0,0.0,0.0
+alex_iwobi_fulham,fulham,Alex Iwobi,ng NGA,"FW,MF",Forward,Fulham,eng Premier League,28.0,38,35,2981,33.1,9,6,4.7,7.0,44,14,29,26,0.0,0.0,0.0,0.0
+lewis_cook_bournemouth,bournemouth,Lewis Cook,eng ENG,"MF,DF",Midfielder,Bournemouth,eng Premier League,27.0,36,32,2978,33.1,1,3,0.9,4.1,81,41,70,30,0.0,0.0,0.0,0.0
+joão_gomes_wolves,wolves,João Gomes,br BRA,MF,Midfielder,Wolves,eng Premier League,23.0,36,35,2974,33.0,3,1,2.9,1.2,116,25,33,42,0.0,0.0,0.0,0.0
+jarrod_bowen_west_ham,west_ham,Jarrod Bowen,eng ENG,"FW,MF",Forward,West Ham,eng Premier League,27.0,34,34,2973,33.0,13,8,8.6,6.8,41,16,25,22,0.0,0.0,0.0,0.0
+chris_wood_nott'ham_forest,nott'ham_forest,Chris Wood,nz NZL,FW,Forward,Nott'ham Forest,eng Premier League,32.0,36,35,2959,32.9,20,3,13.4,2.6,6,5,29,12,0.0,0.0,0.0,0.0
+jan_paul_van_hecke_brighton,brighton,Jan Paul van Hecke,nl NED,DF,Defender,Brighton,eng Premier League,24.0,34,33,2958,32.9,1,1,1.3,1.5,45,24,142,37,0.0,0.0,0.0,0.0
+enzo_fernández_chelsea,chelsea,Enzo Fernández,ar ARG,MF,Midfielder,Chelsea,eng Premier League,23.0,36,32,2947,32.7,6,7,6.1,6.8,65,13,23,43,0.0,0.0,0.0,0.0
+ezri_konsa_aston_villa,aston_villa,Ezri Konsa,eng ENG,DF,Defender,Aston Villa,eng Premier League,26.0,34,33,2936,32.6,2,0,1.3,0.4,34,24,114,20,0.0,0.0,0.0,0.0
+fabian_schär_newcastle_utd,newcastle_utd,Fabian Schär,ch SUI,DF,Defender,Newcastle Utd,eng Premier League,32.0,34,33,2934,32.6,4,0,3.7,0.4,36,45,138,38,0.0,0.0,0.0,0.0
+james_tarkowski_everton,everton,James Tarkowski,eng ENG,DF,Defender,Everton,eng Premier League,31.0,33,33,2922,32.5,1,1,1.3,2.9,64,41,213,57,0.0,0.0,0.0,0.0
+yoane_wissa_brentford,brentford,Yoane Wissa,cd COD,FW,Forward,Brentford,eng Premier League,27.0,35,34,2919,32.4,19,4,18.5,2.6,22,8,21,29,0.0,0.0,0.0,0.0
+kyle_walker-peters_southampton,southampton,Kyle Walker-Peters,eng ENG,DF,Defender,Southampton,eng Premier League,27.0,33,33,2918,32.4,0,2,0.8,2.8,44,19,90,27,0.0,0.0,0.0,0.0
+james_justin_leicester_city,leicester_city,James Justin,eng ENG,DF,Defender,Leicester City,eng Premier League,26.0,36,34,2912,32.4,2,2,1.5,0.8,58,46,141,48,0.0,0.0,0.0,0.0
+mikkel_damsgaard_brentford,brentford,Mikkel Damsgaard,dk DEN,"MF,FW",Midfielder,Brentford,eng Premier League,24.0,38,34,2911,32.3,2,10,2.8,8.4,83,27,31,40,0.0,0.0,0.0,0.0
+mateus_fernandes_southampton,southampton,Mateus Fernandes,pt POR,MF,Midfielder,Southampton,eng Premier League,20.0,36,34,2909,32.3,2,4,4.0,3.0,89,28,35,43,0.0,0.0,0.0,0.0
+nélson_semedo_wolves,wolves,Nélson Semedo,pt POR,DF,Defender,Wolves,eng Premier League,30.0,34,32,2886,32.1,0,4,0.9,2.8,62,23,104,32,0.0,0.0,0.0,0.0
+robert_sánchez_chelsea,chelsea,Robert Sánchez,es ESP,GK,Goalkeeper,Chelsea,eng Premier League,26.0,32,32,2880,32.0,0,0,0.0,0.1,0,2,24,0,34.0,92.0,76.4,10.0
+valentino_livramento_newcastle_utd,newcastle_utd,Valentino Livramento,eng ENG,DF,Defender,Newcastle Utd,eng Premier League,21.0,37,32,2840,31.6,0,1,0.3,2.6,54,23,108,37,0.0,0.0,0.0,0.0
+noussair_mazraoui_manchester_utd,manchester_utd,Noussair Mazraoui,ma MAR,DF,Defender,Manchester Utd,eng Premier League,26.0,37,34,2838,31.5,0,1,0.7,1.5,115,34,95,36,0.0,0.0,0.0,0.0
+taylor_harwood-bellis_southampton,southampton,Taylor Harwood-Bellis,eng ENG,DF,Defender,Southampton,eng Premier League,22.0,34,32,2825,31.4,1,0,1.8,1.0,28,30,141,65,0.0,0.0,0.0,0.0
+declan_rice_arsenal,arsenal,Declan Rice,eng ENG,MF,Midfielder,Arsenal,eng Premier League,25.0,35,33,2825,31.4,4,7,3.5,6.6,53,25,51,27,0.0,0.0,0.0,0.0
+jamie_vardy_leicester_city,leicester_city,Jamie Vardy,eng ENG,FW,Forward,Leicester City,eng Premier League,37.0,35,35,2823,31.4,9,4,11.2,3.0,19,5,24,8,0.0,0.0,0.0,0.0
+christian_nørgaard_brentford,brentford,Christian Nørgaard,dk DEN,MF,Midfielder,Brentford,eng Premier League,30.0,34,34,2819,31.3,5,4,4.3,1.3,79,49,70,52,0.0,0.0,0.0,0.0
+wout_faes_leicester_city,leicester_city,Wout Faes,be BEL,DF,Defender,Leicester City,eng Premier League,26.0,34,30,2815,31.3,1,0,1.5,0.1,42,26,185,48,0.0,0.0,0.0,0.0
+diogo_dalot_manchester_utd,manchester_utd,Diogo Dalot,pt POR,DF,Defender,Manchester Utd,eng Premier League,25.0,33,31,2814,31.3,0,3,2.0,2.0,68,37,72,22,0.0,0.0,0.0,0.0
+morgan_gibbs-white_nott'ham_forest,nott'ham_forest,Morgan Gibbs-White,eng ENG,MF,Midfielder,Nott'ham Forest,eng Premier League,24.0,34,34,2803,31.1,7,8,6.3,5.0,43,23,29,18,0.0,0.0,0.0,0.0
+thomas_partey_arsenal,arsenal,Thomas Partey,gh GHA,"MF,DF",Midfielder,Arsenal,eng Premier League,31.0,35,31,2797,31.1,4,2,2.3,2.1,89,35,49,29,0.0,0.0,0.0,0.0
+kepa_arrizabalaga_bournemouth,bournemouth,Kepa Arrizabalaga,es ESP,GK,Goalkeeper,Bournemouth,eng Premier League,29.0,31,31,2790,31.0,0,0,0.1,0.0,1,0,15,2,39.0,95.0,73.9,8.0
+alexander_isak_newcastle_utd,newcastle_utd,Alexander Isak,se SWE,FW,Forward,Newcastle Utd,eng Premier League,24.0,34,34,2756,30.6,23,6,20.3,4.3,12,3,17,18,0.0,0.0,0.0,0.0
+sam_morsy_ipswich_town,ipswich_town,Sam Morsy,eg EGY,MF,Midfielder,Ipswich Town,eng Premier League,32.0,33,31,2751,30.6,1,1,0.4,1.2,68,29,47,34,0.0,0.0,0.0,0.0
+leif_davis_ipswich_town,ipswich_town,Leif Davis,eng ENG,DF,Defender,Ipswich Town,eng Premier League,24.0,33,32,2743,30.5,1,2,1.0,4.9,46,25,77,25,0.0,0.0,0.0,0.0
+erling_haaland_manchester_city,manchester_city,Erling Haaland,no NOR,FW,Forward,Manchester City,eng Premier League,24.0,31,31,2736,30.4,22,3,22.0,3.0,11,5,23,12,0.0,0.0,0.0,0.0
+elliot_anderson_nott'ham_forest,nott'ham_forest,Elliot Anderson,eng ENG,MF,Midfielder,Nott'ham Forest,eng Premier League,21.0,37,33,2728,30.3,2,6,2.1,3.3,92,31,76,48,0.0,0.0,0.0,0.0
+ismaila_sarr_crystal_palace,crystal_palace,Ismaila Sarr,sn SEN,MF,Midfielder,Crystal Palace,eng Premier League,26.0,38,30,2711,30.1,8,6,10.7,8.5,22,9,40,27,0.0,0.0,0.0,0.0
+aaron_ramsdale_southampton,southampton,Aaron Ramsdale,eng ENG,GK,Goalkeeper,Southampton,eng Premier League,26.0,30,30,2700,30.0,0,0,0.0,0.0,0,2,10,0,66.0,120.0,67.6,3.0
+bernardo_silva_manchester_city,manchester_city,Bernardo Silva,pt POR,"MF,FW",Midfielder,Manchester City,eng Premier League,29.0,33,29,2670,29.7,4,4,3.9,5.1,56,23,32,36,0.0,0.0,0.0,0.0
+carlos_baleba_brighton,brighton,Carlos Baleba,cm CMR,MF,Midfielder,Brighton,eng Premier League,20.0,34,31,2661,29.6,3,1,3.1,1.3,79,46,44,47,0.0,0.0,0.0,0.0
+jean-philippe_mateta_crystal_palace,crystal_palace,Jean-Philippe Mateta,fr FRA,FW,Forward,Crystal Palace,eng Premier League,27.0,37,33,2648,29.4,14,2,13.5,3.2,18,2,23,19,0.0,0.0,0.0,0.0
+sandro_tonali_newcastle_utd,newcastle_utd,Sandro Tonali,it ITA,MF,Midfielder,Newcastle Utd,eng Premier League,24.0,36,28,2630,29.2,4,2,4.4,2.2,51,34,33,34,0.0,0.0,0.0,0.0
+toti_gomes_wolves,wolves,Toti Gomes,pt POR,DF,Defender,Wolves,eng Premier League,25.0,31,30,2614,29.0,0,1,0.7,0.9,61,25,152,29,0.0,0.0,0.0,0.0
+pedro_porro_tottenham,tottenham,Pedro Porro,es ESP,DF,Defender,Tottenham,eng Premier League,24.0,33,28,2610,29.0,2,6,1.6,5.0,66,36,84,44,0.0,0.0,0.0,0.0
+josé_sá_wolves,wolves,José Sá,pt POR,GK,Goalkeeper,Wolves,eng Premier League,31.0,29,29,2609,29.0,0,0,0.0,0.2,2,0,15,0,48.0,69.0,63.2,7.0
+kaoru_mitoma_brighton,brighton,Kaoru Mitoma,jp JPN,"FW,MF",Forward,Brighton,eng Premier League,27.0,36,28,2603,28.9,10,4,9.2,4.6,45,14,10,48,0.0,0.0,0.0,0.0
+alexis_mac_allister_liverpool,liverpool,Alexis Mac Allister,ar ARG,MF,Midfielder,Liverpool,eng Premier League,25.0,35,30,2599,28.9,5,5,2.8,4.7,95,22,29,61,0.0,0.0,0.0,0.0
+ollie_watkins_aston_villa,aston_villa,Ollie Watkins,eng ENG,FW,Forward,Aston Villa,eng Premier League,28.0,38,31,2598,28.9,16,8,15.3,3.3,10,8,15,11,0.0,0.0,0.0,0.0
+matheus_cunha_wolves,wolves,Matheus Cunha,br BRA,"MF,FW",Midfielder,Wolves,eng Premier League,25.0,33,29,2597,28.9,15,6,8.6,7.7,38,17,23,21,0.0,0.0,0.0,0.0
+neco_williams_nott'ham_forest,nott'ham_forest,Neco Williams,wls WAL,DF,Defender,Nott'ham Forest,eng Premier League,23.0,35,28,2594,28.8,1,3,2.3,1.6,90,31,137,42,0.0,0.0,0.0,0.0
+liam_delap_ipswich_town,ipswich_town,Liam Delap,eng ENG,FW,Forward,Ipswich Town,eng Premier League,21.0,37,32,2593,28.8,12,2,9.3,1.9,11,2,28,8,0.0,0.0,0.0,0.0
+mohammed_kudus_west_ham,west_ham,Mohammed Kudus,gh GHA,"FW,MF",Forward,West Ham,eng Premier League,23.0,32,31,2590,28.8,5,3,6.9,3.1,38,4,8,24,0.0,0.0,0.0,0.0
+eberechi_eze_crystal_palace,crystal_palace,Eberechi Eze,eng ENG,"MF,FW",Midfielder,Crystal Palace,eng Premier League,26.0,34,31,2588,28.8,8,8,10.5,6.2,39,11,10,27,0.0,0.0,0.0,0.0
+jørgen_strand_larsen_wolves,wolves,Jørgen Strand Larsen,no NOR,FW,Forward,Wolves,eng Premier League,24.0,35,30,2587,28.7,14,4,10.3,3.0,10,6,29,19,0.0,0.0,0.0,0.0
+sepp_van_den_berg_brentford,brentford,Sepp van den Berg,nl NED,DF,Defender,Brentford,eng Premier League,22.0,31,29,2586,28.7,0,0,2.0,0.8,39,21,134,52,0.0,0.0,0.0,0.0
+joachim_andersen_fulham,fulham,Joachim Andersen,dk DEN,DF,Defender,Fulham,eng Premier League,28.0,29,29,2583,28.7,0,0,1.0,0.5,27,34,188,37,0.0,0.0,0.0,0.0
+omari_hutchinson_ipswich_town,ipswich_town,Omari Hutchinson,eng ENG,"MF,FW",Midfielder,Ipswich Town,eng Premier League,20.0,31,30,2583,28.7,3,2,2.9,3.5,32,11,15,27,0.0,0.0,0.0,0.0
+tomáš_souček_west_ham,west_ham,Tomáš Souček,cz CZE,MF,Midfielder,West Ham,eng Premier League,29.0,35,30,2567,28.5,9,1,6.7,1.0,46,20,85,41,0.0,0.0,0.0,0.0
+abdoulaye_doucouré_everton,everton,Abdoulaye Doucouré,ml MLI,MF,Midfielder,Everton,eng Premier League,31.0,33,31,2564,28.5,3,2,4.1,2.4,48,10,20,31,0.0,0.0,0.0,0.0
+ibrahima_konaté_liverpool,liverpool,Ibrahima Konaté,fr FRA,DF,Defender,Liverpool,eng Premier League,25.0,31,30,2560,28.4,1,2,1.7,1.0,40,17,133,29,0.0,0.0,0.0,0.0
+leandro_trossard_arsenal,arsenal,Leandro Trossard,be BEL,FW,Forward,Arsenal,eng Premier League,29.0,38,28,2546,28.3,8,7,7.2,6.1,31,9,18,32,0.0,0.0,0.0,0.0
+jan_bednarek_southampton,southampton,Jan Bednarek,pl POL,DF,Defender,Southampton,eng Premier League,28.0,30,30,2531,28.1,2,0,0.7,0.5,36,56,190,47,0.0,0.0,0.0,0.0
+nick_pope_newcastle_utd,newcastle_utd,Nick Pope,eng ENG,GK,Goalkeeper,Newcastle Utd,eng Premier League,32.0,28,28,2520,28.0,0,0,0.0,0.0,0,1,32,1,35.0,86.0,71.7,8.0
+jarrad_branthwaite_everton,everton,Jarrad Branthwaite,eng ENG,DF,Defender,Everton,eng Premier League,22.0,30,28,2511,27.9,0,1,1.2,0.7,36,27,191,31,0.0,0.0,0.0,0.0
+alisson_liverpool,liverpool,Alisson,br BRA,GK,Goalkeeper,Liverpool,eng Premier League,31.0,28,28,2508,27.9,0,0,0.0,0.6,1,0,13,0,29.0,73.0,72.0,9.0
+anthony_elanga_nott'ham_forest,nott'ham_forest,Anthony Elanga,se SWE,"FW,MF",Forward,Nott'ham Forest,eng Premier League,22.0,38,31,2501,27.8,6,11,4.5,5.7,19,6,25,11,0.0,0.0,0.0,0.0
+raúl_jiménez_fulham,fulham,Raúl Jiménez,mx MEX,FW,Forward,Fulham,eng Premier League,33.0,38,30,2494,27.7,12,3,12.0,3.3,35,10,23,21,0.0,0.0,0.0,0.0
+dominik_szoboszlai_liverpool,liverpool,Dominik Szoboszlai,hu HUN,MF,Midfielder,Liverpool,eng Premier League,23.0,36,29,2491,27.7,6,6,7.3,7.4,38,9,19,39,0.0,0.0,0.0,0.0
+andrew_robertson_liverpool,liverpool,Andrew Robertson,sct SCO,DF,Defender,Liverpool,eng Premier League,30.0,33,29,2482,27.6,0,1,1.2,4.6,39,21,54,10,0.0,0.0,0.0,0.0
+victor_bernth_kristiansen_leicester_city,leicester_city,Victor Bernth Kristiansen,dk DEN,DF,Defender,Leicester City,eng Premier League,21.0,30,29,2482,27.6,0,1,0.3,1.4,87,42,75,38,0.0,0.0,0.0,0.0
+andré_wolves,wolves,André,br BRA,MF,Midfielder,Wolves,eng Premier League,23.0,33,31,2472,27.5,0,0,0.4,0.8,91,37,30,42,0.0,0.0,0.0,0.0
+anthony_gordon_newcastle_utd,newcastle_utd,Anthony Gordon,eng ENG,"FW,MF",Forward,Newcastle Utd,eng Premier League,23.0,34,28,2434,27.0,6,5,8.0,5.0,32,7,9,25,0.0,0.0,0.0,0.0
+iliman_ndiaye_everton,everton,Iliman Ndiaye,sn SEN,FW,Forward,Everton,eng Premier League,24.0,33,29,2430,27.0,9,0,6.2,1.9,53,20,24,30,0.0,0.0,0.0,0.0
+dean_huijsen_bournemouth,bournemouth,Dean Huijsen,es ESP,DF,Defender,Bournemouth,eng Premier League,19.0,32,26,2427,27.0,3,2,1.9,2.0,36,51,198,40,0.0,0.0,0.0,0.0
+jurriën_timber_arsenal,arsenal,Jurriën Timber,nl NED,DF,Defender,Arsenal,eng Premier League,23.0,30,27,2417,26.9,1,3,1.2,0.8,58,22,44,19,0.0,0.0,0.0,0.0
+pervis_estupiñán_brighton,brighton,Pervis Estupiñán,ec ECU,DF,Defender,Brighton,eng Premier League,26.0,30,26,2402,26.7,1,1,1.2,2.1,65,37,65,20,0.0,0.0,0.0,0.0
+luis_díaz_liverpool,liverpool,Luis Díaz,co COL,FW,Forward,Liverpool,eng Premier League,27.0,36,28,2399,26.7,13,5,12.0,5.0,39,7,7,19,0.0,0.0,0.0,0.0
+joelinton_newcastle_utd,newcastle_utd,Joelinton,br BRA,"MF,FW",Midfielder,Newcastle Utd,eng Premier League,27.0,29,29,2393,26.6,4,3,3.9,2.5,57,23,47,37,0.0,0.0,0.0,0.0
+dejan_kulusevski_tottenham,tottenham,Dejan Kulusevski,se SWE,"MF,FW",Midfielder,Tottenham,eng Premier League,24.0,32,27,2389,26.5,7,4,4.2,6.2,45,13,10,34,0.0,0.0,0.0,0.0
+mads_hermansen_leicester_city,leicester_city,Mads Hermansen,dk DEN,GK,Goalkeeper,Leicester City,eng Premier League,24.0,27,27,2385,26.5,0,0,0.0,0.0,1,0,13,1,58.0,99.0,64.5,1.0
+lucas_paquetá_west_ham,west_ham,Lucas Paquetá,br BRA,"MF,FW",Midfielder,West Ham,eng Premier League,26.0,33,27,2380,26.4,4,0,5.3,3.1,66,18,37,29,0.0,0.0,0.0,0.0
+trent_alexander-arnold_liverpool,liverpool,Trent Alexander-Arnold,eng ENG,DF,Defender,Liverpool,eng Premier League,25.0,33,28,2365,26.3,3,6,1.9,7.3,72,31,55,26,0.0,0.0,0.0,0.0
+gabriel_magalhães_arsenal,arsenal,Gabriel Magalhães,br BRA,DF,Defender,Arsenal,eng Premier League,26.0,28,28,2363,26.3,3,1,2.6,0.9,25,16,93,42,0.0,0.0,0.0,0.0
+jacob_murphy_newcastle_utd,newcastle_utd,Jacob Murphy,eng ENG,FW,Forward,Newcastle Utd,eng Premier League,29.0,35,31,2360,26.2,8,12,5.7,8.9,28,13,35,31,0.0,0.0,0.0,0.0
+lucas_digne_aston_villa,aston_villa,Lucas Digne,fr FRA,DF,Defender,Aston Villa,eng Premier League,31.0,32,28,2351,26.1,0,4,0.8,4.7,65,25,89,23,0.0,0.0,0.0,0.0
+saša_lukić_fulham,fulham,Saša Lukić,rs SRB,MF,Midfielder,Fulham,eng Premier League,27.0,30,28,2344,26.0,0,2,1.2,2.7,68,28,35,20,0.0,0.0,0.0,0.0
+justin_kluivert_bournemouth,bournemouth,Justin Kluivert,nl NED,MF,Midfielder,Bournemouth,eng Premier League,25.0,34,29,2340,26.0,12,6,10.3,4.8,23,14,24,24,0.0,0.0,0.0,0.0
+martin_ødegaard_arsenal,arsenal,Martin Ødegaard,no NOR,MF,Midfielder,Arsenal,eng Premier League,25.0,30,26,2325,25.8,3,8,4.8,5.4,19,6,6,5,0.0,0.0,0.0,0.0
+wilfred_ndidi_leicester_city,leicester_city,Wilfred Ndidi,ng NGA,MF,Midfielder,Leicester City,eng Premier League,27.0,28,28,2324,25.8,0,5,2.0,1.9,85,31,80,47,0.0,0.0,0.0,0.0
+ederson_manchester_city,manchester_city,Ederson,br BRA,GK,Goalkeeper,Manchester City,eng Premier League,30.0,26,26,2320,25.8,0,4,0.0,1.5,0,1,11,0,26.0,53.0,69.2,10.0
+evanilson_bournemouth,bournemouth,Evanilson,br BRA,FW,Forward,Bournemouth,eng Premier League,24.0,31,28,2319,25.8,10,1,12.5,1.9,16,1,21,11,0.0,0.0,0.0,0.0
+kevin_schade_brentford,brentford,Kevin Schade,de GER,FW,Forward,Brentford,eng Premier League,22.0,38,26,2293,25.5,11,2,8.2,3.7,39,5,34,19,0.0,0.0,0.0,0.0
+gabriel_martinelli_arsenal,arsenal,Gabriel Martinelli,br BRA,"FW,MF",Forward,Arsenal,eng Premier League,23.0,33,25,2290,25.4,8,4,7.4,5.0,23,5,19,15,0.0,0.0,0.0,0.0
+jefferson_lerma_crystal_palace,crystal_palace,Jefferson Lerma,co COL,"MF,DF",Midfielder,Crystal Palace,eng Premier League,29.0,33,26,2274,25.3,0,1,1.1,1.6,35,42,80,38,0.0,0.0,0.0,0.0
+rúben_dias_manchester_city,manchester_city,Rúben Dias,pt POR,DF,Defender,Manchester City,eng Premier League,27.0,27,25,2271,25.2,0,0,1.5,0.3,17,20,71,23,0.0,0.0,0.0,0.0
+pedro_neto_chelsea,chelsea,Pedro Neto,pt POR,FW,Forward,Chelsea,eng Premier League,24.0,35,24,2269,25.2,4,6,3.5,6.7,23,9,6,14,0.0,0.0,0.0,0.0
+alphonse_areola_west_ham,west_ham,Alphonse Areola,fr FRA,GK,Goalkeeper,West Ham,eng Premier League,31.0,26,25,2260,25.1,0,0,0.0,0.0,2,0,15,0,41.0,77.0,64.3,5.0
+vitaly_janelt_brentford,brentford,Vitaly Janelt,de GER,MF,Midfielder,Brentford,eng Premier League,26.0,32,27,2254,25.0,1,3,0.8,2.2,38,27,53,33,0.0,0.0,0.0,0.0
+sander_berge_fulham,fulham,Sander Berge,no NOR,MF,Midfielder,Fulham,eng Premier League,26.0,31,26,2224,24.7,0,0,0.4,0.6,50,21,38,27,0.0,0.0,0.0,0.0
+john_mcginn_aston_villa,aston_villa,John McGinn,sct SCO,"MF,FW",Midfielder,Aston Villa,eng Premier League,29.0,34,27,2223,24.7,1,4,3.1,3.5,33,14,18,22,0.0,0.0,0.0,0.0
+i̇lkay_gündoğan_manchester_city,manchester_city,İlkay Gündoğan,de GER,MF,Midfielder,Manchester City,eng Premier League,33.0,33,25,2223,24.7,1,6,3.2,3.5,25,13,23,15,0.0,0.0,0.0,0.0
+nicolas_jackson_chelsea,chelsea,Nicolas Jackson,sn SEN,FW,Forward,Chelsea,eng Premier League,23.0,30,28,2220,24.7,10,5,12.3,4.3,22,3,15,15,0.0,0.0,0.0,0.0
+jacob_greaves_ipswich_town,ipswich_town,Jacob Greaves,eng ENG,DF,Defender,Ipswich Town,eng Premier League,23.0,25,25,2205,24.5,1,0,1.3,0.3,40,21,148,41,0.0,0.0,0.0,0.0
+dominic_solanke_tottenham,tottenham,Dominic Solanke,eng ENG,FW,Forward,Tottenham,eng Premier League,26.0,27,25,2201,24.5,9,3,10.9,2.9,18,1,23,20,0.0,0.0,0.0,0.0
+alejandro_garnacho_manchester_utd,manchester_utd,Alejandro Garnacho,ar ARG,"MF,FW",Midfielder,Manchester Utd,eng Premier League,20.0,36,23,2199,24.4,6,2,7.3,4.5,30,13,11,19,0.0,0.0,0.0,0.0
+mateo_kovačić_manchester_city,manchester_city,Mateo Kovačić,hr CRO,MF,Midfielder,Manchester City,eng Premier League,30.0,31,25,2198,24.4,6,2,1.9,3.6,69,24,21,20,0.0,0.0,0.0,0.0
+callum_hudson-odoi_nott'ham_forest,nott'ham_forest,Callum Hudson-Odoi,eng ENG,"FW,MF",Forward,Nott'ham Forest,eng Premier League,23.0,31,25,2194,24.4,5,2,2.5,2.7,22,13,12,11,0.0,0.0,0.0,0.0
+lewis_hall_newcastle_utd,newcastle_utd,Lewis Hall,eng ENG,DF,Defender,Newcastle Utd,eng Premier League,19.0,27,24,2189,24.3,0,4,0.4,4.3,58,18,75,33,0.0,0.0,0.0,0.0
+bilal_el_khannouss_leicester_city,leicester_city,Bilal El Khannouss,ma MAR,"MF,FW",Midfielder,Leicester City,eng Premier League,20.0,32,27,2182,24.2,2,3,1.3,4.6,50,6,10,22,0.0,0.0,0.0,0.0
+brennan_johnson_tottenham,tottenham,Brennan Johnson,wls WAL,FW,Forward,Tottenham,eng Premier League,23.0,33,24,2177,24.2,11,3,10.4,2.3,39,4,14,25,0.0,0.0,0.0,0.0
+boubakary_soumaré_leicester_city,leicester_city,Boubakary Soumaré,fr FRA,MF,Midfielder,Leicester City,eng Premier League,25.0,31,25,2171,24.1,0,0,0.3,0.4,37,27,34,22,0.0,0.0,0.0,0.0
+guglielmo_vicario_tottenham,tottenham,Guglielmo Vicario,it ITA,GK,Goalkeeper,Tottenham,eng Premier League,27.0,24,24,2160,24.0,0,0,0.0,0.0,0,1,14,0,37.0,67.0,64.7,4.0
+flynn_downes_southampton,southampton,Flynn Downes,eng ENG,MF,Midfielder,Southampton,eng Premier League,25.0,27,25,2151,23.9,1,0,0.6,1.1,49,32,51,28,0.0,0.0,0.0,0.0
+matthijs_de_ligt_manchester_utd,manchester_utd,Matthijs de Ligt,nl NED,DF,Defender,Manchester Utd,eng Premier League,24.0,29,25,2123,23.6,2,0,2.5,0.3,30,33,96,29,0.0,0.0,0.0,0.0
+ryan_christie_bournemouth,bournemouth,Ryan Christie,sct SCO,MF,Midfielder,Bournemouth,eng Premier League,29.0,29,27,2117,23.5,2,3,1.8,3.5,54,30,51,44,0.0,0.0,0.0,0.0
+danny_welbeck_brighton,brighton,Danny Welbeck,eng ENG,FW,Forward,Brighton,eng Premier League,33.0,30,24,2115,23.5,10,4,9.6,1.4,26,5,14,19,0.0,0.0,0.0,0.0
+emerson_palmieri_west_ham,west_ham,Emerson Palmieri,it ITA,DF,Defender,West Ham,eng Premier League,29.0,31,26,2113,23.5,2,1,2.0,1.5,60,21,59,32,0.0,0.0,0.0,0.0
+son_heung-min_tottenham,tottenham,Son Heung-min,kr KOR,FW,Forward,Tottenham,eng Premier League,32.0,30,24,2110,23.4,7,9,7.2,8.2,17,5,17,11,0.0,0.0,0.0,0.0
+matt_doherty_wolves,wolves,Matt Doherty,ie IRL,DF,Defender,Wolves,eng Premier League,32.0,30,25,2109,23.4,2,1,1.0,1.5,38,22,102,28,0.0,0.0,0.0,0.0
+will_hughes_crystal_palace,crystal_palace,Will Hughes,eng ENG,MF,Midfielder,Crystal Palace,eng Premier League,29.0,33,24,2108,23.4,0,3,1.1,3.1,66,22,28,31,0.0,0.0,0.0,0.0
+lewis_dunk_brighton,brighton,Lewis Dunk,eng ENG,DF,Defender,Brighton,eng Premier League,32.0,25,23,2083,23.1,0,0,0.8,0.5,17,13,79,28,0.0,0.0,0.0,0.0
+jack_harrison_everton,everton,Jack Harrison,eng ENG,FW,Forward,Everton,eng Premier League,27.0,34,24,2076,23.1,1,0,3.5,3.7,32,10,35,18,0.0,0.0,0.0,0.0
+matty_cash_aston_villa,aston_villa,Matty Cash,pl POL,DF,Defender,Aston Villa,eng Premier League,26.0,27,24,2070,23.0,1,1,0.5,1.1,56,23,70,22,0.0,0.0,0.0,0.0
+konstantinos_mavropanos_west_ham,west_ham,Konstantinos Mavropanos,gr GRE,DF,Defender,West Ham,eng Premier League,26.0,33,21,2045,22.7,0,0,1.5,0.5,35,40,126,25,0.0,0.0,0.0,0.0
+emile_smith_rowe_fulham,fulham,Emile Smith Rowe,eng ENG,MF,Midfielder,Fulham,eng Premier League,24.0,34,25,2043,22.7,6,3,4.5,1.4,31,11,16,22,0.0,0.0,0.0,0.0
+noni_madueke_chelsea,chelsea,Noni Madueke,eng ENG,FW,Forward,Chelsea,eng Premier League,22.0,32,27,2033,22.6,7,3,9.6,4.2,25,10,11,17,0.0,0.0,0.0,0.0
+pau_torres_aston_villa,aston_villa,Pau Torres,es ESP,DF,Defender,Aston Villa,eng Premier League,27.0,24,23,2020,22.4,0,0,0.5,0.1,21,10,75,16,0.0,0.0,0.0,0.0
+manuel_akanji_manchester_city,manchester_city,Manuel Akanji,ch SUI,DF,Defender,Manchester City,eng Premier League,29.0,26,23,2014,22.4,0,0,1.6,0.4,19,9,64,11,0.0,0.0,0.0,0.0
+andreas_pereira_fulham,fulham,Andreas Pereira,br BRA,MF,Midfielder,Fulham,eng Premier League,28.0,33,25,2013,22.4,2,4,3.8,4.6,24,8,17,17,0.0,0.0,0.0,0.0
+joe_aribo_southampton,southampton,Joe Aribo,ng NGA,"MF,DF",Midfielder,Southampton,eng Premier League,28.0,32,21,2013,22.4,3,0,2.7,1.6,47,20,32,28,0.0,0.0,0.0,0.0
+dango_ouattara_bournemouth,bournemouth,Dango Ouattara,bf BFA,FW,Forward,Bournemouth,eng Premier League,22.0,32,21,2005,22.3,7,4,8.4,5.5,35,11,51,36,0.0,0.0,0.0,0.0
+rasmus_højlund_manchester_utd,manchester_utd,Rasmus Højlund,dk DEN,FW,Forward,Manchester Utd,eng Premier League,21.0,32,23,2004,22.3,4,0,5.3,1.8,3,2,6,6,0.0,0.0,0.0,0.0
+tyler_adams_bournemouth,bournemouth,Tyler Adams,us USA,MF,Midfielder,Bournemouth,eng Premier League,25.0,28,21,1965,21.8,0,3,1.6,1.0,83,32,42,33,0.0,0.0,0.0,0.0
+yasin_ayari_brighton,brighton,Yasin Ayari,se SWE,MF,Midfielder,Brighton,eng Premier League,20.0,34,22,1965,21.8,2,1,2.4,2.3,59,20,26,24,0.0,0.0,0.0,0.0
+nicolás_domínguez_nott'ham_forest,nott'ham_forest,Nicolás Domínguez,ar ARG,"MF,FW",Midfielder,Nott'ham Forest,eng Premier League,26.0,34,23,1963,21.8,0,1,1.5,1.3,86,29,54,38,0.0,0.0,0.0,0.0
+jens_cajuste_ipswich_town,ipswich_town,Jens Cajuste,se SWE,MF,Midfielder,Ipswich Town,eng Premier League,24.0,30,25,1959,21.8,1,1,0.7,0.8,44,28,33,25,0.0,0.0,0.0,0.0
+joão_pedro_brighton,brighton,João Pedro,br BRA,"FW,MF",Forward,Brighton,eng Premier League,22.0,27,23,1948,21.6,10,6,8.9,5.0,16,9,12,12,0.0,0.0,0.0,0.0
+marcus_tavernier_bournemouth,bournemouth,Marcus Tavernier,eng ENG,"FW,MF",Forward,Bournemouth,eng Premier League,25.0,29,20,1939,21.5,3,5,5.5,4.0,43,5,11,16,0.0,0.0,0.0,0.0
+cody_gakpo_liverpool,liverpool,Cody Gakpo,nl NED,FW,Forward,Liverpool,eng Premier League,25.0,35,23,1935,21.5,10,4,7.1,4.4,28,12,19,23,0.0,0.0,0.0,0.0
+destiny_udogie_tottenham,tottenham,Destiny Udogie,it ITA,DF,Defender,Tottenham,eng Premier League,21.0,25,24,1924,21.4,0,1,0.3,1.5,75,22,36,40,0.0,0.0,0.0,0.0
+chris_richards_crystal_palace,crystal_palace,Chris Richards,us USA,DF,Defender,Crystal Palace,eng Premier League,24.0,24,22,1922,21.4,1,0,1.4,0.1,47,19,121,40,0.0,0.0,0.0,0.0
+ryan_yates_nott'ham_forest,nott'ham_forest,Ryan Yates,eng ENG,MF,Midfielder,Nott'ham Forest,eng Premier League,26.0,35,18,1915,21.3,2,1,2.3,1.2,42,26,61,38,0.0,0.0,0.0,0.0
+ethan_pinnock_brentford,brentford,Ethan Pinnock,jm JAM,DF,Defender,Brentford,eng Premier League,31.0,22,21,1913,21.3,2,0,1.1,1.2,35,24,142,29,0.0,0.0,0.0,0.0
+pape_matar_sarr_tottenham,tottenham,Pape Matar Sarr,sn SEN,MF,Midfielder,Tottenham,eng Premier League,21.0,36,22,1913,21.3,3,2,3.7,1.6,49,30,25,26,0.0,0.0,0.0,0.0
+amad_diallo_manchester_utd,manchester_utd,Amad Diallo,ci CIV,"MF,FW",Midfielder,Manchester Utd,eng Premier League,22.0,26,20,1901,21.1,8,6,4.7,4.9,38,11,19,15,0.0,0.0,0.0,0.0
+rico_lewis_manchester_city,manchester_city,Rico Lewis,eng ENG,"DF,MF",Defender,Manchester City,eng Premier League,19.0,28,21,1893,21.0,1,2,1.4,0.3,30,13,45,28,0.0,0.0,0.0,0.0
+ashley_young_everton,everton,Ashley Young,eng ENG,DF,Defender,Everton,eng Premier League,39.0,32,19,1875,20.8,1,3,0.3,2.3,58,25,64,14,0.0,0.0,0.0,0.0
+kai_havertz_arsenal,arsenal,Kai Havertz,de GER,"FW,MF",Forward,Arsenal,eng Premier League,25.0,23,21,1875,20.8,9,3,9.5,2.4,16,6,33,23,0.0,0.0,0.0,0.0
+tyler_dibling_southampton,southampton,Tyler Dibling,eng ENG,"FW,MF",Forward,Southampton,eng Premier League,18.0,33,20,1874,20.8,2,0,2.5,1.5,34,8,16,19,0.0,0.0,0.0,0.0
+malo_gusto_chelsea,chelsea,Malo Gusto,fr FRA,DF,Defender,Chelsea,eng Premier League,21.0,32,19,1862,20.7,0,1,1.7,1.4,45,24,49,29,0.0,0.0,0.0,0.0
+jack_hinshelwood_brighton,brighton,Jack Hinshelwood,eng ENG,"MF,DF",Midfielder,Brighton,eng Premier League,19.0,26,22,1842,20.5,5,2,2.7,1.5,27,16,37,10,0.0,0.0,0.0,0.0
+yankuba_minteh_brighton,brighton,Yankuba Minteh,gm GAM,"FW,MF",Forward,Brighton,eng Premier League,20.0,32,20,1838,20.4,6,4,4.1,5.0,48,11,31,22,0.0,0.0,0.0,0.0
+jean-clair_todibo_west_ham,west_ham,Jean-Clair Todibo,fr FRA,DF,Defender,West Ham,eng Premier League,24.0,27,20,1825,20.3,0,0,0.4,0.0,47,26,83,25,0.0,0.0,0.0,0.0
+james_maddison_tottenham,tottenham,James Maddison,eng ENG,MF,Midfielder,Tottenham,eng Premier League,27.0,31,21,1809,20.1,9,7,5.8,4.2,31,12,19,15,0.0,0.0,0.0,0.0
+djed_spence_tottenham,tottenham,Djed Spence,eng ENG,DF,Defender,Tottenham,eng Premier League,23.0,25,19,1792,19.9,1,2,0.6,1.8,47,21,74,28,0.0,0.0,0.0,0.0
+manuel_ugarte_ribeiro_manchester_utd,manchester_utd,Manuel Ugarte Ribeiro,uy URU,MF,Midfielder,Manchester Utd,eng Premier League,23.0,29,22,1785,19.8,1,2,1.0,1.1,77,27,17,33,0.0,0.0,0.0,0.0
+phil_foden_manchester_city,manchester_city,Phil Foden,eng ENG,"MF,FW",Midfielder,Manchester City,eng Premier League,24.0,28,20,1777,19.7,7,2,5.2,4.8,13,9,7,13,0.0,0.0,0.0,0.0
+kenny_tete_fulham,fulham,Kenny Tete,nl NED,DF,Defender,Fulham,eng Premier League,28.0,22,21,1774,19.7,0,2,1.4,0.9,56,32,67,31,0.0,0.0,0.0,0.0
+adama_traoré_fulham,fulham,Adama Traoré,es ESP,"FW,MF",Forward,Fulham,eng Premier League,28.0,36,18,1772,19.7,2,7,4.0,4.9,20,1,6,7,0.0,0.0,0.0,0.0
+edson_álvarez_west_ham,west_ham,Edson Álvarez,mx MEX,MF,Midfielder,West Ham,eng Premier League,26.0,28,20,1772,19.7,0,1,0.4,0.8,50,18,46,23,0.0,0.0,0.0,0.0
+sávio_manchester_city,manchester_city,Sávio,br BRA,"FW,MF",Forward,Manchester City,eng Premier League,20.0,29,21,1766,19.6,1,8,5.0,6.9,23,6,9,14,0.0,0.0,0.0,0.0
+jadon_sancho_chelsea,chelsea,Jadon Sancho,eng ENG,FW,Forward,Chelsea,eng Premier League,24.0,31,19,1764,19.6,3,4,2.2,3.7,13,2,8,11,0.0,0.0,0.0,0.0
+harry_maguire_manchester_utd,manchester_utd,Harry Maguire,eng ENG,DF,Defender,Manchester Utd,eng Premier League,31.0,27,19,1758,19.5,1,0,1.8,0.6,30,40,78,15,0.0,0.0,0.0,0.0
+harvey_barnes_newcastle_utd,newcastle_utd,Harvey Barnes,eng ENG,FW,Forward,Newcastle Utd,eng Premier League,26.0,33,17,1755,19.5,9,4,7.2,4.0,16,6,15,8,0.0,0.0,0.0,0.0
+archie_gray_tottenham,tottenham,Archie Gray,eng ENG,"DF,MF",Defender,Tottenham,eng Premier League,18.0,28,19,1751,19.5,0,0,0.0,0.1,16,19,50,22,0.0,0.0,0.0,0.0
+lisandro_martínez_manchester_utd,manchester_utd,Lisandro Martínez,ar ARG,DF,Defender,Manchester Utd,eng Premier League,26.0,20,20,1751,19.5,2,1,1.3,1.1,40,32,57,22,0.0,0.0,0.0,0.0
+bukayo_saka_arsenal,arsenal,Bukayo Saka,eng ENG,"FW,MF",Forward,Arsenal,eng Premier League,22.0,25,20,1729,19.2,6,10,6.8,7.6,29,3,8,22,0.0,0.0,0.0,0.0
+boubacar_kamara_aston_villa,aston_villa,Boubacar Kamara,fr FRA,MF,Midfielder,Aston Villa,eng Premier League,24.0,26,20,1726,19.2,1,0,0.8,0.9,50,19,51,19,0.0,0.0,0.0,0.0
+conor_coady_leicester_city,leicester_city,Conor Coady,eng ENG,DF,Defender,Leicester City,eng Premier League,31.0,22,19,1714,19.0,1,0,0.4,0.1,13,13,71,32,0.0,0.0,0.0,0.0
+curtis_jones_liverpool,liverpool,Curtis Jones,eng ENG,"MF,DF",Midfielder,Liverpool,eng Premier League,23.0,33,19,1712,19.0,3,3,4.3,1.1,39,7,10,22,0.0,0.0,0.0,0.0
+axel_tuanzebe_ipswich_town,ipswich_town,Axel Tuanzebe,cd COD,DF,Defender,Ipswich Town,eng Premier League,26.0,22,20,1710,19.0,0,1,0.2,0.3,31,23,56,21,0.0,0.0,0.0,0.0
+kevin_de_bruyne_manchester_city,manchester_city,Kevin De Bruyne,be BEL,"MF,FW",Midfielder,Manchester City,eng Premier League,33.0,28,19,1702,18.9,4,7,5.1,8.0,17,7,10,8,0.0,0.0,0.0,0.0
+joël_veltman_brighton,brighton,Joël Veltman,nl NED,DF,Defender,Brighton,eng Premier League,32.0,21,19,1697,18.9,0,0,0.5,0.5,43,19,66,22,0.0,0.0,0.0,0.0
+santiago_bueno_wolves,wolves,Santiago Bueno,uy URU,DF,Defender,Wolves,eng Premier League,25.0,29,18,1687,18.7,0,0,0.4,0.0,41,15,70,36,0.0,0.0,0.0,0.0
+jean-ricner_bellegarde_wolves,wolves,Jean-Ricner Bellegarde,fr FRA,"MF,FW",Midfielder,Wolves,eng Premier League,26.0,35,20,1677,18.6,2,7,1.5,3.8,39,10,18,19,0.0,0.0,0.0,0.0
+matheus_nunes_manchester_city,manchester_city,Matheus Nunes,pt POR,"DF,MF",Defender,Manchester City,eng Premier League,25.0,26,19,1674,18.6,1,6,1.2,4.4,35,15,38,17,0.0,0.0,0.0,0.0
+georginio_rutter_brighton,brighton,Georginio Rutter,fr FRA,"MF,FW",Midfielder,Brighton,eng Premier League,22.0,28,19,1656,18.4,5,3,4.6,2.5,39,10,13,20,0.0,0.0,0.0,0.0
+lesley_ugochukwu_southampton,southampton,Lesley Ugochukwu,fr FRA,MF,Midfielder,Southampton,eng Premier League,20.0,26,18,1655,18.4,1,1,0.9,1.0,50,14,23,27,0.0,0.0,0.0,0.0
+kobbie_mainoo_manchester_utd,manchester_utd,Kobbie Mainoo,eng ENG,MF,Midfielder,Manchester Utd,eng Premier League,19.0,25,19,1651,18.3,0,0,0.7,1.6,46,19,14,16,0.0,0.0,0.0,0.0
+timothy_castagne_fulham,fulham,Timothy Castagne,be BEL,DF,Defender,Fulham,eng Premier League,28.0,24,17,1649,18.3,0,1,0.4,1.2,46,22,83,15,0.0,0.0,0.0,0.0
+rodrigo_bentancur_tottenham,tottenham,Rodrigo Bentancur,uy URU,MF,Midfielder,Tottenham,eng Premier League,27.0,26,21,1645,18.3,2,0,1.3,0.4,40,40,38,25,0.0,0.0,0.0,0.0
+jordan_ayew_leicester_city,leicester_city,Jordan Ayew,gh GHA,"FW,MF",Forward,Leicester City,eng Premier League,32.0,30,19,1638,18.2,5,0,3.2,1.1,27,12,19,21,0.0,0.0,0.0,0.0
+jacob_ramsey_aston_villa,aston_villa,Jacob Ramsey,eng ENG,"FW,MF",Forward,Aston Villa,eng Premier League,23.0,29,19,1623,18.0,1,3,1.6,2.3,30,8,8,23,0.0,0.0,0.0,0.0
+arijanet_muric_ipswich_town,ipswich_town,Arijanet Muric,xk KVX,GK,Goalkeeper,Ipswich Town,eng Premier League,25.0,18,18,1620,18.0,0,0,0.0,0.0,0,0,10,0,33.0,67.0,70.0,1.0
+amadou_onana_aston_villa,aston_villa,Amadou Onana,be BEL,MF,Midfielder,Aston Villa,eng Premier League,22.0,26,20,1617,18.0,3,0,2.1,0.7,55,26,41,16,0.0,0.0,0.0,0.0
+stephy_mavididi_leicester_city,leicester_city,Stephy Mavididi,eng ENG,FW,Forward,Leicester City,eng Premier League,26.0,30,16,1615,17.9,4,1,1.8,2.6,34,11,15,26,0.0,0.0,0.0,0.0
+dominic_calvert-lewin_everton,everton,Dominic Calvert-Lewin,eng ENG,FW,Forward,Everton,eng Premier League,27.0,26,19,1609,17.9,3,1,6.7,0.6,9,7,23,7,0.0,0.0,0.0,0.0
+james_garner_everton,everton,James Garner,eng ENG,"MF,DF",Midfielder,Everton,eng Premier League,23.0,21,17,1594,17.7,0,1,0.7,1.4,47,23,37,20,0.0,0.0,0.0,0.0
+adam_smith_bournemouth,bournemouth,Adam Smith,eng ENG,DF,Defender,Bournemouth,eng Premier League,33.0,25,19,1590,17.7,0,0,0.7,0.4,24,15,49,13,0.0,0.0,0.0,0.0
+mikel_merino_arsenal,arsenal,Mikel Merino,es ESP,"MF,FW",Midfielder,Arsenal,eng Premier League,28.0,28,17,1586,17.6,7,2,5.9,2.0,46,15,26,18,0.0,0.0,0.0,0.0
+jake_o'brien_everton,everton,Jake O'Brien,ie IRL,DF,Defender,Everton,eng Premier League,23.0,20,17,1571,17.5,2,0,0.8,0.6,26,4,93,17,0.0,0.0,0.0,0.0
+daichi_kamada_crystal_palace,crystal_palace,Daichi Kamada,jp JPN,MF,Midfielder,Crystal Palace,eng Premier League,27.0,34,15,1564,17.4,0,0,1.1,1.9,47,18,14,22,0.0,0.0,0.0,0.0
+yukinari_sugawara_southampton,southampton,Yukinari Sugawara,jp JPN,"DF,MF",Defender,Southampton,eng Premier League,24.0,30,16,1557,17.3,1,1,0.5,2.2,31,11,53,21,0.0,0.0,0.0,0.0
+cameron_burgess_ipswich_town,ipswich_town,Cameron Burgess,au AUS,DF,Defender,Ipswich Town,eng Premier League,28.0,18,16,1541,17.1,0,2,1.1,0.5,17,14,128,20,0.0,0.0,0.0,0.0
+harry_winks_leicester_city,leicester_city,Harry Winks,eng ENG,MF,Midfielder,Leicester City,eng Premier League,28.0,22,17,1538,17.1,0,2,0.2,1.2,24,9,20,19,0.0,0.0,0.0,0.0
+beto_everton,everton,Beto,gw GNB,FW,Forward,Everton,eng Premier League,26.0,30,15,1534,17.0,8,0,8.2,1.2,14,4,24,12,0.0,0.0,0.0,0.0
+facundo_buonanotte_leicester_city,leicester_city,Facundo Buonanotte,ar ARG,"FW,MF",Forward,Leicester City,eng Premier League,19.0,31,14,1523,16.9,5,2,3.9,3.1,53,12,14,34,0.0,0.0,0.0,0.0
+jeremy_doku_manchester_city,manchester_city,Jeremy Doku,be BEL,"FW,MF",Forward,Manchester City,eng Premier League,22.0,29,16,1516,16.8,3,6,1.3,4.8,31,4,2,11,0.0,0.0,0.0,0.0
+casemiro_manchester_utd,manchester_utd,Casemiro,br BRA,MF,Midfielder,Manchester Utd,eng Premier League,32.0,24,18,1494,16.6,1,0,1.9,2.3,83,14,51,39,0.0,0.0,0.0,0.0
+ryan_manning_southampton,southampton,Ryan Manning,ie IRL,"DF,MF",Defender,Southampton,eng Premier League,28.0,24,18,1462,16.2,0,1,0.3,3.2,28,17,47,20,0.0,0.0,0.0,0.0
+yehor_yarmoliuk_brentford,brentford,Yehor Yarmoliuk,ua UKR,MF,Midfielder,Brentford,eng Premier League,20.0,31,15,1450,16.1,0,0,0.6,0.9,49,13,33,26,0.0,0.0,0.0,0.0
+cameron_archer_southampton,southampton,Cameron Archer,eng ENG,FW,Forward,Southampton,eng Premier League,23.0,35,13,1441,16.0,2,0,5.7,0.5,13,2,11,5,0.0,0.0,0.0,0.0
+kristoffer_ajer_brentford,brentford,Kristoffer Ajer,no NOR,DF,Defender,Brentford,eng Premier League,26.0,24,17,1438,16.0,0,0,1.0,1.2,26,12,50,17,0.0,0.0,0.0,0.0
+cristian_romero_tottenham,tottenham,Cristian Romero,ar ARG,DF,Defender,Tottenham,eng Premier League,26.0,18,18,1416,15.7,1,0,1.6,0.6,35,21,57,18,0.0,0.0,0.0,0.0
+emmanuel_agbadou_wolves,wolves,Emmanuel Agbadou,ci CIV,DF,Defender,Wolves,eng Premier League,27.0,16,16,1410,15.7,1,0,0.8,0.2,30,12,90,19,0.0,0.0,0.0,0.0
+carlos_soler_west_ham,west_ham,Carlos Soler,es ESP,"MF,FW",Midfielder,West Ham,eng Premier League,27.0,31,14,1409,15.7,1,1,1.8,1.4,16,8,21,19,0.0,0.0,0.0,0.0
+tosin_adarabioyo_chelsea,chelsea,Tosin Adarabioyo,eng ENG,DF,Defender,Chelsea,eng Premier League,26.0,22,15,1409,15.7,1,1,0.9,0.2,17,11,80,9,0.0,0.0,0.0,0.0
+yves_bissouma_tottenham,tottenham,Yves Bissouma,ml MLI,MF,Midfielder,Tottenham,eng Premier League,27.0,28,16,1408,15.6,2,0,0.6,0.3,49,18,40,11,0.0,0.0,0.0,0.0
+kamaldeen_sulemana_southampton,southampton,Kamaldeen Sulemana,gh GHA,"FW,MF",Forward,Southampton,eng Premier League,22.0,26,17,1402,15.6,1,1,1.5,1.0,22,6,9,16,0.0,0.0,0.0,0.0
+joshua_zirkzee_manchester_utd,manchester_utd,Joshua Zirkzee,nl NED,"FW,MF",Forward,Manchester Utd,eng Premier League,23.0,32,14,1402,15.6,3,1,4.8,1.5,14,6,8,15,0.0,0.0,0.0,0.0
+jannik_vestergaard_leicester_city,leicester_city,Jannik Vestergaard,dk DEN,DF,Defender,Leicester City,eng Premier League,31.0,18,16,1391,15.5,0,0,0.1,0.1,22,16,74,21,0.0,0.0,0.0,0.0
+jack_stephens_southampton,southampton,Jack Stephens,eng ENG,DF,Defender,Southampton,eng Premier League,30.0,19,17,1389,15.4,1,0,0.6,0.2,34,13,53,20,0.0,0.0,0.0,0.0
+dwight_mcneil_everton,everton,Dwight McNeil,eng ENG,"MF,FW",Midfielder,Everton,eng Premier League,24.0,21,15,1371,15.2,4,6,1.1,5.2,13,6,2,7,0.0,0.0,0.0,0.0
+myles_lewis-skelly_arsenal,arsenal,Myles Lewis-Skelly,eng ENG,DF,Defender,Arsenal,eng Premier League,17.0,23,15,1369,15.2,1,0,0.2,0.4,22,7,27,4,0.0,0.0,0.0,0.0
+mario_lemina_wolves,wolves,Mario Lemina,ga GAB,"MF,DF",Midfielder,Wolves,eng Premier League,30.0,17,15,1364,15.2,1,3,1.4,1.1,51,27,50,12,0.0,0.0,0.0,0.0
+ben_johnson_ipswich_town,ipswich_town,Ben Johnson,eng ENG,"DF,FW",Defender,Ipswich Town,eng Premier League,24.0,23,14,1354,15.0,1,2,1.1,1.3,38,13,54,22,0.0,0.0,0.0,0.0
+issa_diop_fulham,fulham,Issa Diop,fr FRA,DF,Defender,Fulham,eng Premier League,27.0,21,15,1339,14.9,0,0,0.5,0.1,26,9,72,10,0.0,0.0,0.0,0.0
+ben_davies_tottenham,tottenham,Ben Davies,wls WAL,DF,Defender,Tottenham,eng Premier League,31.0,17,14,1331,14.8,0,0,0.3,0.2,17,12,81,28,0.0,0.0,0.0,0.0
+adam_wharton_crystal_palace,crystal_palace,Adam Wharton,eng ENG,MF,Midfielder,Crystal Palace,eng Premier League,20.0,20,16,1318,14.6,0,2,0.4,3.0,34,20,27,11,0.0,0.0,0.0,0.0
+kieran_trippier_newcastle_utd,newcastle_utd,Kieran Trippier,eng ENG,DF,Defender,Newcastle Utd,eng Premier League,33.0,25,14,1309,14.5,0,3,0.1,1.4,38,12,49,11,0.0,0.0,0.0,0.0
+orel_mangala_everton,everton,Orel Mangala,be BEL,MF,Midfielder,Everton,eng Premier League,26.0,19,14,1261,14.0,1,0,1.1,0.6,16,21,24,8,0.0,0.0,0.0,0.0
+radu_drăgușin_tottenham,tottenham,Radu Drăgușin,ro ROU,DF,Defender,Tottenham,eng Premier League,22.0,16,14,1252,13.9,0,0,0.1,0.4,10,15,49,22,0.0,0.0,0.0,0.0
+adam_armstrong_southampton,southampton,Adam Armstrong,eng ENG,"FW,MF",Forward,Southampton,eng Premier League,27.0,20,15,1248,13.9,2,2,3.3,1.2,12,3,8,6,0.0,0.0,0.0,0.0
+jesper_lindstrøm_everton,everton,Jesper Lindstrøm,dk DEN,FW,Forward,Everton,eng Premier League,24.0,25,15,1239,13.8,0,1,2.1,2.0,45,12,17,15,0.0,0.0,0.0,0.0
+kalvin_phillips_ipswich_town,ipswich_town,Kalvin Phillips,eng ENG,MF,Midfielder,Ipswich Town,eng Premier League,28.0,19,14,1237,13.7,0,0,0.4,0.2,35,19,37,35,0.0,0.0,0.0,0.0
+lucas_bergvall_tottenham,tottenham,Lucas Bergvall,se SWE,MF,Midfielder,Tottenham,eng Premier League,18.0,27,11,1212,13.5,0,1,0.7,0.6,39,24,22,18,0.0,0.0,0.0,0.0
+ben_white_arsenal,arsenal,Ben White,eng ENG,DF,Defender,Arsenal,eng Premier League,26.0,17,13,1198,13.3,0,2,0.5,1.4,20,16,44,10,0.0,0.0,0.0,0.0
+diogo_jota_liverpool,liverpool,Diogo Jota,pt POR,FW,Forward,Liverpool,eng Premier League,27.0,26,14,1196,13.3,6,3,7.9,1.8,14,8,6,9,0.0,0.0,0.0,0.0
+luke_woolfenden_ipswich_town,ipswich_town,Luke Woolfenden,eng ENG,DF,Defender,Ipswich Town,eng Premier League,25.0,15,12,1187,13.2,0,0,0.0,0.0,9,19,76,21,0.0,0.0,0.0,0.0
+jack_clarke_ipswich_town,ipswich_town,Jack Clarke,eng ENG,"FW,MF",Forward,Ipswich Town,eng Premier League,23.0,32,12,1181,13.1,0,4,1.2,2.3,32,7,29,9,0.0,0.0,0.0,0.0
+omar_marmoush_manchester_city,manchester_city,Omar Marmoush,eg EGY,"FW,MF",Forward,Manchester City,eng Premier League,25.0,16,14,1175,13.1,7,0,5.5,2.8,13,6,3,15,0.0,0.0,0.0,0.0
+wesley_fofana_chelsea,chelsea,Wesley Fofana,fr FRA,DF,Defender,Chelsea,eng Premier League,23.0,14,14,1172,13.0,0,0,0.4,0.4,13,14,55,14,0.0,0.0,0.0,0.0
+alex_palmer_ipswich_town,ipswich_town,Alex Palmer,eng ENG,GK,Goalkeeper,Ipswich Town,eng Premier League,27.0,13,13,1170,13.0,0,0,0.0,0.0,0,0,12,0,30.0,43.0,59.2,0.0
+leny_yoro_manchester_utd,manchester_utd,Leny Yoro,fr FRA,DF,Defender,Manchester Utd,eng Premier League,18.0,21,12,1165,12.9,0,0,0.7,0.1,29,18,43,5,0.0,0.0,0.0,0.0
+harry_wilson_fulham,fulham,Harry Wilson,wls WAL,"FW,MF",Forward,Fulham,eng Premier League,27.0,25,12,1162,12.9,6,1,4.2,1.1,20,7,10,15,0.0,0.0,0.0,0.0
+łukasz_fabiański_west_ham,west_ham,Łukasz Fabiański,pl POL,GK,Goalkeeper,West Ham,eng Premier League,39.0,14,13,1160,12.9,0,0,0.0,0.0,0,0,5,0,21.0,50.0,74.6,2.0
+guido_rodríguez_west_ham,west_ham,Guido Rodríguez,ar ARG,MF,Midfielder,West Ham,eng Premier League,30.0,23,16,1149,12.8,0,1,0.2,0.2,36,13,35,23,0.0,0.0,0.0,0.0
+leon_bailey_aston_villa,aston_villa,Leon Bailey,jm JAM,"FW,MF",Forward,Aston Villa,eng Premier League,26.0,24,14,1139,12.7,1,2,1.7,1.5,7,3,12,6,0.0,0.0,0.0,0.0
+ian_maatsen_aston_villa,aston_villa,Ian Maatsen,nl NED,DF,Defender,Aston Villa,eng Premier League,22.0,29,10,1139,12.7,1,2,0.9,2.7,29,15,39,13,0.0,0.0,0.0,0.0
+darwin_núñez_liverpool,liverpool,Darwin Núñez,uy URU,FW,Forward,Liverpool,eng Premier League,25.0,30,8,1133,12.6,5,2,5.8,1.3,21,4,12,6,0.0,0.0,0.0,0.0
+oliver_skipp_leicester_city,leicester_city,Oliver Skipp,eng ENG,MF,Midfielder,Leicester City,eng Premier League,23.0,24,10,1129,12.5,0,0,0.4,0.3,21,11,11,23,0.0,0.0,0.0,0.0
+caleb_okoli_leicester_city,leicester_city,Caleb Okoli,it ITA,DF,Defender,Leicester City,eng Premier League,23.0,19,12,1125,12.5,1,0,0.6,0.0,25,15,79,24,0.0,0.0,0.0,0.0
+jakub_kiwior_arsenal,arsenal,Jakub Kiwior,pl POL,DF,Defender,Arsenal,eng Premier League,24.0,17,10,1122,12.5,1,0,0.2,0.3,22,6,58,13,0.0,0.0,0.0,0.0
+tyrone_mings_aston_villa,aston_villa,Tyrone Mings,eng ENG,DF,Defender,Aston Villa,eng Premier League,31.0,14,12,1120,12.4,0,0,0.8,0.2,7,7,61,13,0.0,0.0,0.0,0.0
+luke_thomas_leicester_city,leicester_city,Luke Thomas,eng ENG,DF,Defender,Leicester City,eng Premier League,23.0,14,13,1110,12.3,0,0,0.4,0.5,31,21,49,15,0.0,0.0,0.0,0.0
+marcos_senesi_bournemouth,bournemouth,Marcos Senesi,ar ARG,DF,Defender,Bournemouth,eng Premier League,27.0,17,13,1106,12.3,0,0,0.8,0.2,39,14,58,16,0.0,0.0,0.0,0.0
+mads_roerslev_brentford,brentford,Mads Roerslev,dk DEN,DF,Defender,Brentford,eng Premier League,25.0,19,11,1101,12.2,0,2,0.2,3.0,18,4,35,12,0.0,0.0,0.0,0.0
+stefan_ortega_manchester_city,manchester_city,Stefan Ortega,de GER,GK,Goalkeeper,Manchester City,eng Premier League,31.0,13,12,1100,12.2,0,0,0.0,0.0,0,0,11,0,18.0,33.0,68.0,3.0
+simon_adingra_brighton,brighton,Simon Adingra,ci CIV,"FW,MF",Forward,Brighton,eng Premier League,22.0,29,12,1097,12.2,2,2,2.5,2.5,23,8,6,12,0.0,0.0,0.0,0.0
+joe_willock_newcastle_utd,newcastle_utd,Joe Willock,eng ENG,"MF,FW",Midfielder,Newcastle Utd,eng Premier League,24.0,32,11,1086,12.1,0,2,1.6,2.1,30,6,7,24,0.0,0.0,0.0,0.0
+marshall_munetsi_wolves,wolves,Marshall Munetsi,zw ZIM,"MF,FW",Midfielder,Wolves,eng Premier League,28.0,14,12,1078,12.0,2,1,3.3,1.8,24,6,18,14,0.0,0.0,0.0,0.0
+james_bree_southampton,southampton,James Bree,eng ENG,DF,Defender,Southampton,eng Premier League,26.0,17,13,1075,11.9,0,1,0.1,0.9,19,9,29,10,0.0,0.0,0.0,0.0
+vladimír_coufal_west_ham,west_ham,Vladimír Coufal,cz CZE,DF,Defender,West Ham,eng Premier League,31.0,22,11,1067,11.9,0,0,0.3,0.7,22,8,39,13,0.0,0.0,0.0,0.0
+reece_james_chelsea,chelsea,Reece James,eng ENG,"DF,MF",Defender,Chelsea,eng Premier League,24.0,19,12,1063,11.8,1,1,0.4,0.7,10,13,23,14,0.0,0.0,0.0,0.0
+christian_eriksen_manchester_utd,manchester_utd,Christian Eriksen,dk DEN,MF,Midfielder,Manchester Utd,eng Premier League,32.0,23,11,1061,11.8,1,2,1.4,3.2,19,7,8,15,0.0,0.0,0.0,0.0
+trevoh_chalobah_crystal_palace,crystal_palace,Trevoh Chalobah,eng ENG,DF,Defender,Crystal Palace,eng Premier League,25.0,12,12,1060,11.8,3,0,1.2,0.4,20,19,57,19,0.0,0.0,0.0,0.0
+paul_onuachu_southampton,southampton,Paul Onuachu,ng NGA,FW,Forward,Southampton,eng Premier League,30.0,25,11,1050,11.7,4,1,3.6,0.5,7,1,16,7,0.0,0.0,0.0,0.0
+michael_keane_everton,everton,Michael Keane,eng ENG,DF,Defender,Everton,eng Premier League,31.0,14,11,1049,11.7,3,0,0.6,0.1,12,16,65,14,0.0,0.0,0.0,0.0
+james_ward-prowse_west_ham,west_ham,James Ward-Prowse,eng ENG,MF,Midfielder,West Ham,eng Premier League,29.0,15,12,1039,11.5,1,1,1.6,1.9,20,8,15,6,0.0,0.0,0.0,0.0
+eddie_nketiah_crystal_palace,crystal_palace,Eddie Nketiah,eng ENG,"FW,MF",Forward,Crystal Palace,eng Premier League,25.0,29,9,1034,11.5,3,1,5.8,1.7,15,3,12,10,0.0,0.0,0.0,0.0
+mats_wieffer_brighton,brighton,Mats Wieffer,nl NED,"DF,MF",Defender,Brighton,eng Premier League,24.0,25,10,1015,11.3,1,3,0.8,1.6,58,17,28,18,0.0,0.0,0.0,0.0
+micky_van_de_ven_tottenham,tottenham,Micky van de Ven,nl NED,DF,Defender,Tottenham,eng Premier League,23.0,13,12,1015,11.3,0,2,0.6,1.2,10,10,39,12,0.0,0.0,0.0,0.0
+gonçalo_guedes_wolves,wolves,Gonçalo Guedes,pt POR,"MF,FW",Midfielder,Wolves,eng Premier League,27.0,29,10,995,11.1,2,4,3.2,1.3,16,5,4,11,0.0,0.0,0.0,0.0
+sammie_szmodics_ipswich_town,ipswich_town,Sammie Szmodics,ie IRL,"FW,MF",Forward,Ipswich Town,eng Premier League,28.0,20,13,992,11.0,4,0,3.4,0.2,16,6,14,10,0.0,0.0,0.0,0.0
+riccardo_calafiori_arsenal,arsenal,Riccardo Calafiori,it ITA,DF,Defender,Arsenal,eng Premier League,22.0,19,11,983,10.9,2,1,0.9,0.3,27,9,25,12,0.0,0.0,0.0,0.0
+marcus_rashford_manchester_utd,manchester_utd,Marcus Rashford,eng ENG,"FW,MF",Forward,Manchester Utd,eng Premier League,26.0,15,12,978,10.9,4,1,1.7,2.1,7,4,7,8,0.0,0.0,0.0,0.0
+craig_dawson_wolves,wolves,Craig Dawson,eng ENG,DF,Defender,Wolves,eng Premier League,34.0,15,10,971,10.8,0,0,0.5,0.0,15,9,52,16,0.0,0.0,0.0,0.0
+kyle_walker_manchester_city,manchester_city,Kyle Walker,eng ENG,DF,Defender,Manchester City,eng Premier League,34.0,15,9,970,10.8,0,0,0.1,0.4,17,3,13,13,0.0,0.0,0.0,0.0
+rodrigo_muniz_fulham,fulham,Rodrigo Muniz,br BRA,FW,Forward,Fulham,eng Premier League,23.0,31,8,964,10.7,8,1,5.8,0.7,10,5,14,9,0.0,0.0,0.0,0.0
+igor_brighton,brighton,Igor,br BRA,DF,Defender,Brighton,eng Premier League,26.0,13,10,961,10.7,0,0,0.0,0.2,5,4,39,24,0.0,0.0,0.0,0.0
+david_brooks_bournemouth,bournemouth,David Brooks,wls WAL,"FW,MF",Forward,Bournemouth,eng Premier League,27.0,29,9,960,10.7,2,0,2.5,1.9,14,5,9,18,0.0,0.0,0.0,0.0
+álex_moreno_nott'ham_forest,nott'ham_forest,Álex Moreno,es ESP,"DF,MF",Defender,Nott'ham Forest,eng Premier League,31.0,15,11,955,10.6,0,1,0.2,1.3,25,15,43,11,0.0,0.0,0.0,0.0
+matt_o'riley_brighton,brighton,Matt O'Riley,dk DEN,MF,Midfielder,Brighton,eng Premier League,23.0,21,11,938,10.4,2,2,2.8,2.4,16,13,9,7,0.0,0.0,0.0,0.0
+wes_burns_ipswich_town,ipswich_town,Wes Burns,wls WAL,"FW,DF",Forward,Ipswich Town,eng Premier League,29.0,18,12,926,10.3,0,1,0.5,1.6,13,10,13,7,0.0,0.0,0.0,0.0
+christopher_nkunku_chelsea,chelsea,Christopher Nkunku,fr FRA,FW,Forward,Chelsea,eng Premier League,26.0,27,9,921,10.2,3,2,4.8,2.1,12,7,10,9,0.0,0.0,0.0,0.0
+mathys_tel_tottenham,tottenham,Mathys Tel,fr FRA,FW,Forward,Tottenham,eng Premier League,19.0,13,11,911,10.1,2,1,3.0,2.6,16,2,8,8,0.0,0.0,0.0,0.0
+morato_nott'ham_forest,nott'ham_forest,Morato,br BRA,DF,Defender,Nott'ham Forest,eng Premier League,23.0,26,6,907,10.1,0,0,0.2,0.0,22,10,78,14,0.0,0.0,0.0,0.0
+jakub_stolarczyk_leicester_city,leicester_city,Jakub Stolarczyk,pl POL,GK,Goalkeeper,Leicester City,eng Premier League,23.0,10,10,900,10.0,0,0,0.0,0.0,2,0,6,0,16.0,28.0,63.6,2.0
+martin_dúbravka_newcastle_utd,newcastle_utd,Martin Dúbravka,sk SVK,GK,Goalkeeper,Newcastle Utd,eng Premier League,35.0,10,10,900,10.0,0,0,0.0,0.0,0,0,3,0,12.0,29.0,70.7,5.0
+caoimhín_kelleher_liverpool,liverpool,Caoimhín Kelleher,ie IRL,GK,Goalkeeper,Liverpool,eng Premier League,25.0,10,10,900,10.0,0,0,0.0,0.0,0,0,1,0,12.0,24.0,67.6,4.0
+ethan_nwaneri_arsenal,arsenal,Ethan Nwaneri,eng ENG,"FW,MF",Forward,Arsenal,eng Premier League,17.0,26,11,895,9.9,4,2,1.2,1.2,11,2,4,8,0.0,0.0,0.0,0.0
+adam_webster_brighton,brighton,Adam Webster,eng ENG,DF,Defender,Brighton,eng Premier League,29.0,14,11,887,9.9,0,0,0.2,0.5,10,20,41,16,0.0,0.0,0.0,0.0
+julio_enciso_ipswich_town,ipswich_town,Julio Enciso,py PAR,"MF,FW",Midfielder,Ipswich Town,eng Premier League,20.0,13,12,869,9.7,2,3,1.7,1.4,12,1,6,8,0.0,0.0,0.0,0.0
+mathias_jensen_brentford,brentford,Mathias Jensen,dk DEN,MF,Midfielder,Brentford,eng Premier League,28.0,24,8,862,9.6,0,2,0.2,1.7,14,8,13,15,0.0,0.0,0.0,0.0
+tariq_lamptey_brighton,brighton,Tariq Lamptey,gh GHA,DF,Defender,Brighton,eng Premier League,23.0,15,10,860,9.6,2,2,0.4,0.8,17,7,23,15,0.0,0.0,0.0,0.0
+jack_taylor_ipswich_town,ipswich_town,Jack Taylor,ie IRL,MF,Midfielder,Ipswich Town,eng Premier League,26.0,32,4,860,9.6,1,0,0.7,0.5,20,9,24,12,0.0,0.0,0.0,0.0
+conor_chaplin_ipswich_town,ipswich_town,Conor Chaplin,eng ENG,"MF,FW",Midfielder,Ipswich Town,eng Premier League,27.0,22,10,857,9.5,1,1,1.5,0.7,15,4,3,8,0.0,0.0,0.0,0.0
+jota_silva_nott'ham_forest,nott'ham_forest,Jota Silva,pt POR,"FW,MF",Forward,Nott'ham Forest,eng Premier League,24.0,31,5,854,9.5,3,1,2.1,2.9,27,12,17,9,0.0,0.0,0.0,0.0
+kasey_mcateer_leicester_city,leicester_city,Kasey McAteer,ie IRL,FW,Forward,Leicester City,eng Premier League,22.0,18,9,852,9.5,1,1,1.0,0.7,23,5,15,18,0.0,0.0,0.0,0.0
+wilson_odobert_tottenham,tottenham,Wilson Odobert,fr FRA,"FW,MF",Forward,Tottenham,eng Premier League,19.0,16,9,850,9.4,1,0,1.6,1.0,14,4,5,6,0.0,0.0,0.0,0.0
+kevin_danso_tottenham,tottenham,Kevin Danso,at AUT,DF,Defender,Tottenham,eng Premier League,25.0,10,9,842,9.4,0,0,0.4,0.1,7,6,71,15,0.0,0.0,0.0,0.0
+patrick_dorgu_manchester_utd,manchester_utd,Patrick Dorgu,dk DEN,DF,Defender,Manchester Utd,eng Premier League,19.0,12,10,842,9.4,0,0,0.4,0.7,31,4,23,11,0.0,0.0,0.0,0.0
+kostas_tsimikas_liverpool,liverpool,Kostas Tsimikas,gr GRE,DF,Defender,Liverpool,eng Premier League,28.0,18,9,837,9.3,0,1,0.4,2.1,31,11,20,5,0.0,0.0,0.0,0.0
+michail_antonio_west_ham,west_ham,Michail Antonio,jm JAM,FW,Forward,West Ham,eng Premier League,34.0,14,11,836,9.3,1,1,2.2,1.6,2,0,2,6,0.0,0.0,0.0,0.0
+diego_carlos_aston_villa,aston_villa,Diego Carlos,br BRA,DF,Defender,Aston Villa,eng Premier League,31.0,10,8,830,9.2,0,0,0.6,0.0,8,5,36,13,0.0,0.0,0.0,0.0
+aaron_cresswell_west_ham,west_ham,Aaron Cresswell,eng ENG,DF,Defender,West Ham,eng Premier League,34.0,18,10,824,9.2,0,0,0.2,1.3,11,8,37,9,0.0,0.0,0.0,0.0
+pablo_sarabia_wolves,wolves,Pablo Sarabia,es ESP,"MF,FW",Midfielder,Wolves,eng Premier League,32.0,23,7,814,9.0,3,2,2.9,1.8,16,4,7,10,0.0,0.0,0.0,0.0
+rodrigo_gomes_wolves,wolves,Rodrigo Gomes,pt POR,"DF,FW",Defender,Wolves,eng Premier League,21.0,25,7,810,9.0,2,0,0.7,0.9,23,7,20,8,0.0,0.0,0.0,0.0
+sean_longstaff_newcastle_utd,newcastle_utd,Sean Longstaff,eng ENG,MF,Midfielder,Newcastle Utd,eng Premier League,26.0,25,8,798,8.9,0,0,0.6,0.2,27,7,8,17,0.0,0.0,0.0,0.0
+roméo_lavia_chelsea,chelsea,Roméo Lavia,be BEL,MF,Midfielder,Chelsea,eng Premier League,20.0,16,11,797,8.9,0,1,0.3,0.7,22,16,10,6,0.0,0.0,0.0,0.0
+niclas_füllkrug_west_ham,west_ham,Niclas Füllkrug,de GER,FW,Forward,West Ham,eng Premier League,31.0,18,6,790,8.8,3,2,2.2,1.9,4,1,16,1,0.0,0.0,0.0,0.0
+crysencio_summerville_west_ham,west_ham,Crysencio Summerville,nl NED,"FW,MF",Forward,West Ham,eng Premier League,22.0,19,7,786,8.7,1,1,1.6,1.7,13,0,7,13,0.0,0.0,0.0,0.0
+nathan_wood-gordon_southampton,southampton,Nathan Wood-Gordon,eng ENG,DF,Defender,Southampton,eng Premier League,22.0,11,9,773,8.6,0,0,0.2,0.0,14,5,39,9,0.0,0.0,0.0,0.0
+carlos_alcaraz_everton,everton,Carlos Alcaraz,ar ARG,"FW,MF",Forward,Everton,eng Premier League,21.0,15,7,764,8.5,2,3,1.7,1.6,11,5,10,9,0.0,0.0,0.0,0.0
+nicolás_gonzález_manchester_city,manchester_city,Nicolás González,es ESP,MF,Midfielder,Manchester City,eng Premier League,22.0,11,9,760,8.4,1,0,0.5,0.1,16,8,21,9,0.0,0.0,0.0,0.0
+alex_scott_bournemouth,bournemouth,Alex Scott,eng ENG,MF,Midfielder,Bournemouth,eng Premier League,20.0,20,8,755,8.4,0,0,0.7,0.9,27,10,15,17,0.0,0.0,0.0,0.0
+conor_bradley_liverpool,liverpool,Conor Bradley,nir NIR,DF,Defender,Liverpool,eng Premier League,21.0,19,7,754,8.4,0,2,0.7,1.4,14,4,31,9,0.0,0.0,0.0,0.0
+bobby_de_cordova-reid_leicester_city,leicester_city,Bobby De Cordova-Reid,jm JAM,FW,Forward,Leicester City,eng Premier League,31.0,23,9,744,8.3,1,2,0.8,1.2,9,0,10,6,0.0,0.0,0.0,0.0
+marco_asensio_aston_villa,aston_villa,Marco Asensio,es ESP,MF,Midfielder,Aston Villa,eng Premier League,28.0,13,9,743,8.3,3,1,4.4,1.0,7,2,3,7,0.0,0.0,0.0,0.0
+patson_daka_leicester_city,leicester_city,Patson Daka,zm ZAM,"FW,MF",Forward,Leicester City,eng Premier League,25.0,23,6,736,8.2,1,0,1.3,0.1,19,1,12,7,0.0,0.0,0.0,0.0
+jack_grealish_manchester_city,manchester_city,Jack Grealish,eng ENG,"FW,MF",Forward,Manchester City,eng Premier League,28.0,20,7,721,8.0,1,1,1.1,1.8,9,2,6,12,0.0,0.0,0.0,0.0
+victor_lindelöf_manchester_utd,manchester_utd,Victor Lindelöf,se SWE,DF,Defender,Manchester Utd,eng Premier League,30.0,16,6,704,7.8,0,0,0.0,0.1,7,8,36,6,0.0,0.0,0.0,0.0
+jorginho_arsenal,arsenal,Jorginho,it ITA,MF,Midfielder,Arsenal,eng Premier League,32.0,15,9,704,7.8,0,0,0.1,0.4,12,7,2,3,0.0,0.0,0.0,0.0
+nathan_broadhead_ipswich_town,ipswich_town,Nathan Broadhead,wls WAL,"MF,FW",Midfielder,Ipswich Town,eng Premier League,26.0,18,7,702,7.8,2,0,1.7,0.7,9,4,5,8,0.0,0.0,0.0,0.0
+william_smallbone_southampton,southampton,William Smallbone,ie IRL,MF,Midfielder,Southampton,eng Premier League,24.0,18,6,690,7.7,1,0,0.6,0.7,20,2,14,8,0.0,0.0,0.0,0.0
+brajan_gruda_brighton,brighton,Brajan Gruda,de GER,"MF,FW",Midfielder,Brighton,eng Premier League,20.0,21,8,687,7.6,1,4,1.2,2.1,16,2,5,8,0.0,0.0,0.0,0.0
+nathan_aké_manchester_city,manchester_city,Nathan Aké,nl NED,DF,Defender,Manchester City,eng Premier League,29.0,10,8,678,7.5,0,0,0.2,0.0,9,3,22,7,0.0,0.0,0.0,0.0
+oliver_scarles_west_ham,west_ham,Oliver Scarles,eng ENG,"DF,FW",Defender,West Ham,eng Premier League,18.0,15,7,665,7.4,0,0,0.1,0.1,21,11,26,14,0.0,0.0,0.0,0.0
+george_hirst_ipswich_town,ipswich_town,George Hirst,sct SCO,FW,Forward,Ipswich Town,eng Premier League,25.0,26,5,661,7.3,3,1,2.1,0.3,3,2,10,1,0.0,0.0,0.0,0.0
+hwang_hee-chan_wolves,wolves,Hwang Hee-chan,kr KOR,"MF,FW",Midfielder,Wolves,eng Premier League,28.0,21,5,661,7.3,2,0,0.8,0.1,6,2,11,9,0.0,0.0,0.0,0.0
+jáder_durán_aston_villa,aston_villa,Jáder Durán,co COL,FW,Forward,Aston Villa,eng Premier League,20.0,20,4,638,7.1,7,0,4.9,0.2,8,0,13,5,0.0,0.0,0.0,0.0
+fraser_forster_tottenham,tottenham,Fraser Forster,eng ENG,GK,Goalkeeper,Tottenham,eng Premier League,36.0,7,7,630,7.0,0,0,0.0,0.0,0,0,7,0,15.0,27.0,69.0,1.0
+christian_walton_ipswich_town,ipswich_town,Christian Walton,eng ENG,GK,Goalkeeper,Ipswich Town,eng Premier League,28.0,7,7,630,7.0,0,0,0.0,0.0,0,0,2,0,19.0,20.0,56.4,1.0
+sam_johnstone_wolves,wolves,Sam Johnstone,eng ENG,GK,Goalkeeper,Wolves,eng Premier League,31.0,7,7,630,7.0,0,0,0.0,0.0,0,0,7,0,17.0,23.0,61.5,0.0
+tom_cairney_fulham,fulham,Tom Cairney,sct SCO,MF,Midfielder,Fulham,eng Premier League,33.0,25,3,628,7.0,2,0,0.8,1.1,13,4,3,7,0.0,0.0,0.0,0.0
+mason_mount_manchester_utd,manchester_utd,Mason Mount,eng ENG,MF,Midfielder,Manchester Utd,eng Premier League,25.0,17,8,622,6.9,1,0,3.2,0.6,15,4,4,11,0.0,0.0,0.0,0.0
+gabriel_jesus_arsenal,arsenal,Gabriel Jesus,br BRA,FW,Forward,Arsenal,eng Premier League,27.0,17,6,608,6.8,3,0,3.0,0.7,10,4,8,10,0.0,0.0,0.0,0.0
+ibrahim_sangaré_nott'ham_forest,nott'ham_forest,Ibrahim Sangaré,ci CIV,MF,Midfielder,Nott'ham Forest,eng Premier League,26.0,13,7,590,6.6,0,1,0.0,0.4,28,6,13,10,0.0,0.0,0.0,0.0
+ross_barkley_aston_villa,aston_villa,Ross Barkley,eng ENG,MF,Midfielder,Aston Villa,eng Premier League,30.0,20,3,581,6.5,3,1,1.8,0.6,14,10,5,9,0.0,0.0,0.0,0.0
+ryan_sessegnon_fulham,fulham,Ryan Sessegnon,eng ENG,"FW,DF",Forward,Fulham,eng Premier League,24.0,16,7,580,6.4,4,2,1.6,1.1,27,3,18,13,0.0,0.0,0.0,0.0
+abdul_fatawu_issahaku_leicester_city,leicester_city,Abdul Fatawu Issahaku,gh GHA,FW,Forward,Leicester City,eng Premier League,20.0,11,6,579,6.4,0,2,0.4,1.6,21,4,12,7,0.0,0.0,0.0,0.0
+tim_iroegbunam_everton,everton,Tim Iroegbunam,eng ENG,MF,Midfielder,Everton,eng Premier League,21.0,18,5,574,6.4,0,1,0.2,0.2,29,16,12,18,0.0,0.0,0.0,0.0
+john_stones_manchester_city,manchester_city,John Stones,eng ENG,"DF,MF",Defender,Manchester City,eng Premier League,30.0,11,6,548,6.1,2,0,0.4,0.1,6,4,19,5,0.0,0.0,0.0,0.0
+antonín_kinský_tottenham,tottenham,Antonín Kinský,cz CZE,GK,Goalkeeper,Tottenham,eng Premier League,21.0,6,6,540,6.0,0,0,0.0,0.1,3,0,9,0,11.0,23.0,65.6,1.0
+filip_jørgensen_chelsea,chelsea,Filip Jørgensen,dk DEN,GK,Goalkeeper,Chelsea,eng Premier League,22.0,6,6,540,6.0,0,0,0.0,0.0,0,0,0,0,9.0,19.0,71.4,1.0
+nico_o’reilly_manchester_city,manchester_city,Nico O’Reilly,eng ENG,DF,Defender,Manchester City,eng Premier League,19.0,9,6,528,5.9,2,0,1.3,0.4,9,4,12,5,0.0,0.0,0.0,0.0
+michael_kayode_brentford,brentford,Michael Kayode,it ITA,DF,Defender,Brentford,eng Premier League,20.0,12,6,528,5.9,0,1,0.2,1.2,17,7,19,3,0.0,0.0,0.0,0.0
+oleksandr_zinchenko_arsenal,arsenal,Oleksandr Zinchenko,ua UKR,"DF,MF",Defender,Arsenal,eng Premier League,27.0,15,5,527,5.9,0,1,0.6,0.2,6,5,10,8,0.0,0.0,0.0,0.0
+joe_gomez_liverpool,liverpool,Joe Gomez,eng ENG,DF,Defender,Liverpool,eng Premier League,27.0,9,6,519,5.8,0,0,0.3,0.1,13,7,20,9,0.0,0.0,0.0,0.0
+timo_werner_tottenham,tottenham,Timo Werner,de GER,"FW,MF",Forward,Tottenham,eng Premier League,28.0,18,4,516,5.7,0,3,1.0,2.5,6,1,7,10,0.0,0.0,0.0,0.0
+diego_gómez_brighton,brighton,Diego Gómez,py PAR,MF,Midfielder,Brighton,eng Premier League,21.0,16,4,516,5.7,1,0,0.9,0.7,21,8,10,13,0.0,0.0,0.0,0.0
+justin_devenny_crystal_palace,crystal_palace,Justin Devenny,nir NIR,MF,Midfielder,Crystal Palace,eng Premier League,20.0,23,4,507,5.6,1,1,0.8,0.6,17,0,11,6,0.0,0.0,0.0,0.0
+richarlison_tottenham,tottenham,Richarlison,br BRA,FW,Forward,Tottenham,eng Premier League,27.0,15,4,504,5.6,4,1,3.7,0.9,5,0,8,1,0.0,0.0,0.0,0.0
+abdukodir_khusanov_manchester_city,manchester_city,Abdukodir Khusanov,uz UZB,DF,Defender,Manchester City,eng Premier League,20.0,6,6,503,5.6,0,0,0.0,0.1,5,3,29,5,0.0,0.0,0.0,0.0
+raheem_sterling_arsenal,arsenal,Raheem Sterling,eng ENG,"FW,MF",Forward,Arsenal,eng Premier League,29.0,17,7,499,5.5,0,2,1.4,0.5,9,1,4,3,0.0,0.0,0.0,0.0
+julian_araujo_bournemouth,bournemouth,Julian Araujo,mx MEX,DF,Defender,Bournemouth,eng Premier League,22.0,12,7,497,5.5,0,0,0.0,0.1,10,6,18,3,0.0,0.0,0.0,0.0
+jarell_quansah_liverpool,liverpool,Jarell Quansah,eng ENG,DF,Defender,Liverpool,eng Premier League,21.0,13,4,495,5.5,0,0,0.1,0.1,12,7,28,10,0.0,0.0,0.0,0.0
+axel_disasi_aston_villa,aston_villa,Axel Disasi,fr FRA,DF,Defender,Aston Villa,eng Premier League,26.0,7,5,490,5.4,0,0,0.1,0.4,8,5,18,4,0.0,0.0,0.0,0.0
+tommy_doyle_wolves,wolves,Tommy Doyle,eng ENG,MF,Midfielder,Wolves,eng Premier League,22.0,24,3,488,5.4,0,1,0.6,0.5,11,5,11,11,0.0,0.0,0.0,0.0
+reiss_nelson_fulham,fulham,Reiss Nelson,eng ENG,FW,Forward,Fulham,eng Premier League,24.0,11,5,487,5.4,1,1,1.1,1.0,8,5,2,11,0.0,0.0,0.0,0.0
+nathaniel_clyne_crystal_palace,crystal_palace,Nathaniel Clyne,eng ENG,"DF,MF",Defender,Crystal Palace,eng Premier League,33.0,13,5,483,5.4,0,0,0.0,0.3,12,3,14,4,0.0,0.0,0.0,0.0
+welington_southampton,southampton,Welington,br BRA,DF,Defender,Southampton,eng Premier League,23.0,10,6,482,5.4,0,0,0.0,0.1,21,7,36,5,0.0,0.0,0.0,0.0
+lamare_bogarde_aston_villa,aston_villa,Lamare Bogarde,nl NED,"DF,MF",Defender,Aston Villa,eng Premier League,20.0,8,5,476,5.3,0,0,0.0,0.1,14,1,13,5,0.0,0.0,0.0,0.0
+jaden_philogene_bidace_ipswich_town,ipswich_town,Jaden Philogene Bidace,eng ENG,"FW,DF",Forward,Ipswich Town,eng Premier League,22.0,10,5,474,5.3,2,0,2.0,0.2,14,10,9,11,0.0,0.0,0.0,0.0
+fabio_carvalho_brentford,brentford,Fabio Carvalho,pt POR,"FW,MF",Forward,Brentford,eng Premier League,21.0,19,3,455,5.1,2,1,2.5,0.7,13,3,2,6,0.0,0.0,0.0,0.0
+cheick_doucouré_crystal_palace,crystal_palace,Cheick Doucouré,ml MLI,MF,Midfielder,Crystal Palace,eng Premier League,24.0,13,4,452,5.0,0,0,0.4,0.0,16,11,10,4,0.0,0.0,0.0,0.0
+mark_travers_bournemouth,bournemouth,Mark Travers,ie IRL,GK,Goalkeeper,Bournemouth,eng Premier League,25.0,5,5,450,5.0,0,0,0.0,0.0,0,0,5,0,5.0,20.0,80.0,1.0
+alex_mccarthy_southampton,southampton,Alex McCarthy,eng ENG,GK,Goalkeeper,Southampton,eng Premier League,34.0,5,5,450,5.0,0,0,0.0,0.0,0,0,1,0,13.0,24.0,70.3,0.0
+ben_brereton_southampton,southampton,Ben Brereton,cl CHI,FW,Forward,Southampton,eng Premier League,25.0,10,4,449,5.0,0,0,0.9,0.1,3,0,4,2,0.0,0.0,0.0,0.0
+james_hill_bournemouth,bournemouth,James Hill,eng ENG,DF,Defender,Bournemouth,eng Premier League,22.0,10,6,448,5.0,0,1,0.3,0.3,15,9,31,5,0.0,0.0,0.0,0.0
+yerson_mosquera_wolves,wolves,Yerson Mosquera,co COL,DF,Defender,Wolves,eng Premier League,23.0,5,5,441,4.9,0,0,0.3,0.1,11,10,14,13,0.0,0.0,0.0,0.0
+taiwo_awoniyi_nott'ham_forest,nott'ham_forest,Taiwo Awoniyi,ng NGA,FW,Forward,Nott'ham Forest,eng Premier League,26.0,26,3,416,4.6,1,0,2.1,0.1,6,0,7,1,0.0,0.0,0.0,0.0
+sven_botman_newcastle_utd,newcastle_utd,Sven Botman,nl NED,DF,Defender,Newcastle Utd,eng Premier League,24.0,8,6,412,4.6,0,0,0.5,0.5,12,5,25,5,0.0,0.0,0.0,0.0
+ross_stewart_southampton,southampton,Ross Stewart,sct SCO,FW,Forward,Southampton,eng Premier League,28.0,12,4,389,4.3,1,0,1.1,0.0,6,1,7,3,0.0,0.0,0.0,0.0
+ricardo_pereira_leicester_city,leicester_city,Ricardo Pereira,pt POR,DF,Defender,Leicester City,eng Premier League,30.0,10,4,388,4.3,0,0,0.1,0.0,13,4,11,8,0.0,0.0,0.0,0.0
+ferdi_kadioglu_brighton,brighton,Ferdi Kadioglu,tr TUR,"DF,MF",Defender,Brighton,eng Premier League,24.0,6,5,385,4.3,1,0,0.4,0.2,10,8,17,2,0.0,0.0,0.0,0.0
+harry_clarke_ipswich_town,ipswich_town,Harry Clarke,eng ENG,DF,Defender,Ipswich Town,eng Premier League,23.0,7,4,379,4.2,0,0,0.1,0.0,5,4,14,5,0.0,0.0,0.0,0.0
+harvey_elliott_liverpool,liverpool,Harvey Elliott,eng ENG,MF,Midfielder,Liverpool,eng Premier League,21.0,18,2,371,4.1,1,2,1.8,1.1,5,1,3,7,0.0,0.0,0.0,0.0
+callum_wilson_newcastle_utd,newcastle_utd,Callum Wilson,eng ENG,FW,Forward,Newcastle Utd,eng Premier League,32.0,18,2,370,4.1,0,0,0.4,0.1,2,1,1,2,0.0,0.0,0.0,0.0
+joão_félix_chelsea,chelsea,João Félix,pt POR,"FW,MF",Forward,Chelsea,eng Premier League,24.0,12,3,369,4.1,1,1,2.2,1.0,8,3,2,2,0.0,0.0,0.0,0.0
+mikey_moore_tottenham,tottenham,Mikey Moore,eng ENG,FW,Forward,Tottenham,eng Premier League,16.0,10,3,366,4.1,0,1,0.2,0.3,2,1,4,2,0.0,0.0,0.0,0.0
+adam_lallana_southampton,southampton,Adam Lallana,eng ENG,MF,Midfielder,Southampton,eng Premier League,36.0,14,5,361,4.0,0,2,0.2,0.9,8,5,5,4,0.0,0.0,0.0,0.0
+altay_bayındır_manchester_utd,manchester_utd,Altay Bayındır,tr TUR,GK,Goalkeeper,Manchester Utd,eng Premier League,26.0,4,4,360,4.0,0,0,0.0,0.0,0,0,9,0,10.0,8.0,41.2,1.0
+charlie_taylor_southampton,southampton,Charlie Taylor,eng ENG,DF,Defender,Southampton,eng Premier League,30.0,8,3,356,4.0,0,0,0.0,0.1,7,5,31,8,0.0,0.0,0.0,0.0
+jorge_cuenca_fulham,fulham,Jorge Cuenca,es ESP,DF,Defender,Fulham,eng Premier League,24.0,8,4,351,3.9,0,0,0.0,0.0,6,2,26,4,0.0,0.0,0.0,0.0
+james_mcatee_manchester_city,manchester_city,James Mcatee,eng ENG,"MF,FW",Midfielder,Manchester City,eng Premier League,21.0,15,3,349,3.9,3,0,2.8,0.5,5,2,1,8,0.0,0.0,0.0,0.0
+luke_shaw_manchester_utd,manchester_utd,Luke Shaw,eng ENG,DF,Defender,Manchester Utd,eng Premier League,29.0,7,4,349,3.9,0,0,0.0,0.7,4,2,7,6,0.0,0.0,0.0,0.0
+nathan_patterson_everton,everton,Nathan Patterson,sct SCO,DF,Defender,Everton,eng Premier League,22.0,10,3,347,3.9,0,1,0.1,0.4,11,2,7,2,0.0,0.0,0.0,0.0
+harry_amass_manchester_utd,manchester_utd,Harry Amass,eng ENG,DF,Defender,Manchester Utd,eng Premier League,17.0,5,4,346,3.8,0,0,0.1,0.0,6,2,11,11,0.0,0.0,0.0,0.0
+enes_ünal_bournemouth,bournemouth,Enes Ünal,tr TUR,"FW,MF",Forward,Bournemouth,eng Premier League,27.0,17,2,345,3.8,2,1,2.7,0.4,1,0,6,1,0.0,0.0,0.0,0.0
+emil_krafth_newcastle_utd,newcastle_utd,Emil Krafth,se SWE,DF,Defender,Newcastle Utd,eng Premier League,29.0,12,2,342,3.8,0,0,0.0,0.1,4,2,16,5,0.0,0.0,0.0,0.0
+conor_townsend_ipswich_town,ipswich_town,Conor Townsend,eng ENG,DF,Defender,Ipswich Town,eng Premier League,31.0,6,3,335,3.7,0,1,0.0,0.7,11,4,16,8,0.0,0.0,0.0,0.0
+armando_broja_everton,everton,Armando Broja,al ALB,FW,Forward,Everton,eng Premier League,22.0,10,4,334,3.7,0,0,0.1,0.2,3,1,4,3,0.0,0.0,0.0,0.0
+benoît_badiashile_chelsea,chelsea,Benoît Badiashile,fr FRA,DF,Defender,Chelsea,eng Premier League,23.0,5,3,334,3.7,0,0,0.0,0.0,9,6,12,2,0.0,0.0,0.0,0.0
+armel_bella_kotchap_southampton,southampton,Armel Bella Kotchap,de GER,DF,Defender,Southampton,eng Premier League,22.0,4,2,331,3.7,0,0,0.3,0.0,7,5,21,2,0.0,0.0,0.0,0.0
+andrés_garcía_aston_villa,aston_villa,Andrés García,es ESP,"DF,MF",Defender,Aston Villa,eng Premier League,21.0,7,5,318,3.5,0,0,0.0,0.2,9,2,10,2,0.0,0.0,0.0,0.0
+jonny_evans_manchester_utd,manchester_utd,Jonny Evans,nir NIR,DF,Defender,Manchester Utd,eng Premier League,36.0,7,3,315,3.5,0,0,0.1,0.0,8,5,15,3,0.0,0.0,0.0,0.0
+lewis_miley_newcastle_utd,newcastle_utd,Lewis Miley,eng ENG,MF,Midfielder,Newcastle Utd,eng Premier League,18.0,14,1,313,3.5,1,0,0.5,0.0,14,2,5,5,0.0,0.0,0.0,0.0
+ryan_fraser_southampton,southampton,Ryan Fraser,sct SCO,"FW,DF",Forward,Southampton,eng Premier League,30.0,8,4,306,3.4,0,0,0.0,0.1,6,1,9,1,0.0,0.0,0.0,0.0
+donyell_malen_aston_villa,aston_villa,Donyell Malen,nl NED,FW,Forward,Aston Villa,eng Premier League,25.0,14,2,305,3.4,3,0,2.2,0.2,7,0,1,2,0.0,0.0,0.0,0.0
+lloyd_kelly_newcastle_utd,newcastle_utd,Lloyd Kelly,eng ENG,DF,Defender,Newcastle Utd,eng Premier League,25.0,10,4,303,3.4,0,1,0.4,0.5,5,1,17,6,0.0,0.0,0.0,0.0
+ramón_sosa_nott'ham_forest,nott'ham_forest,Ramón Sosa,py PAR,"FW,MF",Forward,Nott'ham Forest,eng Premier League,24.0,19,1,295,3.3,1,0,1.0,0.5,5,4,5,9,0.0,0.0,0.0,0.0
+danny_ings_west_ham,west_ham,Danny Ings,eng ENG,"FW,MF",Forward,West Ham,eng Premier League,32.0,15,1,284,3.2,1,2,2.3,1.3,4,1,4,5,0.0,0.0,0.0,0.0
+danilo_nott'ham_forest,nott'ham_forest,Danilo,br BRA,"MF,FW",Midfielder,Nott'ham Forest,eng Premier League,23.0,8,5,275,3.1,0,0,0.0,0.0,8,4,3,2,0.0,0.0,0.0,0.0
+wataru_endo_liverpool,liverpool,Wataru Endo,jp JPN,"MF,DF",Midfielder,Liverpool,eng Premier League,31.0,20,1,273,3.0,0,0,0.0,0.1,12,6,9,8,0.0,0.0,0.0,0.0
+joe_lumley_southampton,southampton,Joe Lumley,eng ENG,GK,Goalkeeper,Southampton,eng Premier League,29.0,3,3,270,3.0,0,0,0.0,0.0,0,0,3,0,7.0,13.0,65.0,0.0
+kiernan_dewsbury-hall_chelsea,chelsea,Kiernan Dewsbury-Hall,eng ENG,"MF,FW",Midfielder,Chelsea,eng Premier League,25.0,13,2,264,2.9,0,1,0.2,1.1,8,2,9,2,0.0,0.0,0.0,0.0
+ben_chilwell_crystal_palace,crystal_palace,Ben Chilwell,eng ENG,DF,Defender,Crystal Palace,eng Premier League,27.0,8,1,259,2.9,1,0,0.2,0.8,7,6,16,6,0.0,0.0,0.0,0.0
+kieran_tierney_arsenal,arsenal,Kieran Tierney,sct SCO,"DF,FW",Defender,Arsenal,eng Premier League,27.0,13,2,259,2.9,1,0,0.4,1.4,7,3,9,0,0.0,0.0,0.0,0.0
+willian_fulham,fulham,Willian,br BRA,"FW,MF",Forward,Fulham,eng Premier League,35.0,10,2,257,2.9,0,0,0.3,0.5,4,1,1,0,0.0,0.0,0.0,0.0
+evan_ferguson_brighton,brighton,Evan Ferguson,ie IRL,FW,Forward,Brighton,eng Premier League,19.0,13,2,246,2.7,1,0,0.5,0.4,4,0,4,3,0.0,0.0,0.0,0.0
+carlos_forbs_wolves,wolves,Carlos Forbs,pt POR,"MF,FW",Midfielder,Wolves,eng Premier League,20.0,10,1,239,2.7,0,0,0.1,0.0,8,1,2,3,0.0,0.0,0.0,0.0
+chiedozie_ogbene_ipswich_town,ipswich_town,Chiedozie Ogbene,ie IRL,FW,Forward,Ipswich Town,eng Premier League,27.0,5,3,238,2.6,0,0,0.0,0.1,7,1,3,1,0.0,0.0,0.0,0.0
+luis_sinisterra_bournemouth,bournemouth,Luis Sinisterra,co COL,"FW,MF",Forward,Bournemouth,eng Premier League,25.0,12,1,236,2.6,1,1,1.2,1.4,7,1,8,3,0.0,0.0,0.0,0.0
+robin_olsen_aston_villa,aston_villa,Robin Olsen,se SWE,GK,Goalkeeper,Aston Villa,eng Premier League,34.0,4,1,226,2.5,0,0,0.0,0.0,1,0,2,0,6.0,8.0,64.3,1.0
+séamus_coleman_everton,everton,Séamus Coleman,ie IRL,DF,Defender,Everton,eng Premier League,35.0,5,3,215,2.4,0,0,0.6,0.0,3,1,8,5,0.0,0.0,0.0,0.0
+massimo_luongo_ipswich_town,ipswich_town,Massimo Luongo,au AUS,MF,Midfielder,Ipswich Town,eng Premier League,31.0,11,2,201,2.2,0,0,0.0,0.0,9,2,2,4,0.0,0.0,0.0,0.0
+sergio_reguilón_tottenham,tottenham,Sergio Reguilón,es ESP,DF,Defender,Tottenham,eng Premier League,27.0,4,1,196,2.2,0,0,0.1,0.0,4,4,8,7,0.0,0.0,0.0,0.0
+philip_billing_bournemouth,bournemouth,Philip Billing,dk DEN,MF,Midfielder,Bournemouth,eng Premier League,28.0,10,1,184,2.0,0,0,0.6,1.1,14,5,2,3,0.0,0.0,0.0,0.0
+tyrique_george_chelsea,chelsea,Tyrique George,eng ENG,FW,Forward,Chelsea,eng Premier League,18.0,8,1,183,2.0,1,1,0.2,0.7,2,2,1,1,0.0,0.0,0.0,0.0
+ben_mee_brentford,brentford,Ben Mee,eng ENG,DF,Defender,Brentford,eng Premier League,34.0,7,2,183,2.0,0,0,0.0,0.0,2,4,7,3,0.0,0.0,0.0,0.0
+renato_veiga_chelsea,chelsea,Renato Veiga,pt POR,"DF,MF",Defender,Chelsea,eng Premier League,21.0,7,1,181,2.0,0,0,0.1,0.0,9,1,2,3,0.0,0.0,0.0,0.0
+neto_bournemouth,bournemouth,Neto,br BRA,GK,Goalkeeper,Bournemouth,eng Premier League,35.0,2,2,180,2.0,0,0,0.0,0.0,0,0,1,0,2.0,11.0,84.6,0.0
+daniel_bentley_wolves,wolves,Daniel Bentley,eng ENG,GK,Goalkeeper,Wolves,eng Premier League,31.0,2,2,180,2.0,0,0,0.0,0.0,0,0,1,0,4.0,8.0,66.7,1.0
+jason_steele_brighton,brighton,Jason Steele,eng ENG,GK,Goalkeeper,Brighton,eng Premier League,33.0,2,2,180,2.0,0,0,0.0,0.0,0,0,1,0,1.0,3.0,75.0,1.0
+toby_collyer_manchester_utd,manchester_utd,Toby Collyer,eng ENG,MF,Midfielder,Manchester Utd,eng Premier League,20.0,6,0,179,2.0,0,0,0.2,0.3,12,2,3,2,0.0,0.0,0.0,0.0
+thiago_brentford,brentford,Thiago,br BRA,"FW,MF",Forward,Brentford,eng Premier League,23.0,8,1,175,1.9,0,0,0.1,0.1,5,2,3,3,0.0,0.0,0.0,0.0
+james_milner_brighton,brighton,James Milner,eng ENG,MF,Midfielder,Brighton,eng Premier League,38.0,4,3,170,1.9,0,0,0.2,0.2,5,2,2,4,0.0,0.0,0.0,0.0
+ayden_heaven_manchester_utd,manchester_utd,Ayden Heaven,eng ENG,DF,Defender,Manchester Utd,eng Premier League,17.0,4,2,170,1.9,0,0,0.1,0.0,4,4,9,2,0.0,0.0,0.0,0.0
+joshua_acheampong_chelsea,chelsea,Joshua Acheampong,eng ENG,DF,Defender,Chelsea,eng Premier League,18.0,4,2,170,1.9,0,0,0.2,0.0,2,1,2,1,0.0,0.0,0.0,0.0
+solly_march_brighton,brighton,Solly March,eng ENG,"FW,MF",Forward,Brighton,eng Premier League,30.0,8,1,168,1.9,0,0,0.1,0.3,6,2,2,3,0.0,0.0,0.0,0.0
+andy_irving_west_ham,west_ham,Andy Irving,sct SCO,MF,Midfielder,West Ham,eng Premier League,24.0,10,1,166,1.8,0,0,0.1,0.2,7,1,5,5,0.0,0.0,0.0,0.0
+tyler_fredricson_manchester_utd,manchester_utd,Tyler Fredricson,eng ENG,DF,Defender,Manchester Utd,eng Premier League,19.0,2,2,165,1.8,0,0,0.0,0.0,5,1,11,2,0.0,0.0,0.0,0.0
+chidozie_obi-martin_manchester_utd,manchester_utd,Chidozie Obi-Martin,dk DEN,FW,Forward,Manchester Utd,eng Premier League,16.0,7,1,165,1.8,0,0,0.7,0.0,2,0,1,0,0.0,0.0,0.0,0.0
+ben_godfrey_ipswich_town,ipswich_town,Ben Godfrey,eng ENG,DF,Defender,Ipswich Town,eng Premier League,26.0,3,2,159,1.8,0,0,0.0,0.0,1,2,3,1,0.0,0.0,0.0,0.0
+miguel_almirón_newcastle_utd,newcastle_utd,Miguel Almirón,py PAR,FW,Forward,Newcastle Utd,eng Premier League,30.0,9,1,157,1.7,0,0,0.5,0.3,3,0,0,2,0.0,0.0,0.0,0.0
+mykhailo_mudryk_chelsea,chelsea,Mykhailo Mudryk,ua UKR,FW,Forward,Chelsea,eng Premier League,23.0,7,1,151,1.7,0,0,0.3,1.0,2,0,1,3,0.0,0.0,0.0,0.0
+luis_guilherme_west_ham,west_ham,Luis Guilherme,br BRA,"MF,FW",Midfielder,West Ham,eng Premier League,18.0,12,1,150,1.7,0,0,0.4,0.1,1,3,2,7,0.0,0.0,0.0,0.0
+willy_boly_nott'ham_forest,nott'ham_forest,Willy Boly,ci CIV,DF,Defender,Nott'ham Forest,eng Premier League,33.0,6,1,150,1.7,0,0,0.1,0.0,6,3,12,4,0.0,0.0,0.0,0.0
+hákon_rafn_valdimarsson_brentford,brentford,Hákon Rafn Valdimarsson,is ISL,GK,Goalkeeper,Brentford,eng Premier League,22.0,2,1,145,1.6,0,0,0.0,0.0,0,0,2,0,2.0,3.0,50.0,1.0
+albert_grønbaek_southampton,southampton,Albert Grønbaek,dk DEN,"FW,MF",Forward,Southampton,eng Premier League,23.0,4,2,143,1.6,0,0,0.1,0.0,4,0,1,1,0.0,0.0,0.0,0.0
+antony_manchester_utd,manchester_utd,Antony,br BRA,"DF,MF",Defender,Manchester Utd,eng Premier League,24.0,8,0,141,1.6,0,0,1.0,0.1,6,2,0,2,0.0,0.0,0.0,0.0
+romain_esse_crystal_palace,crystal_palace,Romain Esse,eng ENG,MF,Midfielder,Crystal Palace,eng Premier League,19.0,7,1,138,1.5,1,1,0.3,0.4,9,1,2,2,0.0,0.0,0.0,0.0
+harry_toffolo_nott'ham_forest,nott'ham_forest,Harry Toffolo,eng ENG,DF,Defender,Nott'ham Forest,eng Premier League,28.0,4,1,137,1.5,0,0,0.0,0.0,5,2,12,2,0.0,0.0,0.0,0.0
+jay_robinson_southampton,southampton,Jay Robinson,eng ENG,"MF,FW",Midfielder,Southampton,eng Premier League,17.0,4,1,137,1.5,0,0,0.0,0.7,4,0,1,0,0.0,0.0,0.0,0.0
+danny_ward_leicester_city,leicester_city,Danny Ward,wls WAL,GK,Goalkeeper,Leicester City,eng Premier League,31.0,2,1,135,1.5,0,0,0.0,0.0,0,0,1,0,6.0,4.0,40.0,0.0
+william_osula_newcastle_utd,newcastle_utd,William Osula,dk DEN,FW,Forward,Newcastle Utd,eng Premier League,20.0,14,0,134,1.5,1,0,0.2,0.1,2,4,2,0,0.0,0.0,0.0,0.0
+ali_al_hamadi_ipswich_town,ipswich_town,Ali Al Hamadi,iq IRQ,FW,Forward,Ipswich Town,eng Premier League,22.0,11,0,134,1.5,0,0,0.4,0.1,1,0,2,0,0.0,0.0,0.0,0.0
+hamza_choudhury_leicester_city,leicester_city,Hamza Choudhury,bd BAN,"MF,DF",Midfielder,Leicester City,eng Premier League,26.0,4,1,131,1.5,0,0,0.0,0.4,1,5,2,4,0.0,0.0,0.0,0.0
+joshua_king_fulham,fulham,Joshua King,eng ENG,MF,Midfielder,Fulham,eng Premier League,17.0,8,1,130,1.4,0,0,0.3,0.4,7,1,1,3,0.0,0.0,0.0,0.0
+kosta_nedeljković_aston_villa,aston_villa,Kosta Nedeljković,rs SRB,DF,Defender,Aston Villa,eng Premier League,18.0,5,0,126,1.4,0,0,0.0,0.0,7,0,3,1,0.0,0.0,0.0,0.0
+daniel_jebbison_bournemouth,bournemouth,Daniel Jebbison,eng ENG,FW,Forward,Bournemouth,eng Premier League,20.0,16,0,119,1.3,1,0,1.0,0.2,5,1,1,2,0.0,0.0,0.0,0.0
+edmond-paris_maghoma_brentford,brentford,Edmond-Paris Maghoma,eng ENG,"MF,FW",Midfielder,Brentford,eng Premier League,23.0,8,0,119,1.3,0,0,0.1,0.1,2,1,2,2,0.0,0.0,0.0,0.0
+odsonne_édouard_crystal_palace,crystal_palace,Odsonne Édouard,fr FRA,"MF,FW",Midfielder,Crystal Palace,eng Premier League,26.0,2,1,115,1.3,0,0,0.4,0.0,1,0,1,1,0.0,0.0,0.0,0.0
+jeremy_monga_leicester_city,leicester_city,Jeremy Monga,,"FW,MF",Forward,Leicester City,eng Premier League,0.0,7,0,112,1.2,0,0,0.2,0.0,2,0,1,3,0.0,0.0,0.0,0.0
+woyo_coulibaly_leicester_city,leicester_city,Woyo Coulibaly,ml MLI,DF,Defender,Leicester City,eng Premier League,25.0,4,1,109,1.2,0,0,0.0,0.0,6,5,1,3,0.0,0.0,0.0,0.0
+federico_chiesa_liverpool,liverpool,Federico Chiesa,it ITA,FW,Forward,Liverpool,eng Premier League,26.0,6,1,108,1.2,0,0,0.3,0.2,1,0,1,1,0.0,0.0,0.0,0.0
+harrison_reed_fulham,fulham,Harrison Reed,eng ENG,MF,Midfielder,Fulham,eng Premier League,29.0,12,0,108,1.2,0,0,0.2,0.1,6,1,3,1,0.0,0.0,0.0,0.0
+jeffrey_schlupp_crystal_palace,crystal_palace,Jeffrey Schlupp,gh GHA,"MF,DF",Midfielder,Crystal Palace,eng Premier League,31.0,12,0,103,1.1,0,0,0.2,0.2,2,0,2,6,0.0,0.0,0.0,0.0
+tyrell_malacia_manchester_utd,manchester_utd,Tyrell Malacia,nl NED,DF,Defender,Manchester Utd,eng Premier League,24.0,3,2,100,1.1,0,0,0.0,0.0,2,1,1,0,0.0,0.0,0.0,0.0
+rico_henry_brentford,brentford,Rico Henry,eng ENG,DF,Defender,Brentford,eng Premier League,27.0,5,0,99,1.1,0,0,0.0,0.0,2,1,2,4,0.0,0.0,0.0,0.0
+emi_buendía_aston_villa,aston_villa,Emi Buendía,ar ARG,"MF,FW",Midfielder,Aston Villa,eng Premier League,27.0,12,0,98,1.1,0,0,0.7,0.0,6,0,2,5,0.0,0.0,0.0,0.0
+billy_gilmour_brighton,brighton,Billy Gilmour,sct SCO,MF,Midfielder,Brighton,eng Premier League,23.0,2,1,98,1.1,0,0,0.1,0.0,3,0,1,1,0.0,0.0,0.0,0.0
+jahmai_simpson-pusey_manchester_city,manchester_city,Jahmai Simpson-Pusey,eng ENG,DF,Defender,Manchester City,eng Premier League,18.0,2,1,96,1.1,0,0,0.0,0.0,1,0,2,1,0.0,0.0,0.0,0.0
+brandon_austin_tottenham,tottenham,Brandon Austin,eng ENG,GK,Goalkeeper,Tottenham,eng Premier League,25.0,1,1,90,1.0,0,0,0.0,0.0,0,0,1,0,2.0,2.0,50.0,0.0
+chadi_riad_crystal_palace,crystal_palace,Chadi Riad,ma MAR,DF,Defender,Crystal Palace,eng Premier League,21.0,1,1,90,1.0,0,0,0.0,0.0,5,2,0,0,0.0,0.0,0.0,0.0
+roman_dixon_everton,everton,Roman Dixon,eng ENG,DF,Defender,Everton,eng Premier League,19.0,1,1,90,1.0,0,0,0.0,0.0,5,1,3,1,0.0,0.0,0.0,0.0
+max_aarons_bournemouth,bournemouth,Max Aarons,eng ENG,DF,Defender,Bournemouth,eng Premier League,24.0,3,1,86,1.0,0,0,0.0,0.0,2,1,0,3,0.0,0.0,0.0,0.0
+rodri_manchester_city,manchester_city,Rodri,es ESP,MF,Midfielder,Manchester City,eng Premier League,28.0,3,1,73,0.8,0,0,0.0,0.0,2,1,1,1,0.0,0.0,0.0,0.0
+marc_guiu_chelsea,chelsea,Marc Guiu,es ESP,FW,Forward,Chelsea,eng Premier League,18.0,3,0,73,0.8,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
+maxwel_cornet_southampton,southampton,Maxwel Cornet,ci CIV,FW,Forward,Southampton,eng Premier League,27.0,2,1,72,0.8,0,0,0.2,0.0,5,0,2,0,0.0,0.0,0.0,0.0
+joel_ward_crystal_palace,crystal_palace,Joel Ward,eng ENG,DF,Defender,Crystal Palace,eng Premier League,34.0,2,1,71,0.8,0,0,0.0,0.0,2,0,3,0,0.0,0.0,0.0,0.0
+pedro_lima_wolves,wolves,Pedro Lima,br BRA,DF,Defender,Wolves,eng Premier League,18.0,3,1,70,0.8,0,0,0.1,0.1,1,2,5,0,0.0,0.0,0.0,0.0
+nasser_djiga_wolves,wolves,Nasser Djiga,bf BFA,DF,Defender,Wolves,eng Premier League,21.0,5,1,66,0.7,0,0,0.0,0.0,0,2,4,0,0.0,0.0,0.0,0.0
+samuel_edozie_southampton,southampton,Samuel Edozie,eng ENG,"DF,FW",Defender,Southampton,eng Premier League,21.0,2,0,65,0.7,0,0,0.0,0.1,3,0,0,0,0.0,0.0,0.0,0.0
+matheus_frança_crystal_palace,crystal_palace,Matheus França,br BRA,"MF,FW",Midfielder,Crystal Palace,eng Premier League,20.0,4,0,55,0.6,1,0,0.3,0.0,2,1,1,1,0.0,0.0,0.0,0.0
+lewis_orford_west_ham,west_ham,Lewis Orford,eng ENG,MF,Midfielder,West Ham,eng Premier League,18.0,2,0,49,0.5,0,0,0.0,0.0,0,1,0,1,0.0,0.0,0.0,0.0
+harrison_armstrong_everton,everton,Harrison Armstrong,eng ENG,MF,Midfielder,Everton,eng Premier League,17.0,3,0,48,0.5,0,0,0.4,0.1,0,0,1,0,0.0,0.0,0.0,0.0
+daniel_podence_wolves,wolves,Daniel Podence,pt POR,"MF,FW",Midfielder,Wolves,eng Premier League,28.0,2,0,48,0.5,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+marcus_harness_ipswich_town,ipswich_town,Marcus Harness,eng ENG,MF,Midfielder,Ipswich Town,eng Premier League,28.0,2,0,45,0.5,0,0,0.0,0.0,1,0,1,2,0.0,0.0,0.0,0.0
+youssef_chermiti_everton,everton,Youssef Chermiti,pt POR,"FW,MF",Forward,Everton,eng Premier League,20.0,4,0,45,0.5,0,0,0.1,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+yunus_emre_konak_brentford,brentford,Yunus Emre Konak,tr TUR,"FW,MF",Forward,Brentford,eng Premier League,18.0,10,0,42,0.5,0,0,0.2,0.0,4,0,0,2,0.0,0.0,0.0,0.0
+dane_scarlett_tottenham,tottenham,Dane Scarlett,eng ENG,"FW,MF",Forward,Tottenham,eng Premier League,20.0,3,0,34,0.4,0,1,0.0,0.0,1,0,1,0,0.0,0.0,0.0,0.0
+kim_jisoo_brentford,brentford,Kim Jisoo,kr KOR,DF,Defender,Brentford,eng Premier League,19.0,3,0,30,0.3,0,0,0.0,0.0,0,0,2,0,0.0,0.0,0.0,0.0
+eric_da_silva_moreira_nott'ham_forest,nott'ham_forest,Eric da Silva Moreira,de GER,"MF,DF",Midfielder,Nott'ham Forest,eng Premier League,18.0,2,0,30,0.3,0,0,0.0,0.0,2,1,0,0,0.0,0.0,0.0,0.0
+samuel_amo-ameyaw_southampton,southampton,Samuel Amo-Ameyaw,eng ENG,"FW,DF",Forward,Southampton,eng Premier League,18.0,2,0,28,0.3,0,0,0.0,0.1,1,0,0,0,0.0,0.0,0.0,0.0
+divin_mubama_manchester_city,manchester_city,Divin Mubama,eng ENG,FW,Forward,Manchester City,eng Premier League,19.0,1,0,28,0.3,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+frank_onyeka_brentford,brentford,Frank Onyeka,ng NGA,MF,Midfielder,Brentford,eng Premier League,26.0,2,0,25,0.3,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+ben_winterburn_bournemouth,bournemouth,Ben Winterburn,eng ENG,"MF,FW",Midfielder,Bournemouth,eng Premier League,19.0,4,0,24,0.3,0,0,0.0,0.0,0,2,0,0,0.0,0.0,0.0,0.0
+martial_godo_fulham,fulham,Martial Godo,eng ENG,"FW,DF",Forward,Fulham,eng Premier League,21.0,2,0,24,0.3,0,0,0.0,0.1,0,1,0,1,0.0,0.0,0.0,0.0
+jake_evans_leicester_city,leicester_city,Jake Evans,,FW,Forward,Leicester City,eng Premier League,0.0,4,0,24,0.3,0,0,0.0,0.0,1,0,1,0,0.0,0.0,0.0,0.0
+matt_targett_newcastle_utd,newcastle_utd,Matt Targett,eng ENG,DF,Defender,Newcastle Utd,eng Premier League,28.0,2,0,21,0.2,0,0,0.0,0.0,0,1,1,0,0.0,0.0,0.0,0.0
+eiran_cashin_brighton,brighton,Eiran Cashin,ie IRL,DF,Defender,Brighton,eng Premier League,22.0,2,0,20,0.2,0,0,0.0,0.0,0,0,2,0,0.0,0.0,0.0,0.0
+scott_mctominay_manchester_utd,manchester_utd,Scott McTominay,sct SCO,MF,Midfielder,Manchester Utd,eng Premier League,27.0,2,0,19,0.2,0,0,0.1,0.0,0,0,1,0,0.0,0.0,0.0,0.0
+oscar_bobb_manchester_city,manchester_city,Oscar Bobb,no NOR,FW,Forward,Manchester City,eng Premier League,21.0,3,0,16,0.2,0,0,0.0,0.1,0,0,0,0,0.0,0.0,0.0,0.0
+carlos_vinícius_fulham,fulham,Carlos Vinícius,br BRA,"MF,FW",Midfielder,Fulham,eng Premier League,29.0,3,0,16,0.2,0,0,0.0,0.0,0,0,0,1,0.0,0.0,0.0,0.0
+joachim_kayi_sanda_southampton,southampton,Joachim Kayi Sanda,fr FRA,DF,Defender,Southampton,eng Premier League,17.0,2,0,14,0.2,0,0,0.0,0.0,0,2,0,0,0.0,0.0,0.0,0.0
+alfie_dorrington_tottenham,tottenham,Alfie Dorrington,eng ENG,DF,Defender,Tottenham,eng Premier League,19.0,1,0,14,0.2,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+caleb_kporha_crystal_palace,crystal_palace,Caleb Kporha,eng ENG,DF,Defender,Crystal Palace,eng Premier League,18.0,2,0,13,0.1,0,0,0.0,0.0,2,0,1,0,0.0,0.0,0.0,0.0
+vitezslav_jaros_liverpool,liverpool,Vitezslav Jaros,cz CZE,GK,Goalkeeper,Liverpool,eng Premier League,23.0,1,0,12,0.1,0,0,0.0,0.0,0,0,0,0,0.0,1.0,100.0,1.0
+gustavo_nunes_brentford,brentford,Gustavo Nunes,br BRA,"FW,MF",Forward,Brentford,eng Premier League,18.0,3,0,12,0.1,0,0,0.0,0.0,3,0,2,0,0.0,0.0,0.0,0.0
+ronnie_edwards_southampton,southampton,Ronnie Edwards,eng ENG,DF,Defender,Southampton,eng Premier League,21.0,1,0,12,0.1,0,0,0.0,0.0,0,0,0,1,0.0,0.0,0.0,0.0
+jakub_moder_brighton,brighton,Jakub Moder,pl POL,MF,Midfielder,Brighton,eng Premier League,25.0,4,0,11,0.1,0,0,0.0,0.2,1,0,3,0,0.0,0.0,0.0,0.0
+will_lankshear_tottenham,tottenham,Will Lankshear,eng ENG,"FW,MF",Forward,Tottenham,eng Premier League,19.0,3,0,11,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+julio_soler_bournemouth,bournemouth,Julio Soler,ar ARG,"DF,FW",Defender,Bournemouth,eng Premier League,19.0,3,0,11,0.1,0,0,0.0,0.0,1,0,0,1,0.0,0.0,0.0,0.0
+jayden_danns_liverpool,liverpool,Jayden Danns,eng ENG,MF,Midfielder,Liverpool,eng Premier League,18.0,1,0,11,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+jeremy_sarmiento_brighton,brighton,Jeremy Sarmiento,ec ECU,MF,Midfielder,Brighton,eng Premier League,22.0,1,0,9,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+mathis_amougou_chelsea,chelsea,Mathis Amougou,fr FRA,MF,Midfielder,Chelsea,eng Premier League,18.0,1,0,8,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+nathan_butler-oyedeji_arsenal,arsenal,Nathan Butler-Oyedeji,eng ENG,FW,Forward,Arsenal,eng Premier League,21.0,1,0,7,0.1,0,0,0.1,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+takehiro_tomiyasu_arsenal,arsenal,Takehiro Tomiyasu,jp JPN,DF,Defender,Arsenal,eng Premier League,25.0,1,0,7,0.1,0,0,0.2,0.0,0,0,1,0,0.0,0.0,0.0,0.0
+chiquinho_wolves,wolves,Chiquinho,pt POR,MF,Midfielder,Wolves,eng Premier League,24.0,1,0,7,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+harry_howell_brighton,brighton,Harry Howell,eng ENG,FW,Forward,Brighton,eng Premier League,15.0,1,0,7,0.1,0,0,0.0,0.0,1,0,0,1,0.0,0.0,0.0,0.0
+claudio_echeverri_manchester_city,manchester_city,Claudio Echeverri,ar ARG,FW,Forward,Manchester City,eng Premier League,18.0,1,0,6,0.1,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
+asher_agbinone_crystal_palace,crystal_palace,Asher Agbinone,eng ENG,MF,Midfielder,Crystal Palace,eng Premier League,18.0,2,0,6,0.1,0,0,0.0,0.0,2,0,0,0,0.0,0.0,0.0,0.0
+mason_holgate_everton,everton,Mason Holgate,jm JAM,"FW,DF",Forward,Everton,eng Premier League,27.0,1,0,6,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+jayden_meghoma_brentford,brentford,Jayden Meghoma,eng ENG,DF,Defender,Brentford,eng Premier League,18.0,1,0,5,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+ryan_trevitt_brentford,brentford,Ryan Trevitt,eng ENG,MF,Midfielder,Brentford,eng Premier League,21.0,1,0,4,0.0,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
+george_edmundson_ipswich_town,ipswich_town,George Edmundson,eng ENG,DF,Defender,Ipswich Town,eng Premier League,26.0,1,0,2,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+olabade_aluko_leicester_city,leicester_city,Olabade Aluko,,DF,Defender,Leicester City,eng Premier League,0.0,1,0,2,0.0,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
+mateus_mane_wolves,wolves,Mateus Mane,,MF,Midfielder,Wolves,eng Premier League,0.0,1,0,2,0.0,0,0,0.0,0.0,0,0,0,1,0.0,0.0,0.0,0.0
+will_alves_leicester_city,leicester_city,Will Alves,eng ENG,FW,Forward,Leicester City,eng Premier League,19.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+michael_golding_leicester_city,leicester_city,Michael Golding,eng ENG,MF,Midfielder,Leicester City,eng Premier League,18.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+alfie_pond_wolves,wolves,Alfie Pond,eng ENG,DF,Defender,Wolves,eng Premier League,20.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+boubacar_traoré_wolves,wolves,Boubacar Traoré,ml MLI,MF,Midfielder,Wolves,eng Premier League,22.0,1,0,1,0.0,0,0,0.0,0.0,2,0,0,0,0.0,0.0,0.0,0.0
+remy_rees-dottin_bournemouth,bournemouth,Remy Rees-Dottin,eng ENG,FW,Forward,Bournemouth,eng Premier League,18.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+zain_silcott-duberry_bournemouth,bournemouth,Zain Silcott-Duberry,ms MSR,FW,Forward,Bournemouth,eng Premier League,19.0,1,0,1,0.0,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
+jay_stansfield_fulham,fulham,Jay Stansfield,eng ENG,MF,Midfielder,Fulham,eng Premier League,21.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+kaelan_casey_west_ham,west_ham,Kaelan Casey,eng ENG,DF,Defender,West Ham,eng Premier League,19.0,1,0,1,0.0,0,0,0.0,0.0,0,0,1,0,0.0,0.0,0.0,0.0
+shumaira_mheuka_chelsea,chelsea,Shumaira Mheuka,eng ENG,MF,Midfielder,Chelsea,eng Premier League,16.0,1,0,1,0.0,0,0,0.1,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+tom_king_wolves,wolves,Tom King,wls WAL,GK,Goalkeeper,Wolves,eng Premier League,29.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
+vitor_reis_manchester_city,manchester_city,Vitor Reis,br BRA,DF,Defender,Manchester City,eng Premier League,18.0,1,0,1,0.0,0,0,0.0,0.0,0,0,1,0,0.0,0.0,0.0,0.0
