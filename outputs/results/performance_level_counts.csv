@@ -1,0 +1,17 @@
+broad_position_group,performance_level,count
+Defender,Average,20
+Defender,Good,83
+Defender,Poor,82
+Defender,Promising,21
+Forward,Average,14
+Forward,Good,59
+Forward,Poor,58
+Forward,Promising,15
+Goalkeeper,Average,4
+Goalkeeper,Good,18
+Goalkeeper,Poor,17
+Goalkeeper,Promising,5
+Midfielder,Average,16
+Midfielder,Good,67
+Midfielder,Poor,66
+Midfielder,Promising,17

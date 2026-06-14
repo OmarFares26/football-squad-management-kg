@@ -1,0 +1,5 @@
+broad_position_group,count,min,mean,max
+Defender,206,0.0,0.3469851507571127,1.0
+Forward,146,0.0,0.30770232240346346,1.0
+Goalkeeper,44,0.0,0.34857156696100217,1.0
+Midfielder,166,0.0,0.252852252593226,1.0
