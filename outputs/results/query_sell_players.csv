@@ -1,0 +1,30 @@
+player_name,team_name,role_group,age,minutes_played,performance_percentile,decision
+Jorginho,Arsenal,Midfielder,32.0,704.0,16.36,Sell
+Diego Carlos,Aston Villa,Defender,31.0,830.0,35.52,Sell
+Robin Olsen,Aston Villa,Goalkeeper,34.0,226.0,22.73,Sell
+Solly March,Brighton,AttMidWinger,30.0,168.0,16.83,Sell
+Lewis Dunk,Brighton,Defender,32.0,2083.0,20.22,Sell
+James Milner,Brighton,Midfielder,38.0,170.0,27.27,Sell
+Jeffrey Schlupp,Crystal Palace,DefMidWingBack,31.0,103.0,3.45,Sell
+Nathaniel Clyne,Crystal Palace,DefMidWingBack,33.0,483.0,31.03,Sell
+Joel Ward,Crystal Palace,Defender,34.0,71.0,15.57,Sell
+Ashley Young,Everton,Defender,39.0,1875.0,36.61,Sell
+Séamus Coleman,Everton,Defender,35.0,215.0,39.34,Sell
+Abdoulaye Doucouré,Everton,Midfielder,31.0,2564.0,21.82,Sell
+Willian,Fulham,AttMidWinger,35.0,257.0,7.92,Sell
+Massimo Luongo,Ipswich Town,Midfielder,31.0,201.0,29.09,Sell
+Sam Morsy,Ipswich Town,Midfielder,32.0,2751.0,31.82,Sell
+Danny Ward,Leicester City,Goalkeeper,31.0,135.0,2.27,Sell
+Andrew Robertson,Liverpool,Defender,30.0,2482.0,7.65,Sell
+John Stones,Manchester City,DefMidWingBack,30.0,548.0,24.14,Sell
+Callum Wilson,Newcastle Utd,Forward,32.0,370.0,12.96,Sell
+Miguel Almirón,Newcastle Utd,Forward,30.0,157.0,12.96,Sell
+Alex McCarthy,Southampton,Goalkeeper,34.0,450.0,18.18,Sell
+Ryan Fraser,Southampton,WingBack,30.0,306.0,14.29,Sell
+Fraser Forster,Tottenham,Goalkeeper,36.0,630.0,29.55,Sell
+Aaron Cresswell,West Ham,Defender,34.0,824.0,39.89,Sell
+Michail Antonio,West Ham,Forward,34.0,836.0,35.8,Sell
+Nélson Semedo,Wolves,Defender,30.0,2886.0,26.23,Sell
+Daniel Bentley,Wolves,Goalkeeper,31.0,180.0,34.09,Sell
+José Sá,Wolves,Goalkeeper,31.0,2609.0,36.36,Sell
+Sam Johnstone,Wolves,Goalkeeper,31.0,630.0,13.64,Sell

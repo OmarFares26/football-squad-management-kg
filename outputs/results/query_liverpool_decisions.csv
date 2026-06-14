@@ -1,0 +1,25 @@
+player_name,team_name,role_group,age,minutes_played,performance_percentile,performance_level,decision
+Wataru Endo,Liverpool,DefMidWingBack,31.0,273.0,82.76,Good,Give More Chances
+Jarell Quansah,Liverpool,Defender,21.0,495.0,83.06,Good,Give More Chances
+Joe Gomez,Liverpool,Defender,27.0,519.0,57.92,Promising,Give More Chances
+Diogo Jota,Liverpool,Forward,27.0,1196.0,87.65,Good,Give More Chances
+Vitezslav Jaros,Liverpool,Goalkeeper,23.0,12.0,100.0,Good,Give More Chances
+Harvey Elliott,Liverpool,Midfielder,21.0,371.0,93.64,Good,Give More Chances
+Ibrahima Konaté,Liverpool,Defender,25.0,2560.0,51.37,Promising,Keep
+Virgil van Dijk,Liverpool,Defender,33.0,3330.0,66.67,Good,Keep
+Cody Gakpo,Liverpool,Forward,25.0,1935.0,81.48,Good,Keep
+Luis Díaz,Liverpool,Forward,27.0,2399.0,82.72,Good,Keep
+Mohamed Salah,Liverpool,Forward,32.0,3371.0,100.0,Good,Keep
+Alisson,Liverpool,Goalkeeper,31.0,2508.0,86.36,Good,Keep
+Alexis Mac Allister,Liverpool,Midfielder,25.0,2599.0,82.73,Good,Keep
+Dominik Szoboszlai,Liverpool,Midfielder,23.0,2491.0,63.64,Good,Keep
+Ryan Gravenberch,Liverpool,Midfielder,22.0,3160.0,76.36,Good,Keep
+Curtis Jones,Liverpool,DefMidWingBack,23.0,1712.0,17.24,Poor,Monitor
+Conor Bradley,Liverpool,Defender,21.0,754.0,30.33,Poor,Monitor
+Kostas Tsimikas,Liverpool,Defender,28.0,837.0,19.67,Poor,Monitor
+Trent Alexander-Arnold,Liverpool,Defender,25.0,2365.0,21.31,Poor,Monitor
+Darwin Núñez,Liverpool,Forward,25.0,1133.0,70.37,Good,Monitor
+Federico Chiesa,Liverpool,Forward,26.0,108.0,12.96,Poor,Monitor
+Caoimhín Kelleher,Liverpool,Goalkeeper,25.0,900.0,70.45,Good,Monitor
+Jayden Danns,Liverpool,Midfielder,18.0,11.0,6.36,Poor,Monitor
+Andrew Robertson,Liverpool,Defender,30.0,2482.0,7.65,Poor,Sell
