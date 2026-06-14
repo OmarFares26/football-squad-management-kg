@@ -42,6 +42,9 @@ def convert_numeric_node_attributes(graph: nx.DiGraph) -> None:
         "minutes_played",
         "performance_score",
         "performance_percentile",
+        "same_role_team_average",
+        "main_same_role_minutes",
+        "main_same_role_performance_percentile",
     ]
 
     for node_id, node_data in graph.nodes(data=True):
@@ -250,6 +253,58 @@ def query_competitors_for_player(
     )
 
 
+def query_blocked_by_main_player(graph: nx.DiGraph) -> pd.DataFrame:
+    """
+    Find players who are blocked by the main same-role player.
+
+    This query directly uses the BLOCKED_BY_MAIN_PLAYER relationship.
+    """
+
+    rows = []
+
+    for player_id, main_player_id, edge_data in graph.edges(data=True):
+        if edge_data.get("relationship") != "BLOCKED_BY_MAIN_PLAYER":
+            continue
+
+        player_data = graph.nodes[player_id]
+        main_player_data = graph.nodes[main_player_id]
+
+        team_nodes = get_neighbors_by_relationship(
+            graph,
+            player_id,
+            "PLAYS_FOR",
+        )
+
+        decision_nodes = get_neighbors_by_relationship(
+            graph,
+            player_id,
+            "HAS_DECISION",
+        )
+
+        rows.append(
+            {
+                "player_name": player_data.get("player_name"),
+                "team_name": get_node_label(graph, team_nodes[0]),
+                "role_group": player_data.get("role_group"),
+                "age": player_data.get("age"),
+                "minutes_played": player_data.get("minutes_played"),
+                "performance_percentile": player_data.get(
+                    "performance_percentile"
+                ),
+                "decision": get_node_label(graph, decision_nodes[0]),
+                "blocked_by_player": main_player_data.get("player_name"),
+                "blocked_by_minutes": main_player_data.get("minutes_played"),
+                "blocked_by_performance_percentile": main_player_data.get(
+                    "performance_percentile"
+                ),
+            }
+        )
+
+    return pd.DataFrame(rows).sort_values(
+        by=["team_name", "role_group", "player_name"]
+    )
+
+
 def main() -> None:
     # Create output folder if it does not exist.
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -297,10 +352,40 @@ def main() -> None:
     print(competitors.to_string(index=False))
     print()
 
+    # Query 4: players blocked by main same-role players.
+    blocked_players = query_blocked_by_main_player(graph)
+    blocked_players.to_csv(
+        RESULTS_DIR / "query_blocked_by_main_player.csv",
+        index=False,
+    )
+
+    # Portfolio-friendly examples from the selected team.
+    selected_liverpool_players = [
+        "Conor Bradley",
+        "Jayden Danns",
+        "Darwin Núñez",
+        "Andrew Robertson",
+    ]
+
+    blocked_liverpool_examples = blocked_players[
+        blocked_players["player_name"].isin(selected_liverpool_players)
+    ].copy()
+
+    blocked_liverpool_examples.to_csv(
+        RESULTS_DIR / "query_liverpool_blocked_examples.csv",
+        index=False,
+    )
+
+    print("Query 4: Selected Liverpool blocked-player examples")
+    print(blocked_liverpool_examples.to_string(index=False))
+    print()
+
     print("Saved query outputs:")
     print(RESULTS_DIR / "query_sell_players.csv")
     print(RESULTS_DIR / "query_liverpool_decisions.csv")
     print(RESULTS_DIR / "query_mohamed_salah_competitors.csv")
+    print(RESULTS_DIR / "query_blocked_by_main_player.csv")
+    print(RESULTS_DIR / "query_liverpool_blocked_examples.csv")
 
 
 if __name__ == "__main__":

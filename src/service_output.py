@@ -35,6 +35,13 @@ def create_service_table(df: pd.DataFrame, team_name: str) -> pd.DataFrame:
         "performance_level",
         "performance_percentile",
         "competition_status",
+        "main_same_role_player",
+        "main_same_role_minutes",
+        "main_same_role_performance_percentile",
+        "main_same_role_performance_level",
+        "is_main_same_role_player",
+        "is_blocked_by_main_player",
+        "main_player_underperforming",
         "decision",
         "explanation",
     ]

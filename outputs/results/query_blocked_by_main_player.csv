@@ -1,0 +1,267 @@
+player_name,team_name,role_group,age,minutes_played,performance_percentile,decision,blocked_by_player,blocked_by_minutes,blocked_by_performance_percentile
+Raheem Sterling,Arsenal,AttMidWinger,29.0,499.0,42.08,Monitor,Gabriel Martinelli,2290.0,63.37
+Oleksandr Zinchenko,Arsenal,DefMidWingBack,27.0,527.0,48.28,Monitor,Thomas Partey,2797.0,51.72
+Jurriën Timber,Arsenal,Defender,23.0,2417.0,9.29,Monitor,William Saliba,3039.0,24.59
+Myles Lewis-Skelly,Arsenal,Defender,17.0,1369.0,6.01,Monitor,William Saliba,3039.0,24.59
+Riccardo Calafiori,Arsenal,Defender,22.0,983.0,19.13,Monitor,William Saliba,3039.0,24.59
+Gabriel Jesus,Arsenal,Forward,27.0,608.0,41.98,Monitor,Leandro Trossard,2546.0,75.31
+Nathan Butler-Oyedeji,Arsenal,Forward,21.0,7.0,12.96,Loan,Leandro Trossard,2546.0,75.31
+Jorginho,Arsenal,Midfielder,32.0,704.0,16.36,Sell,Declan Rice,2825.0,73.64
+Martin Ødegaard,Arsenal,Midfielder,25.0,2325.0,58.18,Keep,Declan Rice,2825.0,73.64
+Emi Buendía,Aston Villa,AttMidWinger,27.0,98.0,35.64,Monitor,Morgan Rogers,3114.0,66.34
+Jacob Ramsey,Aston Villa,AttMidWinger,23.0,1623.0,26.73,Monitor,Morgan Rogers,3114.0,66.34
+John McGinn,Aston Villa,AttMidWinger,29.0,2223.0,22.77,Monitor,Morgan Rogers,3114.0,66.34
+Leon Bailey,Aston Villa,AttMidWinger,26.0,1139.0,21.78,Monitor,Morgan Rogers,3114.0,66.34
+Kosta Nedeljković,Aston Villa,Defender,18.0,126.0,17.49,Loan,Ezri Konsa,2936.0,18.03
+Pau Torres,Aston Villa,Defender,27.0,2020.0,14.75,Monitor,Ezri Konsa,2936.0,18.03
+Donyell Malen,Aston Villa,Forward,25.0,305.0,85.19,Monitor,Ollie Watkins,2598.0,95.06
+Jáder Durán,Aston Villa,Forward,20.0,638.0,91.36,Loan,Ollie Watkins,2598.0,95.06
+Robin Olsen,Aston Villa,Goalkeeper,34.0,226.0,22.73,Sell,Emiliano Martínez,3194.0,68.18
+Boubacar Kamara,Aston Villa,Midfielder,24.0,1726.0,34.55,Monitor,Youri Tielemans,3026.0,62.73
+Ben Winterburn,Bournemouth,AttMidWinger,19.0,24.0,2.97,Loan,Marcus Tavernier,1939.0,53.47
+David Brooks,Bournemouth,AttMidWinger,27.0,960.0,27.72,Monitor,Marcus Tavernier,1939.0,53.47
+Adam Smith,Bournemouth,Defender,33.0,1590.0,16.39,Monitor,Milos Kerkez,3336.0,24.04
+Max Aarons,Bournemouth,Defender,24.0,86.0,15.57,Monitor,Milos Kerkez,3336.0,24.04
+Evanilson,Bournemouth,Forward,24.0,2319.0,43.21,Monitor,Antoine Semenyo,3203.0,54.32
+Remy Rees-Dottin,Bournemouth,Forward,18.0,1.0,12.96,Loan,Antoine Semenyo,3203.0,54.32
+Zain Silcott-Duberry,Bournemouth,Forward,19.0,1.0,12.96,Loan,Antoine Semenyo,3203.0,54.32
+Alex Scott,Bournemouth,Midfielder,20.0,755.0,38.18,Loan,Justin Kluivert,2340.0,94.55
+Ryan Christie,Bournemouth,Midfielder,29.0,2117.0,75.45,Keep,Justin Kluivert,2340.0,94.55
+Tyler Adams,Bournemouth,Midfielder,25.0,1965.0,81.82,Keep,Justin Kluivert,2340.0,94.55
+Edmond-Paris Maghoma,Brentford,AttMidWinger,23.0,119.0,8.91,Monitor,Mikkel Damsgaard,2911.0,55.45
+Thiago,Brentford,AttMidWinger,23.0,175.0,12.87,Monitor,Mikkel Damsgaard,2911.0,55.45
+Ben Mee,Brentford,Defender,34.0,183.0,60.66,Give More Chances,Nathan Collins,3420.0,84.7
+Jayden Meghoma,Brentford,Defender,18.0,5.0,2.19,Loan,Nathan Collins,3420.0,84.7
+Kim Jisoo,Brentford,Defender,19.0,30.0,43.72,Loan,Nathan Collins,3420.0,84.7
+Kristoffer Ajer,Brentford,Defender,26.0,1438.0,22.95,Monitor,Nathan Collins,3420.0,84.7
+Mads Roerslev,Brentford,Defender,25.0,1101.0,14.21,Monitor,Nathan Collins,3420.0,84.7
+Michael Kayode,Brentford,Defender,20.0,528.0,37.16,Loan,Nathan Collins,3420.0,84.7
+Rico Henry,Brentford,Defender,27.0,99.0,56.83,Give More Chances,Nathan Collins,3420.0,84.7
+Sepp van den Berg,Brentford,Defender,22.0,2586.0,67.21,Keep,Nathan Collins,3420.0,84.7
+Kevin Schade,Brentford,Forward,22.0,2293.0,55.56,Keep,Bryan Mbeumo,3414.0,86.42
+Yoane Wissa,Brentford,Forward,27.0,2919.0,80.25,Keep,Bryan Mbeumo,3414.0,86.42
+Hákon Rafn Valdimarsson,Brentford,Goalkeeper,22.0,145.0,40.91,Loan,Mark Flekken,3275.0,63.64
+Frank Onyeka,Brentford,Midfielder,26.0,25.0,6.36,Monitor,Christian Nørgaard,2819.0,91.82
+Mathias Jensen,Brentford,Midfielder,28.0,862.0,51.82,Give More Chances,Christian Nørgaard,2819.0,91.82
+Ryan Trevitt,Brentford,Midfielder,21.0,4.0,6.36,Loan,Christian Nørgaard,2819.0,91.82
+Vitaly Janelt,Brentford,Midfielder,26.0,2254.0,52.73,Keep,Christian Nørgaard,2819.0,91.82
+Yehor Yarmoliuk,Brentford,Midfielder,20.0,1450.0,20.91,Monitor,Christian Nørgaard,2819.0,91.82
+Georginio Rutter,Brighton,AttMidWinger,22.0,1656.0,67.33,Give More Chances,Kaoru Mitoma,2603.0,73.27
+Simon Adingra,Brighton,AttMidWinger,22.0,1097.0,47.52,Monitor,Kaoru Mitoma,2603.0,73.27
+Solly March,Brighton,AttMidWinger,30.0,168.0,16.83,Sell,Kaoru Mitoma,2603.0,73.27
+Igor,Brighton,Defender,26.0,961.0,40.98,Monitor,Jan Paul van Hecke,2958.0,46.99
+Joël Veltman,Brighton,Defender,32.0,1697.0,45.9,Monitor,Jan Paul van Hecke,2958.0,46.99
+Lewis Dunk,Brighton,Defender,32.0,2083.0,20.22,Sell,Jan Paul van Hecke,2958.0,46.99
+Pervis Estupiñán,Brighton,Defender,26.0,2402.0,23.5,Monitor,Jan Paul van Hecke,2958.0,46.99
+Tariq Lamptey,Brighton,Defender,23.0,860.0,20.77,Monitor,Jan Paul van Hecke,2958.0,46.99
+Evan Ferguson,Brighton,Forward,19.0,246.0,39.51,Loan,Danny Welbeck,2115.0,71.6
+Harry Howell,Brighton,Forward,15.0,7.0,12.96,Loan,Danny Welbeck,2115.0,71.6
+Billy Gilmour,Brighton,Midfielder,23.0,98.0,13.64,Monitor,Carlos Baleba,2661.0,78.18
+Jakub Moder,Brighton,Midfielder,25.0,11.0,22.73,Monitor,Carlos Baleba,2661.0,78.18
+James Milner,Brighton,Midfielder,38.0,170.0,27.27,Sell,Carlos Baleba,2661.0,78.18
+Jeremy Sarmiento,Brighton,Midfielder,22.0,9.0,6.36,Loan,Carlos Baleba,2661.0,78.18
+Yasin Ayari,Brighton,Midfielder,20.0,1965.0,50.0,Keep,Carlos Baleba,2661.0,78.18
+João Félix,Chelsea,AttMidWinger,24.0,369.0,70.3,Give More Chances,Cole Palmer,3191.0,88.12
+Kiernan Dewsbury-Hall,Chelsea,AttMidWinger,25.0,264.0,48.51,Monitor,Cole Palmer,3191.0,88.12
+Reece James,Chelsea,DefMidWingBack,24.0,1063.0,37.93,Monitor,Moisés Caicedo,3351.0,62.07
+Renato Veiga,Chelsea,DefMidWingBack,21.0,181.0,27.59,Loan,Moisés Caicedo,3351.0,62.07
+Joshua Acheampong,Chelsea,Defender,18.0,170.0,4.37,Loan,Levi Colwill,3149.0,29.51
+Malo Gusto,Chelsea,Defender,21.0,1862.0,27.87,Monitor,Levi Colwill,3149.0,29.51
+Jadon Sancho,Chelsea,Forward,24.0,1764.0,51.85,Monitor,Pedro Neto,2269.0,61.73
+Marc Guiu,Chelsea,Forward,18.0,73.0,12.96,Loan,Pedro Neto,2269.0,61.73
+Mykhailo Mudryk,Chelsea,Forward,23.0,151.0,12.96,Monitor,Pedro Neto,2269.0,61.73
+Noni Madueke,Chelsea,Forward,22.0,2033.0,53.09,Keep,Pedro Neto,2269.0,61.73
+Filip Jørgensen,Chelsea,Goalkeeper,22.0,540.0,59.09,Loan,Robert Sánchez,2880.0,88.64
+Mathis Amougou,Chelsea,Midfielder,18.0,8.0,6.36,Loan,Enzo Fernández,2947.0,65.45
+Shumaira Mheuka,Chelsea,Midfielder,16.0,1.0,6.36,Loan,Enzo Fernández,2947.0,65.45
+Eddie Nketiah,Crystal Palace,AttMidWinger,25.0,1034.0,51.49,Monitor,Eberechi Eze,2588.0,74.26
+Odsonne Édouard,Crystal Palace,AttMidWinger,26.0,115.0,6.93,Monitor,Eberechi Eze,2588.0,74.26
+Jeffrey Schlupp,Crystal Palace,DefMidWingBack,31.0,103.0,3.45,Sell,Jefferson Lerma,2274.0,75.86
+Nathaniel Clyne,Crystal Palace,DefMidWingBack,33.0,483.0,31.03,Sell,Jefferson Lerma,2274.0,75.86
+Chadi Riad,Crystal Palace,Defender,21.0,90.0,10.93,Loan,Daniel Muñoz,3228.0,53.01
+Joel Ward,Crystal Palace,Defender,34.0,71.0,15.57,Sell,Daniel Muñoz,3228.0,53.01
+Tyrick Mitchell,Crystal Palace,Defender,24.0,3092.0,50.82,Keep,Daniel Muñoz,3228.0,53.01
+Daichi Kamada,Crystal Palace,Midfielder,27.0,1564.0,26.36,Monitor,Ismaila Sarr,2711.0,64.55
+Justin Devenny,Crystal Palace,Midfielder,20.0,507.0,45.45,Loan,Ismaila Sarr,2711.0,64.55
+Will Hughes,Crystal Palace,Midfielder,29.0,2108.0,50.91,Keep,Ismaila Sarr,2711.0,64.55
+Carlos Alcaraz,Everton,AttMidWinger,21.0,764.0,75.25,Give More Chances,Dwight McNeil,1371.0,80.2
+Youssef Chermiti,Everton,AttMidWinger,20.0,45.0,2.97,Loan,Dwight McNeil,1371.0,80.2
+Ashley Young,Everton,Defender,39.0,1875.0,36.61,Sell,Vitaliy Mykolenko,3082.0,54.64
+Nathan Patterson,Everton,Defender,22.0,347.0,8.74,Loan,Vitaliy Mykolenko,3082.0,54.64
+Séamus Coleman,Everton,Defender,35.0,215.0,39.34,Sell,Vitaliy Mykolenko,3082.0,54.64
+Armando Broja,Everton,Forward,22.0,334.0,12.96,Loan,Iliman Ndiaye,2430.0,37.04
+Dominic Calvert-Lewin,Everton,Forward,27.0,1609.0,33.33,Monitor,Iliman Ndiaye,2430.0,37.04
+Jack Harrison,Everton,Forward,27.0,2076.0,25.93,Monitor,Iliman Ndiaye,2430.0,37.04
+Jesper Lindstrøm,Everton,Forward,24.0,1239.0,28.4,Monitor,Iliman Ndiaye,2430.0,37.04
+Abdoulaye Doucouré,Everton,Midfielder,31.0,2564.0,21.82,Sell,Idrissa Gana Gueye,3063.0,72.73
+Harrison Armstrong,Everton,Midfielder,17.0,48.0,6.36,Loan,Idrissa Gana Gueye,3063.0,72.73
+Orel Mangala,Everton,Midfielder,26.0,1261.0,57.27,Give More Chances,Idrissa Gana Gueye,3063.0,72.73
+Adama Traoré,Fulham,AttMidWinger,28.0,1772.0,52.48,Give More Chances,Alex Iwobi,2981.0,62.38
+Carlos Vinícius,Fulham,AttMidWinger,29.0,16.0,2.97,Monitor,Alex Iwobi,2981.0,62.38
+Willian,Fulham,AttMidWinger,35.0,257.0,7.92,Sell,Alex Iwobi,2981.0,62.38
+Calvin Bassey,Fulham,Defender,24.0,3074.0,27.32,Monitor,Antonee Robinson,3167.0,68.85
+Issa Diop,Fulham,Defender,27.0,1339.0,50.27,Monitor,Antonee Robinson,3167.0,68.85
+Kenny Tete,Fulham,Defender,28.0,1774.0,68.31,Give More Chances,Antonee Robinson,3167.0,68.85
+Timothy Castagne,Fulham,Defender,28.0,1649.0,65.03,Monitor,Antonee Robinson,3167.0,68.85
+Reiss Nelson,Fulham,Forward,24.0,487.0,49.38,Monitor,Raúl Jiménez,2494.0,62.96
+Andreas Pereira,Fulham,Midfielder,28.0,2013.0,32.73,Monitor,Saša Lukić,2344.0,41.82
+Harrison Reed,Fulham,Midfielder,29.0,108.0,30.91,Monitor,Saša Lukić,2344.0,41.82
+Jay Stansfield,Fulham,Midfielder,21.0,1.0,6.36,Loan,Saša Lukić,2344.0,41.82
+Joshua King,Fulham,Midfielder,17.0,130.0,24.55,Loan,Saša Lukić,2344.0,41.82
+Sander Berge,Fulham,Midfielder,26.0,2224.0,18.18,Monitor,Saša Lukić,2344.0,41.82
+Martial Godo,Fulham,WingBack,21.0,24.0,67.86,Loan,Ryan Sessegnon,580.0,100.0
+Axel Tuanzebe,Ipswich Town,Defender,26.0,1710.0,31.15,Monitor,Dara O'Shea,3122.0,87.98
+Ben Godfrey,Ipswich Town,Defender,26.0,159.0,7.1,Monitor,Dara O'Shea,3122.0,87.98
+Conor Townsend,Ipswich Town,Defender,31.0,335.0,80.87,Give More Chances,Dara O'Shea,3122.0,87.98
+George Edmundson,Ipswich Town,Defender,26.0,2.0,2.19,Monitor,Dara O'Shea,3122.0,87.98
+Harry Clarke,Ipswich Town,Defender,23.0,379.0,30.33,Monitor,Dara O'Shea,3122.0,87.98
+Jacob Greaves,Ipswich Town,Defender,23.0,2205.0,84.15,Keep,Dara O'Shea,3122.0,87.98
+Leif Davis,Ipswich Town,Defender,24.0,2743.0,13.66,Monitor,Dara O'Shea,3122.0,87.98
+Luke Woolfenden,Ipswich Town,Defender,25.0,1187.0,81.42,Give More Chances,Dara O'Shea,3122.0,87.98
+Ali Al Hamadi,Ipswich Town,Forward,22.0,134.0,12.96,Loan,Liam Delap,2593.0,50.62
+Chiedozie Ogbene,Ipswich Town,Forward,27.0,238.0,12.96,Monitor,Liam Delap,2593.0,50.62
+Alex Palmer,Ipswich Town,Goalkeeper,27.0,1170.0,15.91,Monitor,Arijanet Muric,1620.0,38.64
+Christian Walton,Ipswich Town,Goalkeeper,28.0,630.0,6.82,Monitor,Arijanet Muric,1620.0,38.64
+Marcus Harness,Ipswich Town,Midfielder,28.0,45.0,12.73,Monitor,Sam Morsy,2751.0,31.82
+Massimo Luongo,Ipswich Town,Midfielder,31.0,201.0,29.09,Sell,Sam Morsy,2751.0,31.82
+Wes Burns,Ipswich Town,WingBack,29.0,926.0,42.86,Monitor,Ben Johnson,1354.0,78.57
+Jeremy Monga,Leicester City,AttMidWinger,0.0,112.0,9.9,Loan,Bilal El Khannouss,2182.0,31.68
+Patson Daka,Leicester City,AttMidWinger,25.0,736.0,25.74,Monitor,Bilal El Khannouss,2182.0,31.68
+Conor Coady,Leicester City,Defender,31.0,1714.0,38.8,Monitor,James Justin,2912.0,69.95
+Jannik Vestergaard,Leicester City,Defender,31.0,1391.0,66.12,Give More Chances,James Justin,2912.0,69.95
+Olabade Aluko,Leicester City,Defender,0.0,2.0,2.19,Loan,James Justin,2912.0,69.95
+Ricardo Pereira,Leicester City,Defender,30.0,388.0,48.09,Monitor,James Justin,2912.0,69.95
+Victor Bernth Kristiansen,Leicester City,Defender,21.0,2482.0,55.19,Keep,James Justin,2912.0,69.95
+Jake Evans,Leicester City,Forward,0.0,24.0,12.96,Loan,Jamie Vardy,2823.0,48.15
+Kasey McAteer,Leicester City,Forward,22.0,852.0,34.57,Loan,Jamie Vardy,2823.0,48.15
+Stephy Mavididi,Leicester City,Forward,26.0,1615.0,38.27,Monitor,Jamie Vardy,2823.0,48.15
+Will Alves,Leicester City,Forward,19.0,1.0,12.96,Loan,Jamie Vardy,2823.0,48.15
+Danny Ward,Leicester City,Goalkeeper,31.0,135.0,2.27,Sell,Mads Hermansen,2385.0,25.0
+Boubakary Soumaré,Leicester City,Midfielder,25.0,2171.0,23.64,Monitor,Wilfred Ndidi,2324.0,74.55
+Harry Winks,Leicester City,Midfielder,28.0,1538.0,19.09,Monitor,Wilfred Ndidi,2324.0,74.55
+Michael Golding,Leicester City,Midfielder,18.0,1.0,6.36,Loan,Wilfred Ndidi,2324.0,74.55
+Oliver Skipp,Leicester City,Midfielder,23.0,1129.0,17.27,Monitor,Wilfred Ndidi,2324.0,74.55
+Andrew Robertson,Liverpool,Defender,30.0,2482.0,7.65,Sell,Virgil van Dijk,3330.0,66.67
+Conor Bradley,Liverpool,Defender,21.0,754.0,30.33,Loan,Virgil van Dijk,3330.0,66.67
+Ibrahima Konaté,Liverpool,Defender,25.0,2560.0,51.37,Keep,Virgil van Dijk,3330.0,66.67
+Joe Gomez,Liverpool,Defender,27.0,519.0,57.92,Give More Chances,Virgil van Dijk,3330.0,66.67
+Kostas Tsimikas,Liverpool,Defender,28.0,837.0,19.67,Monitor,Virgil van Dijk,3330.0,66.67
+Trent Alexander-Arnold,Liverpool,Defender,25.0,2365.0,21.31,Monitor,Virgil van Dijk,3330.0,66.67
+Cody Gakpo,Liverpool,Forward,25.0,1935.0,81.48,Keep,Mohamed Salah,3371.0,100.0
+Darwin Núñez,Liverpool,Forward,25.0,1133.0,70.37,Monitor,Mohamed Salah,3371.0,100.0
+Diogo Jota,Liverpool,Forward,27.0,1196.0,87.65,Give More Chances,Mohamed Salah,3371.0,100.0
+Federico Chiesa,Liverpool,Forward,26.0,108.0,12.96,Monitor,Mohamed Salah,3371.0,100.0
+Luis Díaz,Liverpool,Forward,27.0,2399.0,82.72,Keep,Mohamed Salah,3371.0,100.0
+Caoimhín Kelleher,Liverpool,Goalkeeper,25.0,900.0,70.45,Monitor,Alisson,2508.0,86.36
+Dominik Szoboszlai,Liverpool,Midfielder,23.0,2491.0,63.64,Keep,Ryan Gravenberch,3160.0,76.36
+Jayden Danns,Liverpool,Midfielder,18.0,11.0,6.36,Loan,Ryan Gravenberch,3160.0,76.36
+Jack Grealish,Manchester City,AttMidWinger,28.0,721.0,29.7,Monitor,Bernardo Silva,2670.0,40.59
+John Stones,Manchester City,DefMidWingBack,30.0,548.0,24.14,Sell,Rico Lewis,1893.0,41.38
+Jahmai Simpson-Pusey,Manchester City,Defender,18.0,96.0,5.46,Loan,Joško Gvardiol,3277.0,41.53
+Kyle Walker,Manchester City,Defender,34.0,970.0,6.56,Monitor,Joško Gvardiol,3277.0,41.53
+Manuel Akanji,Manchester City,Defender,29.0,2014.0,8.2,Monitor,Joško Gvardiol,3277.0,41.53
+Nathan Aké,Manchester City,Defender,29.0,678.0,12.57,Monitor,Joško Gvardiol,3277.0,41.53
+Nico O’Reilly,Manchester City,Defender,19.0,528.0,9.84,Loan,Joško Gvardiol,3277.0,41.53
+Rúben Dias,Manchester City,Defender,27.0,2271.0,12.02,Monitor,Joško Gvardiol,3277.0,41.53
+Vitor Reis,Manchester City,Defender,18.0,1.0,2.19,Loan,Joško Gvardiol,3277.0,41.53
+Claudio Echeverri,Manchester City,Forward,18.0,6.0,12.96,Loan,Erling Haaland,2736.0,88.89
+Divin Mubama,Manchester City,Forward,19.0,28.0,12.96,Loan,Erling Haaland,2736.0,88.89
+Oscar Bobb,Manchester City,Forward,21.0,16.0,12.96,Loan,Erling Haaland,2736.0,88.89
+Stefan Ortega,Manchester City,Goalkeeper,31.0,1100.0,52.27,Monitor,Ederson,2320.0,84.09
+Nicolás González,Manchester City,Midfielder,22.0,760.0,39.09,Loan,İlkay Gündoğan,2223.0,44.55
+Rodri,Manchester City,Midfielder,28.0,73.0,35.45,Monitor,İlkay Gündoğan,2223.0,44.55
+Joshua Zirkzee,Manchester Utd,AttMidWinger,23.0,1402.0,32.67,Monitor,Alejandro Garnacho,2199.0,46.53
+Diogo Dalot,Manchester Utd,Defender,25.0,2814.0,16.94,Monitor,Noussair Mazraoui,2838.0,53.55
+Leny Yoro,Manchester Utd,Defender,18.0,1165.0,33.88,Monitor,Noussair Mazraoui,2838.0,53.55
+Lisandro Martínez,Manchester Utd,Defender,26.0,1751.0,44.81,Monitor,Noussair Mazraoui,2838.0,53.55
+Luke Shaw,Manchester Utd,Defender,29.0,349.0,10.38,Monitor,Noussair Mazraoui,2838.0,53.55
+Patrick Dorgu,Manchester Utd,Defender,19.0,842.0,21.86,Loan,Noussair Mazraoui,2838.0,53.55
+Tyrell Malacia,Manchester Utd,Defender,24.0,100.0,4.92,Monitor,Noussair Mazraoui,2838.0,53.55
+Victor Lindelöf,Manchester Utd,Defender,30.0,704.0,47.54,Monitor,Noussair Mazraoui,2838.0,53.55
+Chidozie Obi-Martin,Manchester Utd,Forward,16.0,165.0,12.96,Loan,Rasmus Højlund,2004.0,29.63
+Altay Bayındır,Manchester Utd,Goalkeeper,26.0,360.0,4.55,Monitor,André Onana,3060.0,65.91
+Casemiro,Manchester Utd,Midfielder,32.0,1494.0,42.73,Monitor,Bruno Fernandes,3018.0,92.73
+Christian Eriksen,Manchester Utd,Midfielder,32.0,1061.0,46.36,Monitor,Bruno Fernandes,3018.0,92.73
+Kobbie Mainoo,Manchester Utd,Midfielder,19.0,1651.0,25.45,Monitor,Bruno Fernandes,3018.0,92.73
+Manuel Ugarte Ribeiro,Manchester Utd,Midfielder,23.0,1785.0,80.0,Give More Chances,Bruno Fernandes,3018.0,92.73
+Mason Mount,Manchester Utd,Midfielder,25.0,622.0,28.18,Monitor,Bruno Fernandes,3018.0,92.73
+Scott McTominay,Manchester Utd,Midfielder,27.0,19.0,6.36,Monitor,Bruno Fernandes,3018.0,92.73
+Toby Collyer,Manchester Utd,Midfielder,20.0,179.0,47.27,Loan,Bruno Fernandes,3018.0,92.73
+Joe Willock,Newcastle Utd,AttMidWinger,24.0,1086.0,23.76,Monitor,Anthony Gordon,2434.0,56.44
+Joelinton,Newcastle Utd,AttMidWinger,27.0,2393.0,44.55,Monitor,Anthony Gordon,2434.0,56.44
+Emil Krafth,Newcastle Utd,Defender,29.0,342.0,42.62,Monitor,Dan Burn,3330.0,61.75
+Fabian Schär,Newcastle Utd,Defender,32.0,2934.0,59.02,Keep,Dan Burn,3330.0,61.75
+Kieran Trippier,Newcastle Utd,Defender,33.0,1309.0,34.43,Monitor,Dan Burn,3330.0,61.75
+Lewis Hall,Newcastle Utd,Defender,19.0,2189.0,37.7,Monitor,Dan Burn,3330.0,61.75
+Valentino Livramento,Newcastle Utd,Defender,21.0,2840.0,31.69,Monitor,Dan Burn,3330.0,61.75
+Callum Wilson,Newcastle Utd,Forward,32.0,370.0,12.96,Sell,Alexander Isak,2756.0,96.3
+Harvey Barnes,Newcastle Utd,Forward,26.0,1755.0,83.95,Give More Chances,Alexander Isak,2756.0,96.3
+Miguel Almirón,Newcastle Utd,Forward,30.0,157.0,12.96,Sell,Alexander Isak,2756.0,96.3
+William Osula,Newcastle Utd,Forward,20.0,134.0,64.2,Give More Chances,Alexander Isak,2756.0,96.3
+Lewis Miley,Newcastle Utd,Midfielder,18.0,313.0,67.27,Give More Chances,Bruno Guimarães,3271.0,71.82
+Sandro Tonali,Newcastle Utd,Midfielder,24.0,2630.0,68.18,Keep,Bruno Guimarães,3271.0,71.82
+Sean Longstaff,Newcastle Utd,Midfielder,26.0,798.0,20.0,Monitor,Bruno Guimarães,3271.0,71.82
+Callum Hudson-Odoi,Nott'ham Forest,AttMidWinger,23.0,2194.0,36.63,Monitor,Anthony Elanga,2501.0,71.29
+Danilo,Nott'ham Forest,AttMidWinger,23.0,275.0,11.88,Monitor,Anthony Elanga,2501.0,71.29
+Nicolás Domínguez,Nott'ham Forest,AttMidWinger,26.0,1963.0,24.75,Monitor,Anthony Elanga,2501.0,71.29
+Ramón Sosa,Nott'ham Forest,AttMidWinger,24.0,295.0,49.5,Monitor,Anthony Elanga,2501.0,71.29
+Ola Aina,Nott'ham Forest,Defender,27.0,2995.0,34.97,Monitor,Nikola Milenković,3330.0,72.13
+Taiwo Awoniyi,Nott'ham Forest,Forward,26.0,416.0,30.86,Monitor,Chris Wood,2959.0,76.54
+Elliot Anderson,Nott'ham Forest,Midfielder,21.0,2728.0,77.27,Keep,Morgan Gibbs-White,2803.0,89.09
+Ibrahim Sangaré,Nott'ham Forest,Midfielder,26.0,590.0,60.91,Monitor,Morgan Gibbs-White,2803.0,89.09
+Ryan Yates,Nott'ham Forest,Midfielder,26.0,1915.0,59.09,Keep,Morgan Gibbs-White,2803.0,89.09
+Albert Grønbaek,Southampton,AttMidWinger,23.0,143.0,10.89,Monitor,Tyler Dibling,1874.0,18.81
+Jay Robinson,Southampton,AttMidWinger,17.0,137.0,13.86,Loan,Tyler Dibling,1874.0,18.81
+Kamaldeen Sulemana,Southampton,AttMidWinger,22.0,1402.0,17.82,Monitor,Tyler Dibling,1874.0,18.81
+James Bree,Southampton,Defender,26.0,1075.0,11.48,Monitor,Kyle Walker-Peters,2918.0,13.11
+Ben Brereton,Southampton,Forward,25.0,449.0,12.96,Monitor,Cameron Archer,1441.0,27.16
+Maxwel Cornet,Southampton,Forward,27.0,72.0,12.96,Monitor,Cameron Archer,1441.0,27.16
+Alex McCarthy,Southampton,Goalkeeper,34.0,450.0,18.18,Sell,Aaron Ramsdale,2700.0,27.27
+Joe Lumley,Southampton,Goalkeeper,29.0,270.0,20.45,Monitor,Aaron Ramsdale,2700.0,27.27
+Flynn Downes,Southampton,Midfielder,25.0,2151.0,48.18,Monitor,Mateus Fernandes,2909.0,56.36
+Lesley Ugochukwu,Southampton,Midfielder,20.0,1655.0,33.64,Monitor,Mateus Fernandes,2909.0,56.36
+William Smallbone,Southampton,Midfielder,24.0,690.0,15.45,Monitor,Mateus Fernandes,2909.0,56.36
+Timo Werner,Tottenham,AttMidWinger,28.0,516.0,54.46,Monitor,Dejan Kulusevski,2389.0,59.41
+Will Lankshear,Tottenham,AttMidWinger,19.0,11.0,2.97,Loan,Dejan Kulusevski,2389.0,59.41
+Wilson Odobert,Tottenham,AttMidWinger,19.0,850.0,19.8,Loan,Dejan Kulusevski,2389.0,59.41
+Alfie Dorrington,Tottenham,Defender,19.0,14.0,2.19,Loan,Pedro Porro,2610.0,45.36
+Destiny Udogie,Tottenham,Defender,21.0,1924.0,36.07,Monitor,Pedro Porro,2610.0,45.36
+Micky van de Ven,Tottenham,Defender,23.0,1015.0,25.68,Monitor,Pedro Porro,2610.0,45.36
+Radu Drăgușin,Tottenham,Defender,22.0,1252.0,42.08,Monitor,Pedro Porro,2610.0,45.36
+Mathys Tel,Tottenham,Forward,19.0,911.0,40.74,Monitor,Dominic Solanke,2201.0,58.02
+Mikey Moore,Tottenham,Forward,16.0,366.0,45.68,Loan,Dominic Solanke,2201.0,58.02
+Antonín Kinský,Tottenham,Goalkeeper,21.0,540.0,31.82,Loan,Guglielmo Vicario,2160.0,50.0
+Brandon Austin,Tottenham,Goalkeeper,25.0,90.0,10.23,Monitor,Guglielmo Vicario,2160.0,50.0
+Fraser Forster,Tottenham,Goalkeeper,36.0,630.0,29.55,Sell,Guglielmo Vicario,2160.0,50.0
+Lucas Bergvall,Tottenham,Midfielder,18.0,1212.0,79.09,Monitor,Pape Matar Sarr,1913.0,87.27
+Yves Bissouma,Tottenham,Midfielder,27.0,1408.0,61.82,Monitor,Pape Matar Sarr,1913.0,87.27
+Carlos Soler,West Ham,AttMidWinger,27.0,1409.0,14.85,Monitor,Jarrod Bowen,2973.0,87.13
+Crysencio Summerville,West Ham,AttMidWinger,22.0,786.0,30.69,Loan,Jarrod Bowen,2973.0,87.13
+Lucas Paquetá,West Ham,AttMidWinger,26.0,2380.0,34.65,Monitor,Jarrod Bowen,2973.0,87.13
+Luis Guilherme,West Ham,AttMidWinger,18.0,150.0,5.94,Loan,Jarrod Bowen,2973.0,87.13
+Mohammed Kudus,West Ham,AttMidWinger,23.0,2590.0,37.62,Monitor,Jarrod Bowen,2973.0,87.13
+Aaron Cresswell,West Ham,Defender,34.0,824.0,39.89,Sell,Max Kilman,3348.0,77.05
+Aaron Wan-Bissaka,West Ham,Defender,26.0,3154.0,61.2,Keep,Max Kilman,3348.0,77.05
+Emerson Palmieri,West Ham,Defender,29.0,2113.0,28.96,Monitor,Max Kilman,3348.0,77.05
+Jean-Clair Todibo,West Ham,Defender,24.0,1825.0,63.93,Keep,Max Kilman,3348.0,77.05
+Kaelan Casey,West Ham,Defender,19.0,1.0,2.19,Loan,Max Kilman,3348.0,77.05
+Vladimír Coufal,West Ham,Defender,31.0,1067.0,26.78,Monitor,Max Kilman,3348.0,77.05
+Andy Irving,West Ham,Midfielder,24.0,166.0,14.55,Monitor,Tomáš Souček,2567.0,70.91
+Edson Álvarez,West Ham,Midfielder,26.0,1772.0,30.0,Monitor,Tomáš Souček,2567.0,70.91
+Guido Rodríguez,West Ham,Midfielder,30.0,1149.0,40.91,Monitor,Tomáš Souček,2567.0,70.91
+James Ward-Prowse,West Ham,Midfielder,29.0,1039.0,36.36,Monitor,Tomáš Souček,2567.0,70.91
+Lewis Orford,West Ham,Midfielder,18.0,49.0,60.0,Give More Chances,Tomáš Souček,2567.0,70.91
+Carlos Forbs,Wolves,AttMidWinger,20.0,239.0,15.84,Loan,Matheus Cunha,2597.0,93.07
+Daniel Podence,Wolves,AttMidWinger,28.0,48.0,2.97,Monitor,Matheus Cunha,2597.0,93.07
+Gonçalo Guedes,Wolves,AttMidWinger,27.0,995.0,68.32,Give More Chances,Matheus Cunha,2597.0,93.07
+Hwang Hee-chan,Wolves,AttMidWinger,28.0,661.0,38.61,Monitor,Matheus Cunha,2597.0,93.07
+Jean-Ricner Bellegarde,Wolves,AttMidWinger,26.0,1677.0,64.36,Give More Chances,Matheus Cunha,2597.0,93.07
+Marshall Munetsi,Wolves,AttMidWinger,28.0,1078.0,42.08,Monitor,Matheus Cunha,2597.0,93.07
+Pablo Sarabia,Wolves,AttMidWinger,32.0,814.0,81.19,Give More Chances,Matheus Cunha,2597.0,93.07
+Alfie Pond,Wolves,Defender,20.0,1.0,2.19,Loan,Rayan Aït-Nouri,3109.0,18.58
+Daniel Bentley,Wolves,Goalkeeper,31.0,180.0,34.09,Sell,José Sá,2609.0,36.36
+Sam Johnstone,Wolves,Goalkeeper,31.0,630.0,13.64,Sell,José Sá,2609.0,36.36
+Tom King,Wolves,Goalkeeper,29.0,1.0,10.23,Monitor,José Sá,2609.0,36.36
+Boubacar Traoré,Wolves,Midfielder,22.0,1.0,6.36,Loan,João Gomes,2974.0,40.0
+Chiquinho,Wolves,Midfielder,24.0,7.0,6.36,Monitor,João Gomes,2974.0,40.0
+Mateus Mane,Wolves,Midfielder,0.0,2.0,6.36,Loan,João Gomes,2974.0,40.0

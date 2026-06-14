@@ -65,6 +65,60 @@ def get_competition_status(
     return "Blocked"
 
 
+def add_same_role_competition_context(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add same-team, same-role competition context.
+
+    For each team and role group, the main player is the player
+    with the most minutes. Other players are compared against this
+    main player to support Give More Chances and Loan decisions.
+    """
+
+    df = df.copy()
+
+    df["main_same_role_player"] = ""
+    df["main_same_role_minutes"] = 0.0
+    df["main_same_role_performance_percentile"] = 0.0
+    df["main_same_role_performance_level"] = ""
+    df["is_main_same_role_player"] = False
+    df["is_blocked_by_main_player"] = False
+    df["main_player_underperforming"] = False
+
+    grouped_players = df.groupby(["team_name", "role_group"])
+
+    for _, group in grouped_players:
+        main_player = group.sort_values("minutes_played", ascending=False).iloc[0]
+        group_index = group.index
+
+        df.loc[group_index, "main_same_role_player"] = main_player["player_name"]
+        df.loc[group_index, "main_same_role_minutes"] = main_player["minutes_played"]
+        df.loc[group_index, "main_same_role_performance_percentile"] = main_player[
+            "performance_percentile"
+        ]
+        df.loc[group_index, "main_same_role_performance_level"] = main_player[
+            "performance_level"
+        ]
+
+        df.loc[group_index, "is_main_same_role_player"] = (
+            df.loc[group_index, "player_name"] == main_player["player_name"]
+        )
+
+        df.loc[group_index, "is_blocked_by_main_player"] = (
+            (df.loc[group_index, "player_name"] != main_player["player_name"])
+            & (df.loc[group_index, "minutes_played"] < main_player["minutes_played"])
+            & (
+                df.loc[group_index, "performance_score"]
+                < main_player["performance_score"]
+            )
+        )
+
+        df.loc[group_index, "main_player_underperforming"] = (
+            main_player["performance_percentile"] < 40
+        )
+
+    return df
+
+
 def decide_player(row: pd.Series) -> tuple[str, str]:
     """
     Apply squad decision rules in priority order.
@@ -72,17 +126,11 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
     Rule priority:
     1. Keep regular contributor
     2. Sell veteran underperformer
-    3. Give More Chances
-    4. Loan
-    5. Sell low-used older player
-    6. Monitor
-
-    Age is not a condition for Keep.
-    A player with high minutes and at least promising performance
-    is kept regardless of age.
-
-    Age matters in Sell rules, where poor performance and older age
-    together justify selling.
+    3. Give More Chances because main same-role player is underperforming
+    4. Give More Chances because player is competitive
+    5. Loan because young player is blocked
+    6. Sell low-used older player
+    7. Monitor
     """
 
     age = row["age"]
@@ -90,6 +138,10 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
     score = row["performance_score"]
     percentile = row["performance_percentile"]
     same_role_average = row["same_role_team_average"]
+
+    is_main_same_role_player = row["is_main_same_role_player"]
+    is_blocked_by_main_player = row["is_blocked_by_main_player"]
+    main_player_underperforming = row["main_player_underperforming"]
 
     # Keep:
     # Regular player with at least promising role-based performance.
@@ -112,8 +164,20 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
         )
 
     # Give More Chances:
+    # Backup player performs well while the main same-role player is underperforming.
+    if (
+        not is_main_same_role_player
+        and minutes < 1800
+        and percentile >= 50
+        and main_player_underperforming
+    ):
+        return (
+            "Give More Chances",
+            "Low or medium minutes, promising or good performance, and the main same-role player is underperforming.",
+        )
+
+    # Give More Chances:
     # Underused player who performs well compared with same-role teammates.
-    # This player deserves more game time based on their per-90 contribution.
     if minutes < 1800 and percentile >= 50 and score >= same_role_average:
         return (
             "Give More Chances",
@@ -121,13 +185,12 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
         )
 
     # Loan:
-    # Young player with low minutes who is blocked by same-role teammates.
-    # A loan gives the player regular game time for development,
-    # even if current performance is not yet strong.
-    if age < 23 and minutes < 900 and score < same_role_average:
+    # Young player with low minutes who is blocked by the main same-role player.
+    # A loan gives the player regular game time for development.
+    if age < 23 and minutes < 900 and is_blocked_by_main_player:
         return (
             "Loan",
-            "Young player with low minutes and blocked by same-role teammates.",
+            "Young player with low minutes and blocked by the main same-role player.",
         )
 
     # Sell low-used older player:
@@ -176,6 +239,9 @@ def main() -> None:
         axis=1,
     )
 
+    # Add same-team, same-role competition context.
+    df = add_same_role_competition_context(df)
+
     # Apply decision rules.
     decisions = df.apply(decide_player, axis=1)
 
@@ -223,6 +289,13 @@ def main() -> None:
         "performance_level",
         "same_role_team_average",
         "competition_status",
+        "main_same_role_player",
+        "main_same_role_minutes",
+        "main_same_role_performance_percentile",
+        "main_same_role_performance_level",
+        "is_main_same_role_player",
+        "is_blocked_by_main_player",
+        "main_player_underperforming",
         "decision",
         "explanation",
     ]

@@ -32,7 +32,10 @@ def add_node_if_missing(
 
 def add_player_nodes(graph: nx.DiGraph, df: pd.DataFrame) -> None:
     """
-    Add player nodes and their direct attributes.
+    Add player nodes and their direct/inferred attributes.
+
+    The player node stores both original data and inferred reasoning context,
+    such as same-role competition information.
     """
 
     for _, row in df.iterrows():
@@ -43,10 +46,27 @@ def add_player_nodes(graph: nx.DiGraph, df: pd.DataFrame) -> None:
             raw_position=row["raw_position"],
             role_group=row["role_group"],
             age=row["age"],
+            age_group=row["age_group"],
             minutes_played=row["minutes_played"],
+            minutes_group=row["minutes_group"],
             performance_score=row["performance_score"],
             performance_percentile=row["performance_percentile"],
+            performance_level=row["performance_level"],
+            same_role_team_average=row["same_role_team_average"],
+            competition_status=row["competition_status"],
+            main_same_role_player=row["main_same_role_player"],
+            main_same_role_minutes=row["main_same_role_minutes"],
+            main_same_role_performance_percentile=row[
+                "main_same_role_performance_percentile"
+            ],
+            main_same_role_performance_level=row[
+                "main_same_role_performance_level"
+            ],
+            is_main_same_role_player=bool(row["is_main_same_role_player"]),
+            is_blocked_by_main_player=bool(row["is_blocked_by_main_player"]),
+            main_player_underperforming=bool(row["main_player_underperforming"]),
             decision=row["decision"],
+            explanation=row["explanation"],
         )
 
 
@@ -175,6 +195,40 @@ def add_competition_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
                 )
 
 
+def add_main_player_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
+    """
+    Add BLOCKED_BY_MAIN_PLAYER edges.
+
+    These edges make the same-role competition reasoning explicit in the KG.
+    """
+
+    for _, row in df.iterrows():
+        if not bool(row["is_blocked_by_main_player"]):
+            continue
+
+        player_id = row["player_id"]
+        team_name = row["team_name"]
+        role_group = row["role_group"]
+        main_player_name = row["main_same_role_player"]
+
+        main_player_rows = df[
+            (df["team_name"] == team_name)
+            & (df["role_group"] == role_group)
+            & (df["player_name"] == main_player_name)
+        ]
+
+        if main_player_rows.empty:
+            continue
+
+        main_player_id = main_player_rows.iloc[0]["player_id"]
+
+        graph.add_edge(
+            player_id,
+            main_player_id,
+            relationship="BLOCKED_BY_MAIN_PLAYER",
+        )
+
+
 def save_graph_statistics(graph: nx.DiGraph) -> None:
     """
     Save simple graph statistics for the portfolio.
@@ -238,6 +292,7 @@ def main() -> None:
     add_player_nodes(graph, df)
     add_context_nodes_and_edges(graph, df)
     add_competition_edges(graph, df)
+    add_main_player_edges(graph, df)
 
     # Save the graph.
     graph_path = GRAPHS_DIR / "squad_management_kg.graphml"

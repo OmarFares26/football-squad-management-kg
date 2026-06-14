@@ -1,18 +1,18 @@
 role_group,decision,count
 AttMidWinger,Give More Chances,29
 AttMidWinger,Keep,17
-AttMidWinger,Loan,10
-AttMidWinger,Monitor,43
+AttMidWinger,Loan,9
+AttMidWinger,Monitor,44
 AttMidWinger,Sell,2
-DefMidWingBack,Give More Chances,9
+DefMidWingBack,Give More Chances,10
 DefMidWingBack,Keep,4
-DefMidWingBack,Loan,2
+DefMidWingBack,Loan,1
 DefMidWingBack,Monitor,11
 DefMidWingBack,Sell,3
 Defender,Give More Chances,50
 Defender,Keep,37
-Defender,Loan,17
-Defender,Monitor,71
+Defender,Loan,16
+Defender,Monitor,72
 Defender,Sell,8
 Forward,Give More Chances,12
 Forward,Keep,25
@@ -21,8 +21,8 @@ Forward,Monitor,24
 Forward,Sell,3
 Goalkeeper,Give More Chances,6
 Goalkeeper,Keep,14
-Goalkeeper,Loan,2
-Goalkeeper,Monitor,15
+Goalkeeper,Loan,3
+Goalkeeper,Monitor,14
 Goalkeeper,Sell,7
 Midfielder,Give More Chances,18
 Midfielder,Keep,31
@@ -30,6 +30,6 @@ Midfielder,Loan,15
 Midfielder,Monitor,41
 Midfielder,Sell,5
 WingBack,Give More Chances,6
-WingBack,Loan,2
-WingBack,Monitor,5
+WingBack,Loan,1
+WingBack,Monitor,6
 WingBack,Sell,1
