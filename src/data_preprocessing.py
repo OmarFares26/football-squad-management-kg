@@ -10,29 +10,51 @@ RAW_DATA_PATH = Path("data/raw/players_data_light-2024_2025.csv")
 PROCESSED_DATA_DIR = Path("data/processed")
 
 
-def map_broad_position(raw_position: str) -> str:
+def map_role_group(raw_position: str) -> str:
     """
-    Convert the dataset position into one broad position group.
+    Convert the raw position into one cleaned role group.
 
-    If a player has multiple positions like FW,MF,
-    we use only the first position as the main position.
+    This role group is used for:
+    - KG position nodes
+    - performance scoring
+    - same-role squad competition
+
+    Reversed combinations are merged together.
+    For example, FW,MF and MF,FW become the same role group.
     """
 
     if pd.isna(raw_position):
         return "Unknown"
 
-    # Take only the first listed position.
-    primary_position = str(raw_position).split(",")[0].strip()
+    # Split positions like "FW,MF" into separate parts.
+    positions = [position.strip() for position in str(raw_position).split(",")]
 
-    # Map detailed position codes to broad position groups.
-    position_mapping = {
-        "GK": "Goalkeeper",
-        "DF": "Defender",
-        "MF": "Midfielder",
-        "FW": "Forward",
-    }
+    # Use a set so reversed combinations are treated the same.
+    # Example: FW,MF and MF,FW both become {"FW", "MF"}.
+    position_set = set(positions)
 
-    return position_mapping.get(primary_position, "Unknown")
+    if position_set == {"GK"}:
+        return "Goalkeeper"
+
+    if position_set == {"DF"}:
+        return "Defender"
+
+    if position_set == {"MF"}:
+        return "Midfielder"
+
+    if position_set == {"FW"}:
+        return "Forward"
+
+    if position_set == {"DF", "MF"}:
+        return "DefMidWingBack"
+
+    if position_set == {"MF", "FW"}:
+        return "AttMidWinger"
+
+    if position_set == {"DF", "FW"}:
+        return "WingBack"
+
+    return "Unknown"
 
 
 def main() -> None:
@@ -63,10 +85,8 @@ def main() -> None:
         premier_league_df["Squad"].str.lower().str.replace(" ", "_", regex=False)
     )
 
-    # Create broad position groups.
-    premier_league_df["broad_position_group"] = premier_league_df["Pos"].apply(
-        map_broad_position
-    )
+    # Create cleaned role groups for KG structure, scoring, and competition.
+    premier_league_df["role_group"] = premier_league_df["Pos"].apply(map_role_group)
 
     # Keep only the columns needed for the next steps.
     useful_columns = [
@@ -75,7 +95,7 @@ def main() -> None:
         "Player",
         "Nation",
         "Pos",
-        "broad_position_group",
+        "role_group",
         "Squad",
         "Comp",
         "Age",
@@ -161,9 +181,11 @@ def main() -> None:
     print(f"Players after deduplication: {cleaned_df.shape[0]}")
     print(f"Columns kept: {cleaned_df.shape[1]}")
     print()
-    print("Position groups:")
-    print(cleaned_df["broad_position_group"].value_counts())
+
+    print("Role groups:")
+    print(cleaned_df["role_group"].value_counts())
     print()
+
     print(f"Saved file: {output_path}")
 
 

@@ -42,18 +42,18 @@ def normalize_column(df: pd.DataFrame, column: str) -> pd.Series:
     return (df[column] - min_value) / (max_value - min_value)
 
 
-def add_normalized_metric_by_position(
+def add_normalized_metric_by_role(
     df: pd.DataFrame,
     metric: str,
 ) -> pd.DataFrame:
     """
-    Normalize one metric inside each position group.
+    Normalize one metric inside each role group.
 
     This keeps the comparison fair:
     forwards are compared with forwards,
-    defenders with defenders,
+    wing backs with wing backs,
     midfielders with midfielders,
-    and goalkeepers with goalkeepers.
+    and so on.
     """
 
     normalized_column = f"normalized_{metric}"
@@ -61,22 +61,22 @@ def add_normalized_metric_by_position(
     # Start with 0 for all players.
     df[normalized_column] = 0.0
 
-    # Normalize separately inside each position group.
-    for position_group in df["broad_position_group"].unique():
-        position_mask = df["broad_position_group"] == position_group
-        position_players = df.loc[position_mask]
+    # Normalize separately inside each role group.
+    for role_group in df["role_group"].unique():
+        role_mask = df["role_group"] == role_group
+        role_players = df.loc[role_mask]
 
-        df.loc[position_mask, normalized_column] = normalize_column(
-            position_players,
+        df.loc[role_mask, normalized_column] = normalize_column(
+            role_players,
             metric,
         )
 
     return df
 
 
-def add_position_scores(df: pd.DataFrame) -> pd.DataFrame:
+def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Add a simple performance score based on the player's broad position group.
+    Add a simple performance score based on the player's role group.
 
     The score is not a professional scouting model.
     It is a simple rule-based indicator for this Knowledge Graph project.
@@ -125,31 +125,23 @@ def add_position_scores(df: pd.DataFrame) -> pd.DataFrame:
         "goals_against_per_90",
     ]
 
-    # Normalize each metric inside each position group.
+    # Normalize each metric inside each role group.
     for metric in metrics_to_normalize:
-        scored_df = add_normalized_metric_by_position(scored_df, metric)
+        scored_df = add_normalized_metric_by_role(scored_df, metric)
 
     # Start with an empty raw score.
     scored_df["raw_performance_score"] = 0.0
 
-    # Forward score: goals + assists.
-    forward_mask = scored_df["broad_position_group"] == "Forward"
-    scored_df.loc[forward_mask, "raw_performance_score"] = (
-        scored_df.loc[forward_mask, "normalized_goals_per_90"]
-        + scored_df.loc[forward_mask, "normalized_assists_per_90"]
-    )
-
-    # Midfielder score: goals + assists + tackles + interceptions.
-    midfielder_mask = scored_df["broad_position_group"] == "Midfielder"
-    scored_df.loc[midfielder_mask, "raw_performance_score"] = (
-        scored_df.loc[midfielder_mask, "normalized_goals_per_90"]
-        + scored_df.loc[midfielder_mask, "normalized_assists_per_90"]
-        + scored_df.loc[midfielder_mask, "normalized_tackles_per_90"]
-        + scored_df.loc[midfielder_mask, "normalized_interceptions_per_90"]
+    # Goalkeeper score: save percentage + clean sheets - goals against.
+    goalkeeper_mask = scored_df["role_group"] == "Goalkeeper"
+    scored_df.loc[goalkeeper_mask, "raw_performance_score"] = (
+        scored_df.loc[goalkeeper_mask, "normalized_save_percentage"]
+        + scored_df.loc[goalkeeper_mask, "normalized_clean_sheets_per_90"]
+        - scored_df.loc[goalkeeper_mask, "normalized_goals_against_per_90"]
     )
 
     # Defender score: tackles + interceptions + clearances + blocks.
-    defender_mask = scored_df["broad_position_group"] == "Defender"
+    defender_mask = scored_df["role_group"] == "Defender"
     scored_df.loc[defender_mask, "raw_performance_score"] = (
         scored_df.loc[defender_mask, "normalized_tackles_per_90"]
         + scored_df.loc[defender_mask, "normalized_interceptions_per_90"]
@@ -157,29 +149,64 @@ def add_position_scores(df: pd.DataFrame) -> pd.DataFrame:
         + scored_df.loc[defender_mask, "normalized_blocks_per_90"]
     )
 
-    # Goalkeeper score: save percentage + clean sheets - goals against.
-    goalkeeper_mask = scored_df["broad_position_group"] == "Goalkeeper"
-    scored_df.loc[goalkeeper_mask, "raw_performance_score"] = (
-        scored_df.loc[goalkeeper_mask, "normalized_save_percentage"]
-        + scored_df.loc[goalkeeper_mask, "normalized_clean_sheets_per_90"]
-        - scored_df.loc[goalkeeper_mask, "normalized_goals_against_per_90"]
+    # DefMidWingBack score: defensive actions + assists.
+    def_mid_wing_back_mask = scored_df["role_group"] == "DefMidWingBack"
+    scored_df.loc[def_mid_wing_back_mask, "raw_performance_score"] = (
+        scored_df.loc[def_mid_wing_back_mask, "normalized_tackles_per_90"]
+        + scored_df.loc[def_mid_wing_back_mask, "normalized_interceptions_per_90"]
+        + scored_df.loc[def_mid_wing_back_mask, "normalized_clearances_per_90"]
+        + scored_df.loc[def_mid_wing_back_mask, "normalized_assists_per_90"]
     )
 
-    # Normalize the final raw score inside each position group.
+    # Midfielder score: defensive actions + goals + assists.
+    midfielder_mask = scored_df["role_group"] == "Midfielder"
+    scored_df.loc[midfielder_mask, "raw_performance_score"] = (
+        scored_df.loc[midfielder_mask, "normalized_tackles_per_90"]
+        + scored_df.loc[midfielder_mask, "normalized_interceptions_per_90"]
+        + scored_df.loc[midfielder_mask, "normalized_goals_per_90"]
+        + scored_df.loc[midfielder_mask, "normalized_assists_per_90"]
+    )
+
+    # AttMidWinger score: goals + assists + tackles.
+    att_mid_winger_mask = scored_df["role_group"] == "AttMidWinger"
+    scored_df.loc[att_mid_winger_mask, "raw_performance_score"] = (
+        scored_df.loc[att_mid_winger_mask, "normalized_goals_per_90"]
+        + scored_df.loc[att_mid_winger_mask, "normalized_assists_per_90"]
+        + scored_df.loc[att_mid_winger_mask, "normalized_tackles_per_90"]
+    )
+
+    # Forward score: goals + assists.
+    forward_mask = scored_df["role_group"] == "Forward"
+    scored_df.loc[forward_mask, "raw_performance_score"] = (
+        scored_df.loc[forward_mask, "normalized_goals_per_90"]
+        + scored_df.loc[forward_mask, "normalized_assists_per_90"]
+    )
+
+    # WingBack score: defensive and attacking contribution.
+    wing_back_mask = scored_df["role_group"] == "WingBack"
+    scored_df.loc[wing_back_mask, "raw_performance_score"] = (
+        scored_df.loc[wing_back_mask, "normalized_tackles_per_90"]
+        + scored_df.loc[wing_back_mask, "normalized_interceptions_per_90"]
+        + scored_df.loc[wing_back_mask, "normalized_assists_per_90"]
+        + scored_df.loc[wing_back_mask, "normalized_goals_per_90"]
+    )
+
+    # Normalize the final raw score inside each role group.
     scored_df["performance_score"] = 0.0
 
-    for position_group in scored_df["broad_position_group"].unique():
-        position_mask = scored_df["broad_position_group"] == position_group
-        position_players = scored_df.loc[position_mask]
+    for role_group in scored_df["role_group"].unique():
+        role_mask = scored_df["role_group"] == role_group
+        role_players = scored_df.loc[role_mask]
 
-        scored_df.loc[position_mask, "performance_score"] = normalize_column(
-            position_players,
+        scored_df.loc[role_mask, "performance_score"] = normalize_column(
+            role_players,
             "raw_performance_score",
         )
 
-    # Add a percentile inside each position group.
+    # Add a percentile inside each role group.
+    # This helps us define Good, Promising, Average, and Poor.
     scored_df["performance_percentile"] = (
-        scored_df.groupby("broad_position_group")["performance_score"]
+        scored_df.groupby("role_group")["performance_score"]
         .rank(pct=True)
         .mul(100)
         .round(2)
@@ -221,7 +248,7 @@ def main() -> None:
     df = pd.read_csv(INPUT_PATH)
 
     # Add performance scores.
-    scored_df = add_position_scores(df)
+    scored_df = add_role_scores(df)
 
     # Save the full scored dataset.
     output_path = PROCESSED_DATA_DIR / "player_scores.csv"
@@ -229,7 +256,7 @@ def main() -> None:
 
     # Save a small summary for the report.
     score_summary = (
-        scored_df.groupby("broad_position_group")["performance_score"]
+        scored_df.groupby("role_group")["performance_score"]
         .agg(["count", "min", "mean", "max"])
         .reset_index()
     )
@@ -240,7 +267,7 @@ def main() -> None:
 
     # Save performance level counts.
     level_counts = (
-        scored_df.groupby(["broad_position_group", "performance_level"])
+        scored_df.groupby(["role_group", "performance_level"])
         .size()
         .reset_index(name="count")
     )
@@ -255,9 +282,11 @@ def main() -> None:
     print(f"Players scored: {scored_df.shape[0]}")
     print(f"Saved file: {output_path}")
     print()
-    print("Score summary by position:")
+
+    print("Score summary by role group:")
     print(score_summary)
     print()
+
     print("Performance level counts:")
     print(level_counts)
 
