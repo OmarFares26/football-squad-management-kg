@@ -5,18 +5,24 @@ import time
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-RAW_DATA_PATH = PROJECT_ROOT / "data/raw/players_data_light-2024_2025.csv"
+RAW_DATA_PATH = (
+    PROJECT_ROOT
+    / "2 - construction/data/raw/players_data_light-2024_2025.csv"
+)
 
 PIPELINE_STAGES = [
-    ("Data exploration", "src/data_exploration.py"),
-    ("Data preprocessing", "src/data_preprocessing.py"),
-    ("Performance scoring", "src/performance_scoring.py"),
-    ("Rule-based reasoning", "src/rule_engine.py"),
-    ("Knowledge Graph construction", "src/kg_builder.py"),
-    ("Knowledge Graph queries", "src/kg_queries.py"),
-    ("KG-backed service output", "src/service_output.py"),
-    ("Embedding enrichment", "src/embeddings.py"),
-    ("Data model comparison and RDF export", "src/data_model_comparison.py"),
+    ("Data exploration", "2 - construction/src/data_exploration.py"),
+    ("Data preprocessing", "2 - construction/src/data_preprocessing.py"),
+    ("Performance scoring", "2 - construction/src/performance_scoring.py"),
+    ("Rule-based reasoning", "4 - logic/src/rule_engine.py"),
+    ("Knowledge Graph construction", "2 - construction/src/kg_builder.py"),
+    ("Knowledge Graph queries", "2 - construction/src/kg_queries.py"),
+    ("KG-backed service output", "5 - reflection/src/service_output.py"),
+    ("Embedding enrichment", "3 - ML/src/embeddings.py"),
+    (
+        "Data model comparison and RDF export",
+        "5 - reflection/src/data_model_comparison.py",
+    ),
 ]
 
 
@@ -74,8 +80,7 @@ def main() -> None:
     print("===============================")
     print(f"Stages completed: {len(PIPELINE_STAGES)}")
     print(f"Elapsed time: {elapsed_seconds:.1f} seconds")
-    print("Graphs: outputs/graphs/")
-    print("Results: outputs/results/")
+    print("Artifacts are organized in the numbered portfolio folders.")
 
 
 if __name__ == "__main__":

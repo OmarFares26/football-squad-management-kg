@@ -23,6 +23,21 @@ Raw player statistics
 -> Embedding enrichment and similar-player search
 -> Data model comparison and RDF/Turtle export
 
+## Portfolio Structure
+
+The repository follows the lecturer's example portfolio structure:
+
+```text
+2 - construction/   dataset, preprocessing, scoring, base KG, and queries
+3 - ML/             Node2Vec embeddings and embedding-enriched KG
+4 - logic/          rule-based reasoning and inferred decisions
+5 - reflection/     KG service, data-model comparison, and LO reflection
+```
+
+Each numbered folder contains its own `README.md`.
+
+## Running the Project
+
 Run the complete pipeline from the project root:
 
 ```bash
@@ -32,10 +47,15 @@ python run_pipeline.py
 Before running the pipeline, place the raw dataset at:
 
 ```text
-data/raw/players_data_light-2024_2025.csv
+2 - construction/data/raw/players_data_light-2024_2025.csv
 ```
 
-The pipeline executes all stages in dependency order and stops immediately if any stage fails. Generated graphs are written to outputs/graphs/, and generated results are written to outputs/results/.
+The pipeline executes all nine stages in dependency order and stops if
+any stage fails. Generated artifacts remain in the numbered section
+that provides the corresponding portfolio evidence.
+
+The repository includes the dataset and generated graph artifacts so
+the submitted ZIP is self-contained and reproducible.
 
 ## Implementation Notes
 
