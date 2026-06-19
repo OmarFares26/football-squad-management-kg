@@ -1,10 +1,10 @@
 # Football Squad Management Knowledge Graph
 
-This project builds a Football Squad Management Knowledge Graph using 2024/25 football player statistics.
+This project builds a Knowledge Graph from 2024/25 football statistics.
+It produces squad decisions, graph queries, similar-player results, a
+KG-backed service, and an RDF export.
 
-The goal is to create a Knowledge Graph that connects players, teams, leagues, positions, season statistics, inferred performance categories, squad context, and final squad-management decisions.
-
-The system recommends one decision for each player:
+Each player receives one decision:
 
 - Keep
 - Give More Chances
@@ -12,20 +12,14 @@ The system recommends one decision for each player:
 - Sell
 - Monitor
 
-## Project Pipeline
+## Pipeline
 
-Raw player statistics
--> Data preprocessing
--> Performance scoring
--> Rule-based reasoning
--> Knowledge Graph construction
--> Knowledge Graph queries and squad-decision service output
--> Embedding enrichment and similar-player search
--> Data model comparison and RDF/Turtle export
+```text
+Raw data -> preprocessing -> scoring -> rules -> KG construction
+-> queries and service -> Node2Vec -> model comparison and RDF export
+```
 
-## Portfolio Structure
-
-The repository follows the lecturer's example portfolio structure:
+## Structure
 
 ```text
 2 - construction/   dataset, preprocessing, scoring, base KG, and queries
@@ -36,56 +30,55 @@ The repository follows the lecturer's example portfolio structure:
 
 Each numbered folder contains its own `README.md`.
 
-## Running the Project
+## Setup
 
-Run the complete pipeline from the project root:
+Python 3.12 was used during development.
 
 ```bash
-python run_pipeline.py
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
-Before running the pipeline, place the raw dataset at:
+On Windows:
+
+```text
+.venv\Scripts\activate
+```
+
+The included dataset is located at:
 
 ```text
 2 - construction/data/raw/players_data_light-2024_2025.csv
 ```
 
-The pipeline executes all nine stages in dependency order and stops if
-any stage fails. Generated artifacts remain in the numbered section
-that provides the corresponding portfolio evidence.
+## Run
 
-The repository includes the dataset and generated graph artifacts so
-the submitted ZIP is self-contained and reproducible.
+From the project root:
 
-## Implementation Notes
+```bash
+python run_pipeline.py
+```
 
-- The KG uses a directed NetworkX `MultiDiGraph`, allowing multiple
-  relationships such as `COMPETES_WITH` and
-  `BLOCKED_BY_MAIN_PLAYER` between the same entities.
-- The squad-decision service loads and queries the generated GraphML
-  KG rather than reading the processed decision CSV directly.
-- The LO4 comparison stage inspects the project’s CSV, `MultiDiGraph`,
-  RDF/Turtle, embedding, and temporal-design representations. It writes
-  `data_model_comparison.csv`, `data_model_comparison_examples.csv`,
-  and `squad_management_kg.ttl`.
+The nine-stage pipeline takes approximately 15-20 seconds. A successful
+run ends with:
 
-## Learning Outcome Mapping
+```text
+Pipeline completed successfully
+Stages completed: 9
+```
 
-The two focus learning outcomes are:
+The main generated artifacts are located in:
 
-- LO2: Logical rule-based squad decisions
-- LO7: Creation of the football squad Knowledge Graph
+```text
+2 - construction/graphs/   base Knowledge Graph
+2 - construction/results/  KG statistics and query results
+3 - ML/graphs/             embedding-enriched Knowledge Graph
+3 - ML/results/            embeddings and similar-player results
+4 - logic/results/         rule-based squad decisions
+5 - reflection/graphs/     RDF/Turtle export
+5 - reflection/results/    service and data-model comparison outputs
+```
 
-The project demonstrates basic proficiency in:
-
-- LO1: Knowledge Graph embeddings
-- LO4: Comparison of KG data models
-- LO5: Knowledge Graph architectures
-- LO6: Scalable reasoning methods in Knowledge Graphs
-- LO8: Knowledge Graph evolution
-- LO9: Real-world Knowledge Graph applications
-- LO11: Services through a Knowledge Graph
-- LO12: Connections between Knowledge Graphs, ML, and AI
-
-LO3 (Graph Neural Networks) and LO10 (financial Knowledge Graph
-applications) are not claimed.
+Detailed explanations and learning-outcome evidence are provided in
+the portfolio PDF.

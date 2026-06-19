@@ -1,14 +1,23 @@
 # 3 - ML-based Representation
 
-This section contains the Node2Vec representation of the Knowledge Graph.
+Creates Node2Vec embeddings and adds `SIMILAR_TO` relationships.
 
-## Contents
+## Input
 
-- `src/embeddings.py`: trains 32-dimensional Node2Vec embeddings
-- `graphs/`: the KG enriched with `SIMILAR_TO` relationships
-- `results/player_embeddings.csv`: one vector per player
-- `results/player_embedding_similarities.csv`: top same-role similarities
-- `results/kg_with_embeddings_*.csv`: enriched graph statistics
+```text
+2 - construction/graphs/squad_management_kg.graphml
+```
 
-The script reads the base graph from `2 - construction/graphs/` and is
-normally executed through the root `run_pipeline.py`.
+## Script
+
+`src/embeddings.py` trains 32-dimensional embeddings on an undirected
+copy of the KG and finds the top three similar players per role group.
+
+## Outputs
+
+- `results/player_embeddings.csv`: 562 player vectors
+- `results/player_embedding_similarities.csv`: 1,686 similarity rows
+- `graphs/squad_management_kg_with_embeddings.graphml`: enriched KG
+- `results/kg_with_embeddings_*.csv`: graph statistics
+
+Run this section through the root command: `python run_pipeline.py`.
