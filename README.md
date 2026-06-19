@@ -36,22 +36,34 @@ data/raw/players_data_light-2024_2025.csv
 
 The pipeline executes all stages in dependency order and stops immediately if any stage fails. Generated graphs are written to outputs/graphs/, and generated results are written to outputs/results/.
 
-## Main Learning Outcomes
+## Implementation Notes
 
-The project targets the following learning outcomes:
+- The KG uses a directed NetworkX `MultiDiGraph`, allowing multiple
+  relationships such as `COMPETES_WITH` and
+  `BLOCKED_BY_MAIN_PLAYER` between the same entities.
+- The squad-decision service loads and queries the generated GraphML
+  KG rather than reading the processed decision CSV directly.
+
+## Learning Outcome Mapping
+
+The two focus learning outcomes are:
+
+- LO2: Logical rule-based squad decisions
+- LO7: Creation of the football squad Knowledge Graph
+
+The project demonstrates basic proficiency in:
 
 - LO1: Knowledge Graph embeddings
-- LO2: Logical knowledge in Knowledge Graphs
-- LO4: Knowledge Graph data models
 - LO5: Knowledge Graph architectures
 - LO6: Scalable reasoning methods in Knowledge Graphs
-- LO7: Knowledge Graph creation
 - LO8: Knowledge Graph evolution
 - LO9: Real-world Knowledge Graph applications
 - LO11: Services through a Knowledge Graph
 - LO12: Connections between Knowledge Graphs, ML, and AI
 
-The two main exceeded learning outcomes are planned to be:
+LO4 is included only as limited discussion comparing tabular data with
+the implemented property-graph representation. The project does not
+provide a deep comparison with RDF, temporal, or other KG models.
 
-- LO2: Logical rule-based squad decisions
-- LO7: Creation of the football squad Knowledge Graph
+LO3 (Graph Neural Networks) and LO10 (financial Knowledge Graph
+applications) are not claimed.

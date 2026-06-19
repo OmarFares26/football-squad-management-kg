@@ -5,15 +5,9 @@
 This file maps the project work to the Knowledge Graphs course learning
 outcomes.
 
-The project aims to provide strong portfolio evidence for 10 learning
-outcomes.
-
-The main goal is to show:
-
-```text
-basic proficiency in at least 10 learning outcomes
-and stronger evidence for at least 2 learning outcomes
-```
+The project aims to make only claims that are supported by the actual
+implementation. It provides two focus outcomes, basic evidence for
+seven additional outcomes, and limited discussion for LO4.
 
 The two strongest learning outcomes in this project are:
 
@@ -43,21 +37,21 @@ The system:
     and competition status
 5.  compares players inside the same team and same role group
 6.  creates squad-management decisions
-7.  builds a directed Knowledge Graph
+7.  builds a directed MultiDiGraph Knowledge Graph
 8.  adds competition-aware relationships
 9.  queries the Knowledge Graph
-10. applies Node2Vec embeddings for player similarity
-11. creates a service-style squad decision output
+10. creates a service-style output by querying the GraphML KG
+11. applies Node2Vec embeddings for player similarity
 ```
 
 ## Target Learning Outcomes
 
-The project targets the following 10 learning outcomes:
+The project claims focus or basic proficiency in the following 9
+learning outcomes:
 
 ```text
 LO1
 LO2
-LO4
 LO5
 LO6
 LO7
@@ -67,7 +61,10 @@ LO11
 LO12
 ```
 
-The project does not focus on:
+LO4 is included only as limited supporting discussion of tabular and
+property-graph representations.
+
+The project does not claim:
 
 ```text
 LO3: Graph Neural Networks
@@ -122,7 +119,7 @@ The embedding-enriched graph contains:
 
 ```text
 608 nodes
-9214 edges
+9480 edges
 11 relationship types
 ```
 
@@ -240,7 +237,7 @@ it turns same-role competition reasoning into explicit KG structure.
 ### Level
 
 ```text
-Exceeded evidence
+Focus outcome / strong evidence
 ```
 
 This learning outcome is strongly supported because the project applies
@@ -268,7 +265,7 @@ The project works with different data representations:
 ```text
 raw CSV table
 processed CSV table
-directed property graph
+directed property multigraph
 embedding-enriched graph
 ```
 
@@ -308,12 +305,13 @@ BLOCKED_BY_MAIN_PLAYER
 ### Level
 
 ```text
-Basic proficiency
+Limited discussion only
 ```
 
-The project compares tabular and graph representations in practice.
-It does not deeply compare RDF, property graphs, and other KG models
-in a theoretical way, so this is basic evidence.
+The project compares tabular and property-graph representations in
+practice. It does not implement or deeply compare RDF, relational,
+temporal, and other KG data models. LO4 should therefore not be
+presented as a substantial implementation outcome.
 
 ---
 
@@ -331,6 +329,7 @@ src/kg_builder.py
 src/kg_queries.py
 src/service_output.py
 src/embeddings.py
+run_pipeline.py
 docs/kg_schema.md
 ```
 
@@ -360,8 +359,9 @@ performance_scoring.py   creates role-based performance scores
 rule_engine.py           creates inferred decisions and context
 kg_builder.py            builds the Knowledge Graph
 kg_queries.py            queries the graph
-service_output.py        creates a service-style output
+service_output.py        queries the GraphML KG for service output
 embeddings.py            applies Node2Vec embeddings
+run_pipeline.py          executes every stage in dependency order
 ```
 
 ### Why This Supports LO5
@@ -461,14 +461,15 @@ docs/kg_schema.md
 
 ### What Was Done
 
-The project creates a directed Knowledge Graph from processed football
-data.
+The project creates a directed `MultiDiGraph` Knowledge Graph from
+processed football data. The multigraph model preserves different
+relationship types between the same ordered pair of entities.
 
 The graph contains:
 
 ```text
 608 nodes
-7528 edges
+7794 edges
 9 node types
 10 relationship types
 ```
@@ -525,7 +526,7 @@ that supports transparent reasoning.
 ### Level
 
 ```text
-Exceeded evidence
+Focus outcome / strong evidence
 ```
 
 This learning outcome is strongly supported because the project builds
@@ -556,14 +557,14 @@ Base KG:
 
 ```text
 outputs/graphs/squad_management_kg.graphml
-608 nodes, 7528 edges, 10 relationship types
+608 nodes, 7794 edges, 10 relationship types
 ```
 
 Embedding-enriched KG:
 
 ```text
 outputs/graphs/squad_management_kg_with_embeddings.graphml
-608 nodes, 9214 edges, 11 relationship types
+608 nodes, 9480 edges, 11 relationship types
 ```
 
 The graph evolves by adding:
@@ -651,8 +652,8 @@ outputs/results/query_liverpool_blocked_examples.csv
 
 ### What Was Done
 
-The project creates service-style outputs from the KG and inferred
-decision data.
+The project creates service-style outputs by loading and querying the
+generated GraphML Knowledge Graph.
 
 The main service output is:
 
@@ -673,14 +674,15 @@ decision
 explanation
 ```
 
-A user can select a team and receive squad-management recommendations
-derived from the Knowledge Graph pipeline.
+The service selects a team through `PLAYS_FOR` relationships and
+retrieves role, grouping, performance, competition, and decision
+values from player nodes and related KG concept nodes.
 
 ### Why This Supports LO11
 
-The project provides a user-facing result from the KG pipeline. The
-query examples act like KG-backed services that answer specific
-squad-management questions.
+The project provides a user-facing result directly from the KG. Both
+the service output and query examples answer specific
+squad-management questions by traversing the GraphML graph.
 
 ### Level
 
@@ -688,8 +690,9 @@ squad-management questions.
 Basic proficiency
 ```
 
-The project provides a service-like output generated from the KG
-pipeline. It does not implement a web API, so this is basic evidence.
+The project provides a KG-backed service-like output but does not
+implement a web API or interactive user interface, so this remains
+basic evidence.
 
 ---
 
@@ -770,14 +773,14 @@ financial KG applications. Therefore LO10 is not claimed.
 | LO   | Level    | Main Evidence                                                              |
 |------|----------|----------------------------------------------------------------------------|
 | LO1  | Basic    | Node2Vec player embeddings and SIMILAR_TO edges                            |
-| LO2  | Exceeded | multi-step rule-based inferred KG knowledge and BLOCKED_BY_MAIN_PLAYER     |
-| LO4  | Basic    | transformation from CSV tables to graph representation                     |
-| LO5  | Basic    | complete KG pipeline architecture across 7 files                           |
+| LO2  | Focus    | multi-step rule-based inferred KG knowledge and BLOCKED_BY_MAIN_PLAYER     |
+| LO4  | Limited  | tabular versus property-graph discussion; no broad data-model comparison    |
+| LO5  | Basic    | reproducible end-to-end architecture through `run_pipeline.py`              |
 | LO6  | Basic    | scalable rule-based reasoning over 562 players, 20 teams, 7 role groups    |
-| LO7  | Exceeded | directed KG with 608 nodes, 7528 edges, 10 relationship types              |
+| LO7  | Focus    | directed multigraph with 608 nodes, 7794 edges, 10 relationship types       |
 | LO8  | Basic    | base KG enriched with embedding similarity edges                           |
 | LO9  | Basic    | football squad-management KG application                                   |
-| LO11 | Basic    | Liverpool service-style squad decision output                              |
+| LO11 | Basic    | Liverpool service output queried directly from the GraphML KG               |
 | LO12 | Basic    | KG + rules + embeddings connection                                         |
 
 ---
@@ -795,4 +798,20 @@ The strongest learning outcomes are:
 ```text
 LO7: Apply a system to create a Knowledge Graph
 LO2: Understand and apply logical knowledge in Knowledge Graphs
+```
+
+Recommended final mapping:
+
+```text
+Focus:
+LO2, LO7
+
+Basic proficiency:
+LO1, LO5, LO6, LO8, LO9, LO11, LO12
+
+Limited discussion only:
+LO4
+
+Not included:
+LO3, LO10
 ```

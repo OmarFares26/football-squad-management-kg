@@ -33,7 +33,8 @@ outputs/graphs/squad_management_kg_with_embeddings.graphml
 
 ## Graph Type
 
-The Knowledge Graph is built as a directed graph.
+The Knowledge Graph is built as a directed multigraph using NetworkX
+`MultiDiGraph`.
 
 This means relationships have a direction.
 
@@ -45,8 +46,11 @@ Player -> HAS_DECISION -> SquadDecision
 Player -> BLOCKED_BY_MAIN_PLAYER -> Player
 ```
 
-A directed graph is used because it is more semantically correct for
-Knowledge Graph relationships.
+A directed graph is used because KG relationships have semantic
+direction. The multigraph model allows multiple relationship types to
+coexist between the same ordered pair of entities. For example, one
+player can both `COMPETES_WITH` and be `BLOCKED_BY_MAIN_PLAYER` by
+another player without either edge overwriting the other.
 
 For embeddings, an undirected copy of the graph is used only during
 Node2Vec training.
@@ -508,9 +512,9 @@ The similarity is structural rather than stylistic. Players who share
 similar graph neighborhoods — same role group, similar performance
 level, similar competition situation — end up with similar embeddings.
 
-A MultiDiGraph is used for the embedding-enriched graph so that
-SIMILAR_TO edges do not overwrite existing relationships such as
-COMPETES_WITH.
+The embedding-enriched graph remains a `MultiDiGraph`, so `SIMILAR_TO`
+edges can coexist with relationships such as `COMPETES_WITH` and
+`BLOCKED_BY_MAIN_PLAYER`.
 
 Example:
 
@@ -525,7 +529,7 @@ Graph file: squad_management_kg.graphml
 
 ```text
 608 nodes
-7528 edges
+7794 edges
 9 node types
 10 relationship types
 ```
@@ -536,7 +540,7 @@ Graph file: squad_management_kg_with_embeddings.graphml
 
 ```text
 608 nodes
-9214 edges
+9480 edges
 9 node types
 11 relationship types
 1686 SIMILAR_TO edges

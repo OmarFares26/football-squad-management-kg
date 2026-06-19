@@ -220,7 +220,10 @@ outputs/results/decision_by_role.csv
 
 ## Knowledge Graph
 
-The Knowledge Graph is built as a directed graph.
+The Knowledge Graph is built as a directed NetworkX `MultiDiGraph`.
+This preserves multiple semantic relationships between the same
+ordered pair of entities. For example, `COMPETES_WITH` and
+`BLOCKED_BY_MAIN_PLAYER` can coexist between two players.
 
 It contains node types such as:
 
@@ -292,10 +295,13 @@ outputs/results/query_liverpool_blocked_examples.csv
 
 ## Service Output
 
-The service output creates a clean squad decision table for Liverpool.
+The service output loads and queries the generated GraphML Knowledge
+Graph to create a clean squad decision table for Liverpool.
 
-This represents a simple service-like result where a user selects a
-team and receives squad-management recommendations.
+This represents a simple KG-backed service-like result where a team is
+selected and squad-management recommendations are retrieved from
+player nodes and graph relationships such as `PLAYS_FOR`, `HAS_ROLE`,
+and `HAS_DECISION`.
 
 The Liverpool output includes:
 
