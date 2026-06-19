@@ -12,7 +12,7 @@ RESULTS_DIR = Path("outputs/results")
 
 
 def get_neighbors_by_relationship(
-    graph: nx.DiGraph,
+    graph: nx.MultiDiGraph,
     node_id: str,
     relationship: str,
 ) -> list[str]:
@@ -29,7 +29,7 @@ def get_neighbors_by_relationship(
     return neighbors
 
 
-def convert_numeric_node_attributes(graph: nx.DiGraph) -> None:
+def convert_numeric_node_attributes(graph: nx.MultiDiGraph) -> None:
     """
     Convert numeric node attributes back to float after loading GraphML.
 
@@ -58,7 +58,7 @@ def convert_numeric_node_attributes(graph: nx.DiGraph) -> None:
                 pass
 
 
-def get_node_label(graph: nx.DiGraph, node_id: str) -> str:
+def get_node_label(graph: nx.MultiDiGraph, node_id: str) -> str:
     """
     Return a readable label for a node.
     """
@@ -84,7 +84,10 @@ def get_node_label(graph: nx.DiGraph, node_id: str) -> str:
     return node_id
 
 
-def query_players_by_decision(graph: nx.DiGraph, decision: str) -> pd.DataFrame:
+def query_players_by_decision(
+    graph: nx.MultiDiGraph,
+    decision: str,
+) -> pd.DataFrame:
     """
     Find all players with a specific squad decision.
     """
@@ -124,7 +127,10 @@ def query_players_by_decision(graph: nx.DiGraph, decision: str) -> pd.DataFrame:
     )
 
 
-def query_team_decisions(graph: nx.DiGraph, team_name: str) -> pd.DataFrame:
+def query_team_decisions(
+    graph: nx.MultiDiGraph,
+    team_name: str,
+) -> pd.DataFrame:
     """
     Find all squad decisions for one team.
     """
@@ -182,7 +188,7 @@ def query_team_decisions(graph: nx.DiGraph, team_name: str) -> pd.DataFrame:
 
 
 def query_competitors_for_player(
-    graph: nx.DiGraph,
+    graph: nx.MultiDiGraph,
     player_name: str,
 ) -> pd.DataFrame:
     """
@@ -253,7 +259,7 @@ def query_competitors_for_player(
     )
 
 
-def query_blocked_by_main_player(graph: nx.DiGraph) -> pd.DataFrame:
+def query_blocked_by_main_player(graph: nx.MultiDiGraph) -> pd.DataFrame:
     """
     Find players who are blocked by the main same-role player.
 

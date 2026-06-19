@@ -13,7 +13,7 @@ RESULTS_DIR = Path("outputs/results")
 
 
 def add_node_if_missing(
-    graph: nx.DiGraph,
+    graph: nx.MultiDiGraph,
     node_id: str,
     node_type: str,
     **attributes,
@@ -30,7 +30,7 @@ def add_node_if_missing(
         )
 
 
-def add_player_nodes(graph: nx.DiGraph, df: pd.DataFrame) -> None:
+def add_player_nodes(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
     """
     Add player nodes and their direct/inferred attributes.
 
@@ -70,7 +70,7 @@ def add_player_nodes(graph: nx.DiGraph, df: pd.DataFrame) -> None:
         )
 
 
-def add_context_nodes_and_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
+def add_context_nodes_and_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
     """
     Add context nodes and connect players to them.
 
@@ -165,11 +165,13 @@ def add_context_nodes_and_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
         )
         graph.add_edge(player_id, decision_id, relationship="HAS_DECISION")
 
-        # Team context edge.
-        graph.add_edge(team_id, league_id, relationship="PLAYS_IN")
+        # Team context edge. This relationship is shared by every player
+        # on the team, so add it only once to avoid duplicate parallel edges.
+        if not graph.has_edge(team_id, league_id):
+            graph.add_edge(team_id, league_id, relationship="PLAYS_IN")
 
 
-def add_competition_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
+def add_competition_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
     """
     Add COMPETES_WITH edges between players in the same team and role group.
 
@@ -195,7 +197,7 @@ def add_competition_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
                 )
 
 
-def add_main_player_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
+def add_main_player_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
     """
     Add BLOCKED_BY_MAIN_PLAYER edges.
 
@@ -229,7 +231,7 @@ def add_main_player_edges(graph: nx.DiGraph, df: pd.DataFrame) -> None:
         )
 
 
-def save_graph_statistics(graph: nx.DiGraph) -> None:
+def save_graph_statistics(graph: nx.MultiDiGraph) -> None:
     """
     Save simple graph statistics for the portfolio.
     """
@@ -284,9 +286,9 @@ def main() -> None:
     # Load player decision data.
     df = pd.read_csv(INPUT_PATH)
 
-    # Create a directed graph.
-    # This is more semantically correct for a Knowledge Graph.
-    graph = nx.DiGraph()
+    # Create a directed multigraph so different relationship types can
+    # coexist between the same ordered pair of nodes.
+    graph = nx.MultiDiGraph()
 
     # Build the graph.
     add_player_nodes(graph, df)

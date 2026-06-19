@@ -22,7 +22,7 @@ TOP_K_SIMILAR_PLAYERS = 3
 RANDOM_SEED = 42
 
 
-def convert_numeric_node_attributes(graph: nx.DiGraph) -> None:
+def convert_numeric_node_attributes(graph: nx.MultiDiGraph) -> None:
     """
     Convert numeric node attributes back to float after loading GraphML.
 
@@ -51,7 +51,7 @@ def convert_numeric_node_attributes(graph: nx.DiGraph) -> None:
                 pass
 
 
-def train_node2vec_embeddings(graph: nx.DiGraph):
+def train_node2vec_embeddings(graph: nx.MultiDiGraph):
     """
     Train Node2Vec embeddings on an undirected copy of the Knowledge Graph.
 
@@ -82,7 +82,7 @@ def train_node2vec_embeddings(graph: nx.DiGraph):
     return model
 
 
-def get_player_nodes(graph: nx.DiGraph) -> list[str]:
+def get_player_nodes(graph: nx.MultiDiGraph) -> list[str]:
     """
     Return all player node IDs from the graph.
     """
@@ -94,7 +94,7 @@ def get_player_nodes(graph: nx.DiGraph) -> list[str]:
     ]
 
 
-def get_team_name(graph: nx.DiGraph, player_id: str) -> str:
+def get_team_name(graph: nx.MultiDiGraph, player_id: str) -> str:
     """
     Return the team name of a player.
     """
@@ -107,7 +107,7 @@ def get_team_name(graph: nx.DiGraph, player_id: str) -> str:
 
 
 def create_player_embedding_table(
-    graph: nx.DiGraph,
+    graph: nx.MultiDiGraph,
     model,
     player_nodes: list[str],
 ) -> pd.DataFrame:
@@ -138,7 +138,7 @@ def create_player_embedding_table(
 
 
 def find_similar_players(
-    graph: nx.DiGraph,
+    graph: nx.MultiDiGraph,
     model,
     player_nodes: list[str],
 ) -> pd.DataFrame:
@@ -207,7 +207,7 @@ def find_similar_players(
 
 
 def add_similarity_edges(
-    graph: nx.DiGraph,
+    graph: nx.MultiDiGraph,
     similar_players: pd.DataFrame,
 ) -> nx.MultiDiGraph:
     """
