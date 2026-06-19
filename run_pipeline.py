@@ -21,9 +21,7 @@ PIPELINE_STAGES = [
 
 
 def run_stage(stage_number: int, stage_name: str, script_path: str) -> None:
-    """
-    Run one pipeline stage and stop the pipeline if it fails.
-    """
+    """Run one pipeline stage."""
 
     print(flush=True)
     print(
@@ -40,9 +38,7 @@ def run_stage(stage_number: int, stage_name: str, script_path: str) -> None:
 
 
 def main() -> None:
-    """
-    Run the complete project pipeline in dependency order.
-    """
+    """Run the full pipeline in dependency order."""
 
     if not RAW_DATA_PATH.exists():
         raise FileNotFoundError(

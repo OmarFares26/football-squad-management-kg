@@ -4,13 +4,8 @@ import networkx as nx
 import pandas as pd
 
 
-# Input Knowledge Graph from the KG construction step.
 GRAPH_PATH = Path("outputs/graphs/squad_management_kg.graphml")
-
-# Output folder for service-style results.
 RESULTS_DIR = Path("outputs/results")
-
-# Team used for the final service output.
 SELECTED_TEAM = "Liverpool"
 
 
@@ -44,9 +39,7 @@ def get_related_value(
     relationship: str,
     attribute: str,
 ):
-    """
-    Return an attribute from a node reached through a KG relationship.
-    """
+    """Return an attribute from a node reached through a relationship."""
 
     for _, target, edge_data in graph.out_edges(node_id, data=True):
         if edge_data.get("relationship") == relationship:
@@ -59,12 +52,7 @@ def create_service_table(
     graph: nx.MultiDiGraph,
     team_name: str,
 ) -> pd.DataFrame:
-    """
-    Create a clean squad decision table for one team.
-
-    This table represents a simple service output:
-    a user selects a team and receives squad-management recommendations.
-    """
+    """Create a squad decision table for one team from the KG."""
 
     rows = []
 
@@ -155,8 +143,7 @@ def create_service_table(
 
     service_table = pd.DataFrame(rows, columns=SERVICE_COLUMNS)
 
-    # Sort output so the clearest action decisions are easy to inspect.
-    # Monitor is placed last because it is the neutral fallback decision.
+    # Put actionable decisions first and the neutral Monitor result last.
     decision_order = {
         "Keep": 1,
         "Give More Chances": 2,
@@ -178,9 +165,7 @@ def create_service_table(
 
 
 def create_service_summary(service_table: pd.DataFrame) -> pd.DataFrame:
-    """
-    Create a small summary of the service output.
-    """
+    """Count players by decision."""
 
     decision_summary = service_table["decision"].value_counts().reset_index()
     decision_summary.columns = ["decision", "count"]
@@ -189,26 +174,18 @@ def create_service_summary(service_table: pd.DataFrame) -> pd.DataFrame:
 
 
 def main() -> None:
-    # Create output folder if it does not exist.
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Load the Knowledge Graph.
     graph = nx.read_graphml(GRAPH_PATH)
-
-    # Query the KG to create the final service output for the selected team.
     service_table = create_service_table(graph, SELECTED_TEAM)
-
-    # Create summary table.
     service_summary = create_service_summary(service_table)
 
-    # Save outputs.
     service_output_path = RESULTS_DIR / "liverpool_squad_decision_service.csv"
     service_summary_path = RESULTS_DIR / "liverpool_squad_decision_summary.csv"
 
     service_table.to_csv(service_output_path, index=False)
     service_summary.to_csv(service_summary_path, index=False)
 
-    # Print readable output.
     print("Squad decision service output")
     print("-----------------------------")
     print(f"Selected team: {SELECTED_TEAM}")

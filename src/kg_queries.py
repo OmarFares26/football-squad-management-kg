@@ -4,10 +4,7 @@ import networkx as nx
 import pandas as pd
 
 
-# Input graph from KG builder.
 GRAPH_PATH = Path("outputs/graphs/squad_management_kg.graphml")
-
-# Output folder for query results.
 RESULTS_DIR = Path("outputs/results")
 
 
@@ -16,9 +13,7 @@ def get_neighbors_by_relationship(
     node_id: str,
     relationship: str,
 ) -> list[str]:
-    """
-    Return all outgoing neighbors connected by a specific relationship.
-    """
+    """Return outgoing neighbors for one relationship type."""
 
     neighbors = []
 
@@ -30,12 +25,7 @@ def get_neighbors_by_relationship(
 
 
 def convert_numeric_node_attributes(graph: nx.MultiDiGraph) -> None:
-    """
-    Convert numeric node attributes back to float after loading GraphML.
-
-    GraphML stores attributes as strings, so we convert the important
-    numeric attributes again for cleaner query outputs.
-    """
+    """Restore numeric node attributes after loading GraphML."""
 
     numeric_attributes = [
         "age",
@@ -59,9 +49,7 @@ def convert_numeric_node_attributes(graph: nx.MultiDiGraph) -> None:
 
 
 def get_node_label(graph: nx.MultiDiGraph, node_id: str) -> str:
-    """
-    Return a readable label for a node.
-    """
+    """Return the readable label for a node."""
 
     node_data = graph.nodes[node_id]
     node_type = node_data.get("node_type")
@@ -88,9 +76,7 @@ def query_players_by_decision(
     graph: nx.MultiDiGraph,
     decision: str,
 ) -> pd.DataFrame:
-    """
-    Find all players with a specific squad decision.
-    """
+    """Find players with a specific squad decision."""
 
     decision_node = f"decision::{decision}"
     rows = []
@@ -131,9 +117,7 @@ def query_team_decisions(
     graph: nx.MultiDiGraph,
     team_name: str,
 ) -> pd.DataFrame:
-    """
-    Find all squad decisions for one team.
-    """
+    """Find all squad decisions for one team."""
 
     rows = []
 
@@ -191,9 +175,7 @@ def query_competitors_for_player(
     graph: nx.MultiDiGraph,
     player_name: str,
 ) -> pd.DataFrame:
-    """
-    Find same-team, same-role competitors for one player.
-    """
+    """Find a player's same-team, same-role competitors."""
 
     matching_player_ids = [
         node_id
@@ -260,11 +242,7 @@ def query_competitors_for_player(
 
 
 def query_blocked_by_main_player(graph: nx.MultiDiGraph) -> pd.DataFrame:
-    """
-    Find players who are blocked by the main same-role player.
-
-    This query directly uses the BLOCKED_BY_MAIN_PLAYER relationship.
-    """
+    """Find players linked through BLOCKED_BY_MAIN_PLAYER."""
 
     rows = []
 
@@ -312,13 +290,9 @@ def query_blocked_by_main_player(graph: nx.MultiDiGraph) -> pd.DataFrame:
 
 
 def main() -> None:
-    # Create output folder if it does not exist.
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Load the graph.
     graph = nx.read_graphml(GRAPH_PATH)
-
-    # Convert numeric attributes back after GraphML loading.
     convert_numeric_node_attributes(graph)
 
     print("KG query examples")

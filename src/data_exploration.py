@@ -3,32 +3,24 @@ from pathlib import Path
 import pandas as pd
 
 
-# Path to the raw dataset file.
 RAW_DATA_PATH = Path("data/raw/players_data_light-2024_2025.csv")
-
-# Folder where we save exploration outputs.
 OUTPUT_DIR = Path("outputs/results")
 
 
 def main() -> None:
-    # Create the output folder if it does not exist yet.
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Stop early if the dataset file is missing.
     if not RAW_DATA_PATH.exists():
         raise FileNotFoundError(f"Raw data file not found: {RAW_DATA_PATH}")
 
-    # Load the CSV dataset.
     df = pd.read_csv(RAW_DATA_PATH)
 
-    # Print basic dataset information.
     print("Dataset loaded successfully")
     print("---------------------------")
     print(f"Rows: {df.shape[0]}")
     print(f"Columns: {df.shape[1]}")
     print()
 
-    # Print all column names so we know what the dataset really contains.
     print("Column names:")
     for column in df.columns:
         print(f"- {column}")
@@ -37,7 +29,6 @@ def main() -> None:
     print("First 5 rows:")
     print(df.head())
 
-    # Save a small overview file.
     data_overview = pd.DataFrame(
         {
             "metric": ["rows", "columns"],
@@ -46,7 +37,6 @@ def main() -> None:
     )
     data_overview.to_csv(OUTPUT_DIR / "data_overview.csv", index=False)
 
-    # Save information about each column.
     column_overview = pd.DataFrame(
         {
             "column": df.columns,
@@ -60,7 +50,6 @@ def main() -> None:
     )
     column_overview.to_csv(OUTPUT_DIR / "column_overview.csv", index=False)
 
-    # Save missing value counts separately because this is useful for the report.
     missing_values = (
         df.isna()
         .sum()
@@ -70,8 +59,6 @@ def main() -> None:
     )
     missing_values.to_csv(OUTPUT_DIR / "missing_values.csv", index=False)
 
-    # These are possible column names for league, team, country, and position.
-    # We check them because datasets often use slightly different names.
     possible_categorical_columns = [
         "Comp",
         "Competition",
@@ -83,7 +70,6 @@ def main() -> None:
         "Position",
     ]
 
-    # Print and save value counts for useful categorical columns.
     for column in possible_categorical_columns:
         if column in df.columns:
             print()

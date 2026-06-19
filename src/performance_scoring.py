@@ -4,38 +4,23 @@ import numpy as np
 import pandas as pd
 
 
-# Input file from the preprocessing step.
 INPUT_PATH = Path("data/processed/premier_league_players.csv")
-
-# Output folder for processed data.
 PROCESSED_DATA_DIR = Path("data/processed")
-
-# Output folder for result summaries.
 RESULTS_DIR = Path("outputs/results")
 
 
 def safe_per_90(value: pd.Series, nineties_played: pd.Series) -> pd.Series:
-    """
-    Calculate a per-90 value safely.
-
-    If a player has 0 minutes, we return 0 instead of dividing by 0.
-    """
+    """Calculate a per-90 value, returning 0 when no minutes were played."""
 
     return (value / nineties_played.replace(0, np.nan)).fillna(0)
 
 
 def normalize_column(df: pd.DataFrame, column: str) -> pd.Series:
-    """
-    Normalize one column between 0 and 1.
-
-    This makes different metrics comparable.
-    For example, goals and tackles can then be added together.
-    """
+    """Scale one column to the 0-1 range."""
 
     min_value = df[column].min()
     max_value = df[column].max()
 
-    # If all values are the same, return 0 for everyone.
     if max_value == min_value:
         return pd.Series(0.0, index=df.index)
 
@@ -46,22 +31,12 @@ def add_normalized_metric_by_role(
     df: pd.DataFrame,
     metric: str,
 ) -> pd.DataFrame:
-    """
-    Normalize one metric inside each role group.
-
-    This keeps the comparison fair:
-    forwards are compared with forwards,
-    wing backs with wing backs,
-    midfielders with midfielders,
-    and so on.
-    """
+    """Normalize one metric separately within each role group."""
 
     normalized_column = f"normalized_{metric}"
 
-    # Start with 0 for all players.
     df[normalized_column] = 0.0
 
-    # Normalize separately inside each role group.
     for role_group in df["role_group"].unique():
         role_mask = df["role_group"] == role_group
         role_players = df.loc[role_mask]
@@ -75,12 +50,7 @@ def add_normalized_metric_by_role(
 
 
 def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Add a simple performance score based on the player's role group.
-
-    The score is not a professional scouting model.
-    It is a simple rule-based indicator for this Knowledge Graph project.
-    """
+    """Calculate the project's role-based performance score."""
 
     scored_df = df.copy()
 
@@ -112,7 +82,6 @@ def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
         scored_df["goals_against"], scored_df["nineties_played"]
     )
 
-    # These are the metrics we normalize before combining them.
     metrics_to_normalize = [
         "goals_per_90",
         "assists_per_90",
@@ -125,11 +94,9 @@ def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
         "goals_against_per_90",
     ]
 
-    # Normalize each metric inside each role group.
     for metric in metrics_to_normalize:
         scored_df = add_normalized_metric_by_role(scored_df, metric)
 
-    # Start with an empty raw score.
     scored_df["raw_performance_score"] = 0.0
 
     # Goalkeeper score: save percentage + clean sheets - goals against.
@@ -191,7 +158,6 @@ def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
         + scored_df.loc[wing_back_mask, "normalized_goals_per_90"]
     )
 
-    # Normalize the final raw score inside each role group.
     scored_df["performance_score"] = 0.0
 
     for role_group in scored_df["role_group"].unique():
@@ -203,8 +169,6 @@ def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
             "raw_performance_score",
         )
 
-    # Add a percentile inside each role group.
-    # This helps us define Good, Promising, Average, and Poor.
     scored_df["performance_percentile"] = (
         scored_df.groupby("role_group")["performance_score"]
         .rank(pct=True)
@@ -212,26 +176,19 @@ def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
         .round(2)
     )
 
-    # Add a simple performance label for later rule-based reasoning.
-    # Players between the 40th and 50th percentile stay as "Average".
-    # This is intentional: they are not poor enough to be marked as Poor,
-    # and not strong enough to be marked as Promising or Good.
-    # In the rule engine, these players will usually fall into Monitor.
+    # The 40th-50th percentile remains Average between Poor and Promising.
     scored_df["performance_level"] = "Average"
 
-    # Good performance means the player is above the 60th percentile.
     scored_df.loc[scored_df["performance_percentile"] >= 60, "performance_level"] = (
         "Good"
     )
 
-    # Promising performance means the player is between the 50th and 60th percentile.
     scored_df.loc[
         (scored_df["performance_percentile"] >= 50)
         & (scored_df["performance_percentile"] < 60),
         "performance_level",
     ] = "Promising"
 
-    # Poor performance means the player is below the 40th percentile.
     scored_df.loc[scored_df["performance_percentile"] < 40, "performance_level"] = (
         "Poor"
     )
@@ -240,21 +197,15 @@ def add_role_scores(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def main() -> None:
-    # Create output folders if they do not exist.
     PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Load cleaned Premier League data.
     df = pd.read_csv(INPUT_PATH)
-
-    # Add performance scores.
     scored_df = add_role_scores(df)
 
-    # Save the full scored dataset.
     output_path = PROCESSED_DATA_DIR / "player_scores.csv"
     scored_df.to_csv(output_path, index=False)
 
-    # Save a small summary for the report.
     score_summary = (
         scored_df.groupby("role_group")["performance_score"]
         .agg(["count", "min", "mean", "max"])
@@ -265,7 +216,6 @@ def main() -> None:
         index=False,
     )
 
-    # Save performance level counts.
     level_counts = (
         scored_df.groupby(["role_group", "performance_level"])
         .size()
@@ -276,7 +226,6 @@ def main() -> None:
         index=False,
     )
 
-    # Print a simple summary.
     print("Performance scoring completed")
     print("-----------------------------")
     print(f"Players scored: {scored_df.shape[0]}")

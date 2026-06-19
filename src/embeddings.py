@@ -6,14 +6,10 @@ from node2vec import Node2Vec
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-# Input graph from KG builder.
 GRAPH_PATH = Path("outputs/graphs/squad_management_kg.graphml")
-
-# Output folders.
 GRAPHS_DIR = Path("outputs/graphs")
 RESULTS_DIR = Path("outputs/results")
 
-# Embedding settings.
 EMBEDDING_DIMENSIONS = 32
 WALK_LENGTH = 10
 NUM_WALKS = 50
@@ -23,12 +19,7 @@ RANDOM_SEED = 42
 
 
 def convert_numeric_node_attributes(graph: nx.MultiDiGraph) -> None:
-    """
-    Convert numeric node attributes back to float after loading GraphML.
-
-    GraphML stores attributes as strings, so we convert important
-    numeric attributes again for cleaner outputs.
-    """
+    """Restore numeric node attributes after loading GraphML."""
 
     numeric_attributes = [
         "age",
@@ -52,13 +43,7 @@ def convert_numeric_node_attributes(graph: nx.MultiDiGraph) -> None:
 
 
 def train_node2vec_embeddings(graph: nx.MultiDiGraph):
-    """
-    Train Node2Vec embeddings on an undirected copy of the Knowledge Graph.
-
-    The actual KG stays directed for semantic correctness.
-    For Node2Vec, we use an undirected copy because the method learns from
-    graph neighborhoods and random walks.
-    """
+    """Use undirected neighborhoods for Node2Vec while keeping the KG directed."""
 
     embedding_graph = graph.to_undirected()
 
@@ -83,9 +68,7 @@ def train_node2vec_embeddings(graph: nx.MultiDiGraph):
 
 
 def get_player_nodes(graph: nx.MultiDiGraph) -> list[str]:
-    """
-    Return all player node IDs from the graph.
-    """
+    """Return all player node IDs."""
 
     return [
         node_id
@@ -95,9 +78,7 @@ def get_player_nodes(graph: nx.MultiDiGraph) -> list[str]:
 
 
 def get_team_name(graph: nx.MultiDiGraph, player_id: str) -> str:
-    """
-    Return the team name of a player.
-    """
+    """Return a player's team name."""
 
     for _, target, edge_data in graph.out_edges(player_id, data=True):
         if edge_data.get("relationship") == "PLAYS_FOR":
@@ -111,9 +92,7 @@ def create_player_embedding_table(
     model,
     player_nodes: list[str],
 ) -> pd.DataFrame:
-    """
-    Create a table containing one embedding vector per player.
-    """
+    """Create one embedding row per player."""
 
     rows = []
 
@@ -142,12 +121,7 @@ def find_similar_players(
     model,
     player_nodes: list[str],
 ) -> pd.DataFrame:
-    """
-    Find similar players using cosine similarity between embeddings.
-
-    Similarity is calculated only within the same role group.
-    This makes the output more useful for football squad management.
-    """
+    """Find each player's closest same-role players."""
 
     rows = []
 
@@ -210,12 +184,7 @@ def add_similarity_edges(
     graph: nx.MultiDiGraph,
     similar_players: pd.DataFrame,
 ) -> nx.MultiDiGraph:
-    """
-    Add SIMILAR_TO edges to a copy of the directed KG.
-
-    A MultiDiGraph is used so SIMILAR_TO does not overwrite existing
-    relationships such as COMPETES_WITH between the same two players.
-    """
+    """Add SIMILAR_TO edges without replacing existing relationships."""
 
     graph_with_embeddings = nx.MultiDiGraph(graph)
 
@@ -231,9 +200,7 @@ def add_similarity_edges(
 
 
 def save_embedding_graph_statistics(graph: nx.MultiDiGraph) -> None:
-    """
-    Save simple statistics for the KG after adding SIMILAR_TO edges.
-    """
+    """Save graph statistics after adding SIMILAR_TO edges."""
 
     edge_types = [
         edge_data["relationship"]
@@ -274,23 +241,14 @@ def save_embedding_graph_statistics(graph: nx.MultiDiGraph) -> None:
 
 
 def main() -> None:
-    # Create output folders if they do not exist.
     GRAPHS_DIR.mkdir(parents=True, exist_ok=True)
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Load the directed Knowledge Graph.
     graph = nx.read_graphml(GRAPH_PATH)
-
-    # Convert numeric attributes after loading GraphML.
     convert_numeric_node_attributes(graph)
-
-    # Get player nodes.
     player_nodes = get_player_nodes(graph)
-
-    # Train Node2Vec embeddings.
     model = train_node2vec_embeddings(graph)
 
-    # Save player embedding vectors.
     player_embeddings = create_player_embedding_table(
         graph,
         model,
@@ -300,7 +258,6 @@ def main() -> None:
     player_embeddings_path = RESULTS_DIR / "player_embeddings.csv"
     player_embeddings.to_csv(player_embeddings_path, index=False)
 
-    # Find similar players.
     similar_players = find_similar_players(
         graph,
         model,
@@ -310,7 +267,6 @@ def main() -> None:
     similar_players_path = RESULTS_DIR / "player_embedding_similarities.csv"
     similar_players.to_csv(similar_players_path, index=False)
 
-    # Add SIMILAR_TO edges to a new MultiDiGraph.
     graph_with_embeddings = add_similarity_edges(graph, similar_players)
 
     graph_with_embeddings_path = (
@@ -319,7 +275,6 @@ def main() -> None:
 
     nx.write_graphml(graph_with_embeddings, graph_with_embeddings_path)
 
-    # Save graph statistics after adding embedding edges.
     save_embedding_graph_statistics(graph_with_embeddings)
 
     print("Knowledge Graph embeddings completed")

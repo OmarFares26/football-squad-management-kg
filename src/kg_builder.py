@@ -4,10 +4,7 @@ import networkx as nx
 import pandas as pd
 
 
-# Input file from the rule engine step.
 INPUT_PATH = Path("data/processed/player_decisions.csv")
-
-# Output folders.
 GRAPHS_DIR = Path("outputs/graphs")
 RESULTS_DIR = Path("outputs/results")
 
@@ -18,9 +15,7 @@ def add_node_if_missing(
     node_type: str,
     **attributes,
 ) -> None:
-    """
-    Add a node to the graph if it does not already exist.
-    """
+    """Add a node if it is not already present."""
 
     if not graph.has_node(node_id):
         graph.add_node(
@@ -31,12 +26,7 @@ def add_node_if_missing(
 
 
 def add_player_nodes(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
-    """
-    Add player nodes and their direct/inferred attributes.
-
-    The player node stores both original data and inferred reasoning context,
-    such as same-role competition information.
-    """
+    """Add player nodes with statistical and inferred attributes."""
 
     for _, row in df.iterrows():
         graph.add_node(
@@ -71,13 +61,7 @@ def add_player_nodes(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
 
 
 def add_context_nodes_and_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
-    """
-    Add context nodes and connect players to them.
-
-    These nodes represent the main KG concepts:
-    Team, League, RoleGroup, AgeGroup, MinutesGroup,
-    PerformanceLevel, CompetitionStatus, and SquadDecision.
-    """
+    """Add the shared concept nodes and their relationships."""
 
     for _, row in df.iterrows():
         player_id = row["player_id"]
@@ -147,7 +131,6 @@ def add_context_nodes_and_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> Non
             decision=row["decision"],
         )
 
-        # Player context edges.
         graph.add_edge(player_id, team_id, relationship="PLAYS_FOR")
         graph.add_edge(player_id, league_id, relationship="PLAYS_IN")
         graph.add_edge(player_id, role_id, relationship="HAS_ROLE")
@@ -165,18 +148,13 @@ def add_context_nodes_and_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> Non
         )
         graph.add_edge(player_id, decision_id, relationship="HAS_DECISION")
 
-        # Team context edge. This relationship is shared by every player
-        # on the team, so add it only once to avoid duplicate parallel edges.
+        # Every player repeats the team/league pair, but the KG needs one edge.
         if not graph.has_edge(team_id, league_id):
             graph.add_edge(team_id, league_id, relationship="PLAYS_IN")
 
 
 def add_competition_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
-    """
-    Add COMPETES_WITH edges between players in the same team and role group.
-
-    Because the graph is directed, competition is added in both directions.
-    """
+    """Connect same-team, same-role players in both directions."""
 
     grouped_players = df.groupby(["team_name", "role_group"])
 
@@ -198,11 +176,7 @@ def add_competition_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
 
 
 def add_main_player_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
-    """
-    Add BLOCKED_BY_MAIN_PLAYER edges.
-
-    These edges make the same-role competition reasoning explicit in the KG.
-    """
+    """Add explicit BLOCKED_BY_MAIN_PLAYER relationships."""
 
     for _, row in df.iterrows():
         if not bool(row["is_blocked_by_main_player"]):
@@ -232,9 +206,7 @@ def add_main_player_edges(graph: nx.MultiDiGraph, df: pd.DataFrame) -> None:
 
 
 def save_graph_statistics(graph: nx.MultiDiGraph) -> None:
-    """
-    Save simple graph statistics for the portfolio.
-    """
+    """Save node, edge, and graph counts."""
 
     node_counts = pd.Series(
         nx.get_node_attributes(graph, "node_type")
@@ -279,28 +251,22 @@ def save_graph_statistics(graph: nx.MultiDiGraph) -> None:
 
 
 def main() -> None:
-    # Create output folders if they do not exist.
     GRAPHS_DIR.mkdir(parents=True, exist_ok=True)
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Load player decision data.
     df = pd.read_csv(INPUT_PATH)
 
-    # Create a directed multigraph so different relationship types can
-    # coexist between the same ordered pair of nodes.
+    # Different relationship types may connect the same ordered node pair.
     graph = nx.MultiDiGraph()
 
-    # Build the graph.
     add_player_nodes(graph, df)
     add_context_nodes_and_edges(graph, df)
     add_competition_edges(graph, df)
     add_main_player_edges(graph, df)
 
-    # Save the graph.
     graph_path = GRAPHS_DIR / "squad_management_kg.graphml"
     nx.write_graphml(graph, graph_path)
 
-    # Save graph statistics.
     save_graph_statistics(graph)
 
     print()
