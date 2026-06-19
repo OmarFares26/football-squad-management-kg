@@ -17,11 +17,10 @@ The system recommends one decision for each player:
 Raw player statistics
 -> Data preprocessing
 -> Performance scoring
--> Base Knowledge Graph creation
 -> Rule-based reasoning
--> Enriched decision-support Knowledge Graph
--> Squad decision table
--> Similar-player search with embeddings
+-> Knowledge Graph construction
+-> Knowledge Graph queries and squad-decision service output
+-> Embedding enrichment and similar-player search
 
 ## Main Learning Outcomes
 
