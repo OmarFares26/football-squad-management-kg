@@ -22,6 +22,20 @@ Raw player statistics
 -> Knowledge Graph queries and squad-decision service output
 -> Embedding enrichment and similar-player search
 
+Run the complete pipeline from the project root:
+
+```bash
+python run_pipeline.py
+```
+
+Before running the pipeline, place the raw dataset at:
+
+```text
+data/raw/players_data_light-2024_2025.csv
+```
+
+The pipeline executes all stages in dependency order and stops immediately if any stage fails. Generated graphs are written to outputs/graphs/, and generated results are written to outputs/results/.
+
 ## Main Learning Outcomes
 
 The project targets the following learning outcomes:
