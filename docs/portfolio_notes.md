@@ -122,6 +122,7 @@ The project pipeline is:
 6. Knowledge Graph query examples
 7. Service-style squad decision output
 8. Knowledge Graph embeddings using Node2Vec
+9. Data model comparison and RDF/Turtle export
 
 ## Data Preprocessing
 

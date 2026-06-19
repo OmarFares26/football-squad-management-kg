@@ -16,6 +16,7 @@ PIPELINE_STAGES = [
     ("Knowledge Graph queries", "src/kg_queries.py"),
     ("KG-backed service output", "src/service_output.py"),
     ("Embedding enrichment", "src/embeddings.py"),
+    ("Data model comparison and RDF export", "src/data_model_comparison.py"),
 ]
 
 

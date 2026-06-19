@@ -21,6 +21,7 @@ Raw player statistics
 -> Knowledge Graph construction
 -> Knowledge Graph queries and squad-decision service output
 -> Embedding enrichment and similar-player search
+-> Data model comparison and RDF/Turtle export
 
 Run the complete pipeline from the project root:
 
@@ -43,6 +44,10 @@ The pipeline executes all stages in dependency order and stops immediately if an
   `BLOCKED_BY_MAIN_PLAYER` between the same entities.
 - The squad-decision service loads and queries the generated GraphML
   KG rather than reading the processed decision CSV directly.
+- The LO4 comparison stage inspects the project’s CSV, `MultiDiGraph`,
+  RDF/Turtle, embedding, and temporal-design representations. It writes
+  `data_model_comparison.csv`, `data_model_comparison_examples.csv`,
+  and `squad_management_kg.ttl`.
 
 ## Learning Outcome Mapping
 
@@ -54,16 +59,13 @@ The two focus learning outcomes are:
 The project demonstrates basic proficiency in:
 
 - LO1: Knowledge Graph embeddings
+- LO4: Comparison of KG data models
 - LO5: Knowledge Graph architectures
 - LO6: Scalable reasoning methods in Knowledge Graphs
 - LO8: Knowledge Graph evolution
 - LO9: Real-world Knowledge Graph applications
 - LO11: Services through a Knowledge Graph
 - LO12: Connections between Knowledge Graphs, ML, and AI
-
-LO4 is included only as limited discussion comparing tabular data with
-the implemented property-graph representation. The project does not
-provide a deep comparison with RDF, temporal, or other KG models.
 
 LO3 (Graph Neural Networks) and LO10 (financial Knowledge Graph
 applications) are not claimed.

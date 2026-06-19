@@ -6,8 +6,8 @@ This file maps the project work to the Knowledge Graphs course learning
 outcomes.
 
 The project aims to make only claims that are supported by the actual
-implementation. It provides two focus outcomes, basic evidence for
-seven additional outcomes, and limited discussion for LO4.
+implementation. It provides two focus outcomes and basic evidence for
+eight additional outcomes.
 
 The two strongest learning outcomes in this project are:
 
@@ -52,6 +52,7 @@ learning outcomes:
 ```text
 LO1
 LO2
+LO4
 LO5
 LO6
 LO7
@@ -60,9 +61,6 @@ LO9
 LO11
 LO12
 ```
-
-LO4 is included only as limited supporting discussion of tabular and
-property-graph representations.
 
 The project does not claim:
 
@@ -256,17 +254,23 @@ Files:
 docs/kg_schema.md
 docs/portfolio_notes.md
 src/kg_builder.py
+src/data_model_comparison.py
+outputs/results/data_model_comparison.csv
+outputs/results/data_model_comparison_examples.csv
+outputs/graphs/squad_management_kg.ttl
 ```
 
 ### What Was Done
 
-The project works with different data representations:
+The project implements or inspects different data representations:
 
 ```text
 raw CSV table
 processed CSV table
 directed property multigraph
+RDF/Turtle graph
 embedding-enriched graph
+temporal KG design extension
 ```
 
 The raw dataset starts as tabular data, where each row is a
@@ -289,8 +293,10 @@ KG representation: Player -> HAS_DECISION -> SquadDecision
 
 ### Why This Supports LO4
 
-The project shows the difference between a table-based representation
-and a graph-based representation.
+The comparison script loads the real processed CSV, GraphML graph, and
+embedding output. It calculates representation-specific statistics,
+exports the property graph as RDF/Turtle, and generates equivalent
+examples for the same football entity.
 
 In the table, squad competition is stored as derived columns.
 
@@ -305,13 +311,14 @@ BLOCKED_BY_MAIN_PLAYER
 ### Level
 
 ```text
-Limited discussion only
+Basic proficiency
 ```
 
-The project compares tabular and property-graph representations in
-practice. It does not implement or deeply compare RDF, relational,
-temporal, and other KG data models. LO4 should therefore not be
-presented as a substantial implementation outcome.
+The project now provides executable comparison evidence across
+tabular/data-science, property-graph, Semantic Web RDF, and embedding
+representations. Temporal modeling remains a clearly labeled design
+extension rather than an implemented model. The comparison is suitable
+for basic proficiency but not a focus or exceeding claim.
 
 ---
 
@@ -774,7 +781,7 @@ financial KG applications. Therefore LO10 is not claimed.
 |------|----------|----------------------------------------------------------------------------|
 | LO1  | Basic    | Node2Vec player embeddings and SIMILAR_TO edges                            |
 | LO2  | Focus    | multi-step rule-based inferred KG knowledge and BLOCKED_BY_MAIN_PLAYER     |
-| LO4  | Limited  | tabular versus property-graph discussion; no broad data-model comparison    |
+| LO4  | Basic    | artifact-driven CSV, property graph, RDF, vector, and temporal comparison   |
 | LO5  | Basic    | reproducible end-to-end architecture through `run_pipeline.py`              |
 | LO6  | Basic    | scalable rule-based reasoning over 562 players, 20 teams, 7 role groups    |
 | LO7  | Focus    | directed multigraph with 608 nodes, 7794 edges, 10 relationship types       |
@@ -807,10 +814,7 @@ Focus:
 LO2, LO7
 
 Basic proficiency:
-LO1, LO5, LO6, LO8, LO9, LO11, LO12
-
-Limited discussion only:
-LO4
+LO1, LO4, LO5, LO6, LO8, LO9, LO11, LO12
 
 Not included:
 LO3, LO10
