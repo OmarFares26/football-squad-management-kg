@@ -1,25 +1,25 @@
-# 3 - ML-based Representation
+# ML-based Representation
 
-Creates Node2Vec embeddings and adds `SIMILAR_TO` relationships.
+This folder contains the graph-embedding and similarity-enrichment
+stage.
 
 ## Input
 
-```text
-2 - construction/graphs/squad_management_kg.graphml
-```
+- `2 - construction/graphs/squad_management_kg.graphml`
 
 ## Script
 
-`src/embeddings.py` trains 32-dimensional embeddings on an undirected
-copy of the KG and finds the top three similar players per role group.
+- `src/embeddings.py`: trains Node2Vec embeddings, calculates
+  same-role player similarity, and adds `SIMILAR_TO` relationships
 
 ## Outputs
 
-- `results/player_embeddings.csv`: 562 player vectors
-- `results/player_embedding_similarities.csv`: 1,686 similarity rows
-- `graphs/squad_management_kg_with_embeddings.graphml`: enriched KG
-- `graphs/squad_management_kg_with_replacements.graphml`: enriched KG with
-  materialized `RECOMMENDED_REPLACEMENT` traversal results
-- `results/kg_with_embeddings_*.csv`: graph statistics
+- `results/`: player embeddings, similarity results, and graph statistics
+- `graphs/squad_management_kg_with_embeddings.graphml`
+- `graphs/squad_management_kg_with_replacements.graphml`
 
-Run this section through the root command: `python run_pipeline.py`.
+Run this stage as part of the full pipeline from the project root:
+
+```bash
+python run_pipeline.py
+```

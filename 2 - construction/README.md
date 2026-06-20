@@ -1,29 +1,29 @@
-# 2 - KG Construction
+# KG Construction
 
-Prepares the dataset and builds the base Knowledge Graph.
+This folder contains the data preparation, performance scoring,
+Knowledge Graph construction, and graph-query stages.
 
-## Input
+## Inputs
 
-```text
-data/raw/players_data_light-2024_2025.csv
-```
+- `data/raw/players_data_light-2024_2025.csv`
+- `4 - logic/results/player_decisions.csv`
 
 ## Scripts
 
-- `src/data_exploration.py`: inspects the source data
-- `src/data_preprocessing.py`: cleans players and creates role groups
-- `src/performance_scoring.py`: calculates role-based performance scores
-- `src/kg_builder.py`: builds the base `MultiDiGraph`
-- `src/kg_queries.py`: runs graph queries and multi-hop replacement traversal
-
-KG construction also uses
-`4 - logic/results/player_decisions.csv`.
+- `src/data_exploration.py`: inspects the source dataset
+- `src/data_preprocessing.py`: cleans the data and creates role groups
+- `src/performance_scoring.py`: calculates role-based performance features
+- `src/kg_builder.py`: builds and exports the base `MultiDiGraph`
+- `src/kg_queries.py`: runs graph queries and replacement traversal
 
 ## Outputs
 
-- `data/processed/`: cleaned and scored player tables
-- `graphs/squad_management_kg.graphml`: base Knowledge Graph
-- `results/`: exploration, KG statistics, query outputs, and replacement candidates
-- `docs/kg_schema.md`: node, relationship, and graph-model documentation
+- `data/processed/`: cleaned and scored player data
+- `graphs/`: the base GraphML Knowledge Graph
+- `results/`: exploration, graph statistics, and query outputs
 
-Run this section through the root command: `python run_pipeline.py`.
+Run this stage as part of the full pipeline from the project root:
+
+```bash
+python run_pipeline.py
+```

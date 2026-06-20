@@ -1,55 +1,36 @@
 # Football Squad Management Knowledge Graph
 
-This project builds a Knowledge Graph from 2024/25 football statistics.
-It produces squad decisions, graph queries, similar-player results, a
-KG-backed service, and an RDF export.
-
-Each player receives one decision:
-
-- Keep
-- Give More Chances
-- Loan
-- Sell
-- Monitor
-
-## Pipeline
-
-```text
-Raw data -> preprocessing -> scoring -> rules -> KG construction
--> Node2Vec -> graph queries -> service -> model comparison and RDF export
-```
-
-## Structure
-
-```text
-2 - construction/   dataset, preprocessing, scoring, base KG, and queries
-3 - ML/             Node2Vec embeddings and embedding-enriched KG
-4 - logic/          rule-based reasoning and inferred decisions
-5 - reflection/     KG service, data-model comparison, and LO reflection
-```
-
-Each numbered folder contains its own `README.md`.
+This project builds a Knowledge Graph from football player, team, and
+performance data to support explainable squad-management decisions. The
+pipeline preprocesses the dataset, calculates role-based performance,
+applies decision rules, constructs and queries the graph, creates
+Node2Vec embeddings, produces a KG-backed service output, and exports an
+RDF representation.
 
 ## Setup
 
-Python 3.12 was used during development.
+Create a virtual environment:
 
 ```bash
-python3 -m venv .venv
+python -m venv .venv
+```
+
+Activate it on macOS or Linux:
+
+```bash
 source .venv/bin/activate
+```
+
+Activate it on Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Install the dependencies:
+
+```bash
 python -m pip install -r requirements.txt
-```
-
-On Windows:
-
-```text
-.venv\Scripts\activate
-```
-
-The included dataset is located at:
-
-```text
-2 - construction/data/raw/players_data_light-2024_2025.csv
 ```
 
 ## Run
@@ -60,25 +41,16 @@ From the project root:
 python run_pipeline.py
 ```
 
-The nine-stage pipeline takes approximately 15-20 seconds. A successful
-run ends with:
+## Project Structure
 
 ```text
-Pipeline completed successfully
-Stages completed: 9
+2 - construction/   data preparation, scoring, KG construction, and queries
+3 - ML/             Node2Vec embeddings and graph enrichment
+4 - logic/          rule-based squad reasoning and decision outputs
+5 - reflection/     KG-backed service, RDF export, and model comparison
+run_pipeline.py     runs the complete pipeline
+requirements.txt    Python dependencies
 ```
 
-The main generated artifacts are located in:
-
-```text
-2 - construction/graphs/   base Knowledge Graph
-2 - construction/results/  KG statistics and query results
-3 - ML/graphs/             embedding and replacement-enriched graphs
-3 - ML/results/            embeddings and similar-player results
-4 - logic/results/         rule-based squad decisions
-5 - reflection/graphs/     RDF/Turtle export
-5 - reflection/results/    service and data-model comparison outputs
-```
-
-Detailed explanations and learning-outcome evidence are provided in
-the portfolio PDF.
+Each numbered folder contains a short README describing its inputs,
+scripts, and generated artifacts.
