@@ -1467,7 +1467,7 @@
       <data key="d18">False</data>
       <data key="d19">True</data>
       <data key="d20">Sell</data>
-      <data key="d21">Nélson Semedo is classified as Sell because: Regular minutes, poor role-based performance, and older than 29.</data>
+      <data key="d21">Nélson Semedo is classified as Sell because: High minutes, poor role-based performance, and older than 29.</data>
     </node>
     <node id="robert_sánchez_chelsea">
       <data key="d0">Player</data>
@@ -1803,7 +1803,7 @@
       <data key="d18">False</data>
       <data key="d19">True</data>
       <data key="d20">Sell</data>
-      <data key="d21">Sam Morsy is classified as Sell because: Regular minutes, poor role-based performance, and older than 29.</data>
+      <data key="d21">Sam Morsy is classified as Sell because: High minutes, poor role-based performance, and older than 29.</data>
     </node>
     <node id="leif_davis_ipswich_town">
       <data key="d0">Player</data>
@@ -2091,7 +2091,7 @@
       <data key="d18">False</data>
       <data key="d19">True</data>
       <data key="d20">Sell</data>
-      <data key="d21">José Sá is classified as Sell because: Regular minutes, poor role-based performance, and older than 29.</data>
+      <data key="d21">José Sá is classified as Sell because: High minutes, poor role-based performance, and older than 29.</data>
     </node>
     <node id="kaoru_mitoma_brighton">
       <data key="d0">Player</data>
@@ -2427,7 +2427,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Sell</data>
-      <data key="d21">Abdoulaye Doucouré is classified as Sell because: Regular minutes, poor role-based performance, and older than 29.</data>
+      <data key="d21">Abdoulaye Doucouré is classified as Sell because: High minutes, poor role-based performance, and older than 29.</data>
     </node>
     <node id="ibrahima_konaté_liverpool">
       <data key="d0">Player</data>
@@ -2667,7 +2667,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Sell</data>
-      <data key="d21">Andrew Robertson is classified as Sell because: Regular minutes, poor role-based performance, and older than 29.</data>
+      <data key="d21">Andrew Robertson is classified as Sell because: High minutes, poor role-based performance, and older than 29.</data>
     </node>
     <node id="victor_bernth_kristiansen_leicester_city">
       <data key="d0">Player</data>
@@ -3915,7 +3915,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Sell</data>
-      <data key="d21">Lewis Dunk is classified as Sell because: Regular minutes, poor role-based performance, and older than 29.</data>
+      <data key="d21">Lewis Dunk is classified as Sell because: High minutes, poor role-based performance, and older than 29.</data>
     </node>
     <node id="jack_harrison_everton">
       <data key="d0">Player</data>
@@ -4539,7 +4539,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Sell</data>
-      <data key="d21">Ashley Young is classified as Sell because: Regular minutes, poor role-based performance, and older than 29.</data>
+      <data key="d21">Ashley Young is classified as Sell because: High minutes, poor role-based performance, and older than 29.</data>
     </node>
     <node id="kai_havertz_arsenal">
       <data key="d0">Player</data>
@@ -4731,7 +4731,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Djed Spence is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Djed Spence is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="manuel_ugarte_ribeiro_manchester_utd">
       <data key="d0">Player</data>
@@ -4755,7 +4755,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Manuel Ugarte Ribeiro is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Manuel Ugarte Ribeiro is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="phil_foden_manchester_city">
       <data key="d0">Player</data>
@@ -4803,7 +4803,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Kenny Tete is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Kenny Tete is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="adama_traoré_fulham">
       <data key="d0">Player</data>
@@ -4827,7 +4827,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Adama Traoré is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Adama Traoré is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="edson_álvarez_west_ham">
       <data key="d0">Player</data>
@@ -4923,7 +4923,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Harry Maguire is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Harry Maguire is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="harvey_barnes_newcastle_utd">
       <data key="d0">Player</data>
@@ -4947,7 +4947,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Harvey Barnes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Harvey Barnes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="archie_gray_tottenham">
       <data key="d0">Player</data>
@@ -5019,7 +5019,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Bukayo Saka is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Bukayo Saka is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="boubacar_kamara_aston_villa">
       <data key="d0">Player</data>
@@ -5139,7 +5139,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Kevin De Bruyne is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Kevin De Bruyne is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="joël_veltman_brighton">
       <data key="d0">Player</data>
@@ -5211,7 +5211,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jean-Ricner Bellegarde is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jean-Ricner Bellegarde is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="matheus_nunes_manchester_city">
       <data key="d0">Player</data>
@@ -5235,7 +5235,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Matheus Nunes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Matheus Nunes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="georginio_rutter_brighton">
       <data key="d0">Player</data>
@@ -5259,7 +5259,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Georginio Rutter is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Georginio Rutter is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="lesley_ugochukwu_southampton">
       <data key="d0">Player</data>
@@ -5355,7 +5355,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Rodrigo Bentancur is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Rodrigo Bentancur is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jordan_ayew_leicester_city">
       <data key="d0">Player</data>
@@ -5523,7 +5523,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">James Garner is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">James Garner is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="adam_smith_bournemouth">
       <data key="d0">Player</data>
@@ -5571,7 +5571,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Mikel Merino is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Mikel Merino is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jake_o'brien_everton">
       <data key="d0">Player</data>
@@ -5667,7 +5667,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Cameron Burgess is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Cameron Burgess is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="harry_winks_leicester_city">
       <data key="d0">Player</data>
@@ -5763,7 +5763,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jeremy Doku is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jeremy Doku is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="casemiro_manchester_utd">
       <data key="d0">Player</data>
@@ -5907,7 +5907,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Cristian Romero is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Cristian Romero is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="emmanuel_agbadou_wolves">
       <data key="d0">Player</data>
@@ -6075,7 +6075,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jannik Vestergaard is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jannik Vestergaard is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jack_stephens_southampton">
       <data key="d0">Player</data>
@@ -6123,7 +6123,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Dwight McNeil is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Dwight McNeil is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="myles_lewis-skelly_arsenal">
       <data key="d0">Player</data>
@@ -6171,7 +6171,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Mario Lemina is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Mario Lemina is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ben_johnson_ipswich_town">
       <data key="d0">Player</data>
@@ -6243,7 +6243,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Ben Davies is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Ben Davies is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="adam_wharton_crystal_palace">
       <data key="d0">Player</data>
@@ -6315,7 +6315,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Orel Mangala is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Orel Mangala is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="radu_drăgușin_tottenham">
       <data key="d0">Player</data>
@@ -6483,7 +6483,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Diogo Jota is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Diogo Jota is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="luke_woolfenden_ipswich_town">
       <data key="d0">Player</data>
@@ -6507,7 +6507,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Luke Woolfenden is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Luke Woolfenden is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jack_clarke_ipswich_town">
       <data key="d0">Player</data>
@@ -6555,7 +6555,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Omar Marmoush is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Omar Marmoush is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="wesley_fofana_chelsea">
       <data key="d0">Player</data>
@@ -6651,7 +6651,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Harry Wilson is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Harry Wilson is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="łukasz_fabiański_west_ham">
       <data key="d0">Player</data>
@@ -6675,7 +6675,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Łukasz Fabiański is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Łukasz Fabiański is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="guido_rodríguez_west_ham">
       <data key="d0">Player</data>
@@ -6819,7 +6819,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Caleb Okoli is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Caleb Okoli is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jakub_kiwior_arsenal">
       <data key="d0">Player</data>
@@ -6891,7 +6891,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Luke Thomas is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Luke Thomas is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="marcos_senesi_bournemouth">
       <data key="d0">Player</data>
@@ -7203,7 +7203,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Michael Keane is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Michael Keane is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="james_ward-prowse_west_ham">
       <data key="d0">Player</data>
@@ -7323,7 +7323,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Gonçalo Guedes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Gonçalo Guedes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="sammie_szmodics_ipswich_town">
       <data key="d0">Player</data>
@@ -7395,7 +7395,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Marcus Rashford is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Marcus Rashford is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="craig_dawson_wolves">
       <data key="d0">Player</data>
@@ -7467,7 +7467,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Rodrigo Muniz is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Rodrigo Muniz is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="igor_brighton">
       <data key="d0">Player</data>
@@ -7563,7 +7563,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Matt O'Riley is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Matt O'Riley is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="wes_burns_ipswich_town">
       <data key="d0">Player</data>
@@ -7611,7 +7611,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Christopher Nkunku is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Christopher Nkunku is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="mathys_tel_tottenham">
       <data key="d0">Player</data>
@@ -7659,7 +7659,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Morato is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Morato is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jakub_stolarczyk_leicester_city">
       <data key="d0">Player</data>
@@ -7707,7 +7707,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Martin Dúbravka is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Martin Dúbravka is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="caoimhín_kelleher_liverpool">
       <data key="d0">Player</data>
@@ -7755,7 +7755,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Ethan Nwaneri is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Ethan Nwaneri is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="adam_webster_brighton">
       <data key="d0">Player</data>
@@ -7779,7 +7779,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Adam Webster is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Adam Webster is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="julio_enciso_ipswich_town">
       <data key="d0">Player</data>
@@ -7827,7 +7827,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Mathias Jensen is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Mathias Jensen is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="tariq_lamptey_brighton">
       <data key="d0">Player</data>
@@ -7923,7 +7923,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jota Silva is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jota Silva is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="kasey_mcateer_leicester_city">
       <data key="d0">Player</data>
@@ -7995,7 +7995,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Kevin Danso is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Kevin Danso is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="patrick_dorgu_manchester_utd">
       <data key="d0">Player</data>
@@ -8139,7 +8139,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Pablo Sarabia is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Pablo Sarabia is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="rodrigo_gomes_wolves">
       <data key="d0">Player</data>
@@ -8163,7 +8163,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Rodrigo Gomes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Rodrigo Gomes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="sean_longstaff_newcastle_utd">
       <data key="d0">Player</data>
@@ -8211,7 +8211,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Roméo Lavia is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Roméo Lavia is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="niclas_füllkrug_west_ham">
       <data key="d0">Player</data>
@@ -8307,7 +8307,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Carlos Alcaraz is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Carlos Alcaraz is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="nicolás_gonzález_manchester_city">
       <data key="d0">Player</data>
@@ -8403,7 +8403,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Bobby De Cordova-Reid is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Bobby De Cordova-Reid is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="marco_asensio_aston_villa">
       <data key="d0">Player</data>
@@ -8595,7 +8595,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Brajan Gruda is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Brajan Gruda is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="nathan_aké_manchester_city">
       <data key="d0">Player</data>
@@ -8643,7 +8643,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Oliver Scarles is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Oliver Scarles is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="george_hirst_ipswich_town">
       <data key="d0">Player</data>
@@ -8667,7 +8667,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">George Hirst is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">George Hirst is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="hwang_hee-chan_wolves">
       <data key="d0">Player</data>
@@ -8811,7 +8811,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Tom Cairney is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Tom Cairney is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="mason_mount_manchester_utd">
       <data key="d0">Player</data>
@@ -8907,7 +8907,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Ross Barkley is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Ross Barkley is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ryan_sessegnon_fulham">
       <data key="d0">Player</data>
@@ -8931,7 +8931,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Ryan Sessegnon is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Ryan Sessegnon is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="abdul_fatawu_issahaku_leicester_city">
       <data key="d0">Player</data>
@@ -8955,7 +8955,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Abdul Fatawu Issahaku is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Abdul Fatawu Issahaku is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="tim_iroegbunam_everton">
       <data key="d0">Player</data>
@@ -8979,7 +8979,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Tim Iroegbunam is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Tim Iroegbunam is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="john_stones_manchester_city">
       <data key="d0">Player</data>
@@ -9147,7 +9147,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Joe Gomez is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Joe Gomez is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="timo_werner_tottenham">
       <data key="d0">Player</data>
@@ -9195,7 +9195,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Diego Gómez is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Diego Gómez is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="justin_devenny_crystal_palace">
       <data key="d0">Player</data>
@@ -9243,7 +9243,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Richarlison is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Richarlison is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="abdukodir_khusanov_manchester_city">
       <data key="d0">Player</data>
@@ -9267,7 +9267,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Abdukodir Khusanov is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Abdukodir Khusanov is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="raheem_sterling_arsenal">
       <data key="d0">Player</data>
@@ -9339,7 +9339,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jarell Quansah is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jarell Quansah is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="axel_disasi_aston_villa">
       <data key="d0">Player</data>
@@ -9387,7 +9387,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Tommy Doyle is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Tommy Doyle is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="reiss_nelson_fulham">
       <data key="d0">Player</data>
@@ -9507,7 +9507,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jaden Philogene Bidace is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jaden Philogene Bidace is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="fabio_carvalho_brentford">
       <data key="d0">Player</data>
@@ -9531,7 +9531,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Fabio Carvalho is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Fabio Carvalho is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="cheick_doucouré_crystal_palace">
       <data key="d0">Player</data>
@@ -9555,7 +9555,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Cheick Doucouré is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Cheick Doucouré is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="mark_travers_bournemouth">
       <data key="d0">Player</data>
@@ -9579,7 +9579,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Mark Travers is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Mark Travers is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="alex_mccarthy_southampton">
       <data key="d0">Player</data>
@@ -9723,7 +9723,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Sven Botman is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Sven Botman is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ross_stewart_southampton">
       <data key="d0">Player</data>
@@ -9843,7 +9843,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Harvey Elliott is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Harvey Elliott is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="callum_wilson_newcastle_utd">
       <data key="d0">Player</data>
@@ -9891,7 +9891,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">João Félix is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">João Félix is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="mikey_moore_tottenham">
       <data key="d0">Player</data>
@@ -9939,7 +9939,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Adam Lallana is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Adam Lallana is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="altay_bayındır_manchester_utd">
       <data key="d0">Player</data>
@@ -10011,7 +10011,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jorge Cuenca is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jorge Cuenca is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="james_mcatee_manchester_city">
       <data key="d0">Player</data>
@@ -10035,7 +10035,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">James Mcatee is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">James Mcatee is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="luke_shaw_manchester_utd">
       <data key="d0">Player</data>
@@ -10107,7 +10107,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Harry Amass is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Harry Amass is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="enes_ünal_bournemouth">
       <data key="d0">Player</data>
@@ -10131,7 +10131,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Enes Ünal is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Enes Ünal is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="emil_krafth_newcastle_utd">
       <data key="d0">Player</data>
@@ -10179,7 +10179,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Conor Townsend is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Conor Townsend is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="armando_broja_everton">
       <data key="d0">Player</data>
@@ -10299,7 +10299,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jonny Evans is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jonny Evans is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="lewis_miley_newcastle_utd">
       <data key="d0">Player</data>
@@ -10323,7 +10323,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Lewis Miley is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Lewis Miley is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ryan_fraser_southampton">
       <data key="d0">Player</data>
@@ -10395,7 +10395,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Lloyd Kelly is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Lloyd Kelly is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ramón_sosa_nott'ham_forest">
       <data key="d0">Player</data>
@@ -10443,7 +10443,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Danny Ings is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Danny Ings is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="danilo_nott'ham_forest">
       <data key="d0">Player</data>
@@ -10563,7 +10563,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Ben Chilwell is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Ben Chilwell is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="kieran_tierney_arsenal">
       <data key="d0">Player</data>
@@ -10587,7 +10587,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Kieran Tierney is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Kieran Tierney is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="willian_fulham">
       <data key="d0">Player</data>
@@ -10707,7 +10707,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Luis Sinisterra is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Luis Sinisterra is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="robin_olsen_aston_villa">
       <data key="d0">Player</data>
@@ -10803,7 +10803,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Sergio Reguilón is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Sergio Reguilón is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="philip_billing_bournemouth">
       <data key="d0">Player</data>
@@ -10827,7 +10827,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Philip Billing is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Philip Billing is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="tyrique_george_chelsea">
       <data key="d0">Player</data>
@@ -10851,7 +10851,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Tyrique George is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Tyrique George is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ben_mee_brentford">
       <data key="d0">Player</data>
@@ -10875,7 +10875,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Ben Mee is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Ben Mee is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="renato_veiga_chelsea">
       <data key="d0">Player</data>
@@ -10923,7 +10923,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Neto is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Neto is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="daniel_bentley_wolves">
       <data key="d0">Player</data>
@@ -10971,7 +10971,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Jason Steele is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Jason Steele is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="toby_collyer_manchester_utd">
       <data key="d0">Player</data>
@@ -11067,7 +11067,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Ayden Heaven is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Ayden Heaven is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="joshua_acheampong_chelsea">
       <data key="d0">Player</data>
@@ -11163,7 +11163,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Tyler Fredricson is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Tyler Fredricson is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="chidozie_obi-martin_manchester_utd">
       <data key="d0">Player</data>
@@ -11307,7 +11307,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Willy Boly is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Willy Boly is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="hákon_rafn_valdimarsson_brentford">
       <data key="d0">Player</data>
@@ -11403,7 +11403,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Romain Esse is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Romain Esse is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="harry_toffolo_nott'ham_forest">
       <data key="d0">Player</data>
@@ -11427,7 +11427,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Harry Toffolo is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Harry Toffolo is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jay_robinson_southampton">
       <data key="d0">Player</data>
@@ -11499,7 +11499,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">William Osula is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">William Osula is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ali_al_hamadi_ipswich_town">
       <data key="d0">Player</data>
@@ -11547,7 +11547,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Hamza Choudhury is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Hamza Choudhury is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="joshua_king_fulham">
       <data key="d0">Player</data>
@@ -11619,7 +11619,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Daniel Jebbison is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Daniel Jebbison is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="edmond-paris_maghoma_brentford">
       <data key="d0">Player</data>
@@ -11715,7 +11715,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Woyo Coulibaly is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Woyo Coulibaly is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="federico_chiesa_liverpool">
       <data key="d0">Player</data>
@@ -11835,7 +11835,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Rico Henry is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Rico Henry is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="emi_buendía_aston_villa">
       <data key="d0">Player</data>
@@ -12195,7 +12195,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Matheus França is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Matheus França is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="lewis_orford_west_ham">
       <data key="d0">Player</data>
@@ -12219,7 +12219,7 @@
       <data key="d18">True</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Lewis Orford is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Lewis Orford is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="harrison_armstrong_everton">
       <data key="d0">Player</data>
@@ -12363,7 +12363,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Dane Scarlett is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Dane Scarlett is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="kim_jisoo_brentford">
       <data key="d0">Player</data>
@@ -12411,7 +12411,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Eric da Silva Moreira is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Eric da Silva Moreira is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="samuel_amo-ameyaw_southampton">
       <data key="d0">Player</data>
@@ -12579,7 +12579,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Matt Targett is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Matt Targett is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="eiran_cashin_brighton">
       <data key="d0">Player</data>
@@ -12603,7 +12603,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Eiran Cashin is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Eiran Cashin is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="scott_mctominay_manchester_utd">
       <data key="d0">Player</data>
@@ -12747,7 +12747,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Caleb Kporha is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Caleb Kporha is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="vitezslav_jaros_liverpool">
       <data key="d0">Player</data>
@@ -12771,7 +12771,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Vitezslav Jaros is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Vitezslav Jaros is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="gustavo_nunes_brentford">
       <data key="d0">Player</data>
@@ -12795,7 +12795,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Gustavo Nunes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Gustavo Nunes is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="ronnie_edwards_southampton">
       <data key="d0">Player</data>
@@ -12891,7 +12891,7 @@
       <data key="d18">False</data>
       <data key="d19">False</data>
       <data key="d20">Give More Chances</data>
-      <data key="d21">Julio Soler is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and competitive within the same role group.</data>
+      <data key="d21">Julio Soler is classified as Give More Chances because: Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.</data>
     </node>
     <node id="jayden_danns_liverpool">
       <data key="d0">Player</data>

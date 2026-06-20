@@ -130,7 +130,7 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
     if minutes > 1800 and percentile < 40 and age > 29:
         return (
             "Sell",
-            "Regular minutes, poor role-based performance, and older than 29.",
+            "High minutes, poor role-based performance, and older than 29.",
         )
 
     # Promote a strong backup when the main player is underperforming.
@@ -149,7 +149,7 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
     if minutes < 1800 and percentile >= 50 and score >= same_role_average:
         return (
             "Give More Chances",
-            "Under 1800 minutes, promising or good performance, and competitive within the same role group.",
+            "Under 1800 minutes, promising or good performance, and at or above the same-team role-group average.",
         )
 
     # Loan young, low-minute players blocked by the main player.
