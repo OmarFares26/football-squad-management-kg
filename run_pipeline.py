@@ -16,9 +16,9 @@ PIPELINE_STAGES = [
     ("Performance scoring", "2 - construction/src/performance_scoring.py"),
     ("Rule-based reasoning", "4 - logic/src/rule_engine.py"),
     ("Knowledge Graph construction", "2 - construction/src/kg_builder.py"),
+    ("Embedding enrichment", "3 - ML/src/embeddings.py"),
     ("Knowledge Graph queries", "2 - construction/src/kg_queries.py"),
     ("KG-backed service output", "5 - reflection/src/service_output.py"),
-    ("Embedding enrichment", "3 - ML/src/embeddings.py"),
     (
         "Data model comparison and RDF export",
         "5 - reflection/src/data_model_comparison.py",

@@ -325,6 +325,12 @@ The embedding-enriched graph also adds:
 SIMILAR_TO
 ```
 
+The replacement traversal output also adds:
+
+```text
+RECOMMENDED_REPLACEMENT
+```
+
 ## PLAYS_FOR
 
 ```text
@@ -523,6 +529,27 @@ Mohamed Salah -> SIMILAR_TO -> Cody Gakpo
 Mohamed Salah -> SIMILAR_TO -> Luis Díaz
 ```
 
+## RECOMMENDED_REPLACEMENT
+
+```text
+Player -> RECOMMENDED_REPLACEMENT -> Player
+```
+
+This relationship is materialized after traversing up to two outgoing
+`SIMILAR_TO` hops from a player marked `Sell` or `Loan`. A reached player
+is retained when their decision is `Keep` or `Give More Chances`.
+
+The edge stores the shortest discovered hop count. This is a simple
+graph-traversal recommendation rule, not a validated transfer model.
+
+Examples:
+
+```text
+Andrew Robertson -> RECOMMENDED_REPLACEMENT -> Jarell Quansah (1 hop)
+Andrew Robertson -> RECOMMENDED_REPLACEMENT -> Joe Gomez (2 hops)
+Jayden Danns -> RECOMMENDED_REPLACEMENT -> Alexis Mac Allister (2 hops)
+```
+
 ## Base KG Statistics
 
 Graph file: squad_management_kg.graphml
@@ -552,6 +579,18 @@ The number of SIMILAR_TO edges comes from:
 562 players × 3 similar players = 1686 similarity rows
 ```
 
+## Replacement-Enriched KG Statistics
+
+Graph file: squad_management_kg_with_replacements.graphml
+
+```text
+608 nodes
+9488 edges
+9 node types
+12 relationship types
+8 RECOMMENDED_REPLACEMENT edges
+```
+
 ## Why This Schema Supports the Project
 
 The schema supports squad-management decisions because it combines:
@@ -564,6 +603,7 @@ same-role competition
 blocked-player reasoning
 final decisions
 embedding-based similarity
+multi-hop replacement recommendations
 ```
 
 The graph does not only store original data. It also stores inferred

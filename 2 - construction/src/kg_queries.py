@@ -5,7 +5,14 @@ import pandas as pd
 
 
 GRAPH_PATH = Path("2 - construction/graphs/squad_management_kg.graphml")
+EMBEDDING_GRAPH_PATH = Path(
+    "3 - ML/graphs/squad_management_kg_with_embeddings.graphml"
+)
+REPLACEMENT_GRAPH_PATH = Path(
+    "3 - ML/graphs/squad_management_kg_with_replacements.graphml"
+)
 RESULTS_DIR = Path("2 - construction/results")
+TARGET_TEAM = "Liverpool"
 
 
 def get_neighbors_by_relationship(
@@ -289,6 +296,163 @@ def query_blocked_by_main_player(graph: nx.MultiDiGraph) -> pd.DataFrame:
     )
 
 
+def find_replacement_candidates(
+    graph: nx.MultiDiGraph,
+    player_id: str,
+    max_hops: int = 2,
+) -> list[tuple[str, int, str]]:
+    """Traverse SIMILAR_TO edges to find suitable replacement candidates."""
+
+    if player_id not in graph:
+        return []
+
+    decision = graph.nodes[player_id].get("decision")
+    if decision not in ("Sell", "Loan"):
+        return []
+
+    visited = {player_id}
+    frontier = {player_id}
+    candidates = []
+
+    for hop in range(1, max_hops + 1):
+        next_frontier = set()
+
+        for node_id in frontier:
+            for _, neighbor_id, edge_data in graph.out_edges(
+                node_id,
+                data=True,
+            ):
+                if (
+                    edge_data.get("relationship") != "SIMILAR_TO"
+                    or neighbor_id in visited
+                ):
+                    continue
+
+                visited.add(neighbor_id)
+                next_frontier.add(neighbor_id)
+
+                candidate_decision = graph.nodes[neighbor_id].get("decision")
+                if candidate_decision in ("Keep", "Give More Chances"):
+                    candidates.append(
+                        (neighbor_id, hop, candidate_decision)
+                    )
+
+        frontier = next_frontier
+
+        if not frontier:
+            break
+
+    return candidates
+
+
+def find_team_players_by_decision(
+    graph: nx.MultiDiGraph,
+    team_name: str,
+    decisions: tuple[str, ...] = ("Sell", "Loan"),
+) -> pd.DataFrame:
+    """Find a team's players through PLAYS_FOR and filter by decision."""
+
+    team_ids = [
+        node_id
+        for node_id, node_data in graph.nodes(data=True)
+        if node_data.get("node_type") == "Team"
+        and node_data.get("team_name") == team_name
+    ]
+
+    rows = []
+
+    for team_id in team_ids:
+        for player_id, _, edge_data in graph.in_edges(team_id, data=True):
+            player_data = graph.nodes[player_id]
+
+            if (
+                edge_data.get("relationship") != "PLAYS_FOR"
+                or player_data.get("node_type") != "Player"
+                or player_data.get("decision") not in decisions
+            ):
+                continue
+
+            rows.append(
+                {
+                    "player_id": player_id,
+                    "player_name": player_data.get("player_name"),
+                    "decision": player_data.get("decision"),
+                }
+            )
+
+    return pd.DataFrame(
+        rows,
+        columns=["player_id", "player_name", "decision"],
+    ).sort_values(by=["decision", "player_name"])
+
+
+def add_replacement_edges(
+    graph: nx.MultiDiGraph,
+    players_df: pd.DataFrame,
+    max_hops: int = 2,
+) -> pd.DataFrame:
+    """Add RECOMMENDED_REPLACEMENT edges and return their output rows."""
+
+    rows = []
+    eligible_players = players_df[
+        players_df["decision"].isin(["Sell", "Loan"])
+    ]
+
+    for _, player in eligible_players.iterrows():
+        player_id = player["player_id"]
+
+        for candidate_id, hops, candidate_decision in (
+            find_replacement_candidates(graph, player_id, max_hops)
+        ):
+            graph.add_edge(
+                player_id,
+                candidate_id,
+                relationship="RECOMMENDED_REPLACEMENT",
+                hops=hops,
+                candidate_decision=candidate_decision,
+            )
+
+            rows.append(
+                {
+                    "player": player["player_name"],
+                    "candidate": graph.nodes[candidate_id].get(
+                        "player_name",
+                        candidate_id,
+                    ),
+                    "hops": hops,
+                    "candidate_decision": candidate_decision,
+                }
+            )
+
+    return pd.DataFrame(
+        rows,
+        columns=["player", "candidate", "hops", "candidate_decision"],
+    )
+
+
+def query_team_replacement_candidates(
+    team_name: str,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Run replacement traversal for a team's Sell and Loan players."""
+
+    graph = nx.read_graphml(EMBEDDING_GRAPH_PATH)
+    convert_numeric_node_attributes(graph)
+
+    selected_players = find_team_players_by_decision(
+        graph,
+        team_name,
+    )
+
+    replacements = add_replacement_edges(graph, selected_players)
+    nx.write_graphml(graph, REPLACEMENT_GRAPH_PATH)
+
+    sorted_replacements = replacements.sort_values(
+        by=["player", "hops", "candidate"],
+    ).reset_index(drop=True)
+
+    return selected_players.reset_index(drop=True), sorted_replacements
+
+
 def main() -> None:
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -366,6 +530,37 @@ def main() -> None:
     print(RESULTS_DIR / "query_mohamed_salah_competitors.csv")
     print(RESULTS_DIR / "query_blocked_by_main_player.csv")
     print(RESULTS_DIR / "query_liverpool_blocked_examples.csv")
+    print()
+
+    selected_players, replacements = query_team_replacement_candidates(
+        TARGET_TEAM
+    )
+    team_slug = TARGET_TEAM.lower().replace(" ", "_")
+    replacement_output_path = (
+        RESULTS_DIR / f"replacement_candidates_{team_slug}.csv"
+    )
+    replacements.to_csv(replacement_output_path, index=False)
+
+    print(f"Query 5: {TARGET_TEAM} replacement candidates")
+    print("Selected Sell/Loan players:")
+    if selected_players.empty:
+        print("None")
+    else:
+        print(
+            selected_players[["player_name", "decision"]].to_string(
+                index=False
+            )
+        )
+    print()
+
+    if replacements.empty:
+        print("No candidates found within two SIMILAR_TO hops.")
+    else:
+        print(replacements.to_string(index=False))
+    print()
+    print("Saved replacement outputs:")
+    print(replacement_output_path)
+    print(REPLACEMENT_GRAPH_PATH)
 
 
 if __name__ == "__main__":

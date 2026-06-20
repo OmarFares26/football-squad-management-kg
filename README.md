@@ -16,7 +16,7 @@ Each player receives one decision:
 
 ```text
 Raw data -> preprocessing -> scoring -> rules -> KG construction
--> queries and service -> Node2Vec -> model comparison and RDF export
+-> Node2Vec -> graph queries -> service -> model comparison and RDF export
 ```
 
 ## Structure
@@ -73,7 +73,7 @@ The main generated artifacts are located in:
 ```text
 2 - construction/graphs/   base Knowledge Graph
 2 - construction/results/  KG statistics and query results
-3 - ML/graphs/             embedding-enriched Knowledge Graph
+3 - ML/graphs/             embedding and replacement-enriched graphs
 3 - ML/results/            embeddings and similar-player results
 4 - logic/results/         rule-based squad decisions
 5 - reflection/graphs/     RDF/Turtle export

@@ -14,7 +14,7 @@ data/raw/players_data_light-2024_2025.csv
 - `src/data_preprocessing.py`: cleans players and creates role groups
 - `src/performance_scoring.py`: calculates role-based performance scores
 - `src/kg_builder.py`: builds the base `MultiDiGraph`
-- `src/kg_queries.py`: runs example queries
+- `src/kg_queries.py`: runs graph queries and multi-hop replacement traversal
 
 KG construction also uses
 `4 - logic/results/player_decisions.csv`.
@@ -23,7 +23,7 @@ KG construction also uses
 
 - `data/processed/`: cleaned and scored player tables
 - `graphs/squad_management_kg.graphml`: base Knowledge Graph
-- `results/`: exploration, KG statistics, and query outputs
+- `results/`: exploration, KG statistics, query outputs, and replacement candidates
 - `docs/kg_schema.md`: node, relationship, and graph-model documentation
 
 Run this section through the root command: `python run_pipeline.py`.
