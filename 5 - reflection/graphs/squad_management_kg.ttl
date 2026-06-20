@@ -3460,6 +3460,9 @@ resource:adama_traor%C3%A9_fulham a class:Player ;
     property:raw_position "FW,MF" ;
     property:role_group "AttMidWinger" .
 
+resource:age_group%3A%3AUnknownAge a class:AgeGroup ;
+    property:age_group "UnknownAge" .
+
 resource:albert_gr%C3%B8nbaek_southampton a class:Player ;
     property:age 2.3e+01 ;
     property:age_group "Prime" ;
@@ -4351,19 +4354,19 @@ resource:jefferson_lerma_crystal_palace a class:Player ;
     property:role_group "DefMidWingBack" .
 
 resource:jeremy_monga_leicester_city a class:Player ;
-    property:age 0e+00 ;
-    property:age_group "Young" ;
+    property:age "NaN"^^xsd:double ;
+    property:age_group "UnknownAge" ;
     property:blocked_by_main_player resource:bilal_el_khannouss_leicester_city ;
     property:competes_with resource:bilal_el_khannouss_leicester_city,
         resource:facundo_buonanotte_leicester_city,
         resource:jordan_ayew_leicester_city,
         resource:patson_daka_leicester_city ;
     property:competition_status "Blocked" ;
-    property:decision "Loan" ;
-    property:explanation "Jeremy Monga is classified as Loan because: Young player with low minutes and blocked by the main same-role player." ;
-    property:has_age_group resource:age_group%3A%3AYoung ;
+    property:decision "Monitor" ;
+    property:explanation "Jeremy Monga is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered." ;
+    property:has_age_group resource:age_group%3A%3AUnknownAge ;
     property:has_competition_status resource:competition_status%3A%3ABlocked ;
-    property:has_decision resource:decision%3A%3ALoan ;
+    property:has_decision resource:decision%3A%3AMonitor ;
     property:has_minutes_group resource:minutes_group%3A%3ALowMinutes ;
     property:has_performance_level resource:performance_level%3A%3APoor ;
     property:has_role resource:role%3A%3AAttMidWinger ;
@@ -6534,8 +6537,8 @@ resource:massimo_luongo_ipswich_town a class:Player ;
     property:role_group "Midfielder" .
 
 resource:mateus_mane_wolves a class:Player ;
-    property:age 0e+00 ;
-    property:age_group "Young" ;
+    property:age "NaN"^^xsd:double ;
+    property:age_group "UnknownAge" ;
     property:blocked_by_main_player resource:jo%C3%A3o_gomes_wolves ;
     property:competes_with resource:andr%C3%A9_wolves,
         resource:boubacar_traor%C3%A9_wolves,
@@ -6543,11 +6546,11 @@ resource:mateus_mane_wolves a class:Player ;
         resource:jo%C3%A3o_gomes_wolves,
         resource:tommy_doyle_wolves ;
     property:competition_status "Blocked" ;
-    property:decision "Loan" ;
-    property:explanation "Mateus Mane is classified as Loan because: Young player with low minutes and blocked by the main same-role player." ;
-    property:has_age_group resource:age_group%3A%3AYoung ;
+    property:decision "Monitor" ;
+    property:explanation "Mateus Mane is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered." ;
+    property:has_age_group resource:age_group%3A%3AUnknownAge ;
     property:has_competition_status resource:competition_status%3A%3ABlocked ;
-    property:has_decision resource:decision%3A%3ALoan ;
+    property:has_decision resource:decision%3A%3AMonitor ;
     property:has_minutes_group resource:minutes_group%3A%3ALowMinutes ;
     property:has_performance_level resource:performance_level%3A%3APoor ;
     property:has_role resource:role%3A%3AMidfielder ;
@@ -7704,8 +7707,8 @@ resource:issa_diop_fulham a class:Player ;
     property:role_group "Defender" .
 
 resource:jake_evans_leicester_city a class:Player ;
-    property:age 0e+00 ;
-    property:age_group "Young" ;
+    property:age "NaN"^^xsd:double ;
+    property:age_group "UnknownAge" ;
     property:blocked_by_main_player resource:jamie_vardy_leicester_city ;
     property:competes_with resource:abdul_fatawu_issahaku_leicester_city,
         resource:bobby_de_cordova-reid_leicester_city,
@@ -7714,11 +7717,11 @@ resource:jake_evans_leicester_city a class:Player ;
         resource:stephy_mavididi_leicester_city,
         resource:will_alves_leicester_city ;
     property:competition_status "Blocked" ;
-    property:decision "Loan" ;
-    property:explanation "Jake Evans is classified as Loan because: Young player with low minutes and blocked by the main same-role player." ;
-    property:has_age_group resource:age_group%3A%3AYoung ;
+    property:decision "Monitor" ;
+    property:explanation "Jake Evans is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered." ;
+    property:has_age_group resource:age_group%3A%3AUnknownAge ;
     property:has_competition_status resource:competition_status%3A%3ABlocked ;
-    property:has_decision resource:decision%3A%3ALoan ;
+    property:has_decision resource:decision%3A%3AMonitor ;
     property:has_minutes_group resource:minutes_group%3A%3ALowMinutes ;
     property:has_performance_level resource:performance_level%3A%3APoor ;
     property:has_role resource:role%3A%3AForward ;
@@ -13855,8 +13858,8 @@ resource:milos_kerkez_bournemouth a class:Player ;
     property:role_group "Defender" .
 
 resource:olabade_aluko_leicester_city a class:Player ;
-    property:age 0e+00 ;
-    property:age_group "Young" ;
+    property:age "NaN"^^xsd:double ;
+    property:age_group "UnknownAge" ;
     property:blocked_by_main_player resource:james_justin_leicester_city ;
     property:competes_with resource:caleb_okoli_leicester_city,
         resource:conor_coady_leicester_city,
@@ -13868,11 +13871,11 @@ resource:olabade_aluko_leicester_city a class:Player ;
         resource:wout_faes_leicester_city,
         resource:woyo_coulibaly_leicester_city ;
     property:competition_status "Blocked" ;
-    property:decision "Loan" ;
-    property:explanation "Olabade Aluko is classified as Loan because: Young player with low minutes and blocked by the main same-role player." ;
-    property:has_age_group resource:age_group%3A%3AYoung ;
+    property:decision "Monitor" ;
+    property:explanation "Olabade Aluko is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered." ;
+    property:has_age_group resource:age_group%3A%3AUnknownAge ;
     property:has_competition_status resource:competition_status%3A%3ABlocked ;
-    property:has_decision resource:decision%3A%3ALoan ;
+    property:has_decision resource:decision%3A%3AMonitor ;
     property:has_minutes_group resource:minutes_group%3A%3ALowMinutes ;
     property:has_performance_level resource:performance_level%3A%3APoor ;
     property:has_role resource:role%3A%3ADefender ;

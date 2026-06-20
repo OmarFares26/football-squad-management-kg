@@ -2,5 +2,5 @@ model,actual_example,source_artifact,evidence
 Tabular / CSV,player_id=mohamed_salah_liverpool; player_name=Mohamed Salah; team_name=Liverpool; role_group=Forward,2 - construction/data/processed/premier_league_players.csv,562 player rows and 25 columns
 Property graph / NetworkX MultiDiGraph,mohamed_salah_liverpool -[PLAYS_FOR]-> team::liverpool,2 - construction/graphs/squad_management_kg.graphml,PLAYS_FOR edges=562; graph is multigraph=True
 RDF / Turtle,<https://example.org/football-kg/resource/mohamed_salah_liverpool> <https://example.org/football-kg/property/plays_for> <https://example.org/football-kg/resource/team%3A%3Aliverpool> .,5 - reflection/graphs/squad_management_kg.ttl,Real RDF triple generated from the GraphML edge
-Embedding / vector,"mohamed_salah_liverpool -> [0.6253, 0.3790, -0.0028, -0.4678, ...]",3 - ML/results/player_embeddings.csv,32 learned dimensions for this player
+Embedding / vector,"mohamed_salah_liverpool -> [-0.0628, 0.1528, 0.1374, -0.2219, ...]",3 - ML/results/player_embeddings.csv,32 learned dimensions for this player
 Temporal Knowledge Graph,"mohamed_salah_liverpool -[PLAYS_FOR, season=2024/2025]-> team::liverpool",Design example based on current snapshot,Not implemented; illustrates a Season node or time-qualified relation

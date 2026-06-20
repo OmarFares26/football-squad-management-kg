@@ -484,7 +484,7 @@ kosta_nedeljković_aston_villa,aston_villa,Kosta Nedeljković,rs SRB,DF,Defender
 daniel_jebbison_bournemouth,bournemouth,Daniel Jebbison,eng ENG,FW,Forward,Bournemouth,eng Premier League,20.0,16,0,119,1.3,1,0,1.0,0.2,5,1,1,2,0.0,0.0,0.0,0.0
 edmond-paris_maghoma_brentford,brentford,Edmond-Paris Maghoma,eng ENG,"MF,FW",AttMidWinger,Brentford,eng Premier League,23.0,8,0,119,1.3,0,0,0.1,0.1,2,1,2,2,0.0,0.0,0.0,0.0
 odsonne_édouard_crystal_palace,crystal_palace,Odsonne Édouard,fr FRA,"MF,FW",AttMidWinger,Crystal Palace,eng Premier League,26.0,2,1,115,1.3,0,0,0.4,0.0,1,0,1,1,0.0,0.0,0.0,0.0
-jeremy_monga_leicester_city,leicester_city,Jeremy Monga,,"FW,MF",AttMidWinger,Leicester City,eng Premier League,0.0,7,0,112,1.2,0,0,0.2,0.0,2,0,1,3,0.0,0.0,0.0,0.0
+jeremy_monga_leicester_city,leicester_city,Jeremy Monga,,"FW,MF",AttMidWinger,Leicester City,eng Premier League,,7,0,112,1.2,0,0,0.2,0.0,2,0,1,3,0.0,0.0,0.0,0.0
 woyo_coulibaly_leicester_city,leicester_city,Woyo Coulibaly,ml MLI,DF,Defender,Leicester City,eng Premier League,25.0,4,1,109,1.2,0,0,0.0,0.0,6,5,1,3,0.0,0.0,0.0,0.0
 federico_chiesa_liverpool,liverpool,Federico Chiesa,it ITA,FW,Forward,Liverpool,eng Premier League,26.0,6,1,108,1.2,0,0,0.3,0.2,1,0,1,1,0.0,0.0,0.0,0.0
 harrison_reed_fulham,fulham,Harrison Reed,eng ENG,MF,Midfielder,Fulham,eng Premier League,29.0,12,0,108,1.2,0,0,0.2,0.1,6,1,3,1,0.0,0.0,0.0,0.0
@@ -520,7 +520,7 @@ divin_mubama_manchester_city,manchester_city,Divin Mubama,eng ENG,FW,Forward,Man
 frank_onyeka_brentford,brentford,Frank Onyeka,ng NGA,MF,Midfielder,Brentford,eng Premier League,26.0,2,0,25,0.3,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
 ben_winterburn_bournemouth,bournemouth,Ben Winterburn,eng ENG,"MF,FW",AttMidWinger,Bournemouth,eng Premier League,19.0,4,0,24,0.3,0,0,0.0,0.0,0,2,0,0,0.0,0.0,0.0,0.0
 martial_godo_fulham,fulham,Martial Godo,eng ENG,"FW,DF",WingBack,Fulham,eng Premier League,21.0,2,0,24,0.3,0,0,0.0,0.1,0,1,0,1,0.0,0.0,0.0,0.0
-jake_evans_leicester_city,leicester_city,Jake Evans,,FW,Forward,Leicester City,eng Premier League,0.0,4,0,24,0.3,0,0,0.0,0.0,1,0,1,0,0.0,0.0,0.0,0.0
+jake_evans_leicester_city,leicester_city,Jake Evans,,FW,Forward,Leicester City,eng Premier League,,4,0,24,0.3,0,0,0.0,0.0,1,0,1,0,0.0,0.0,0.0,0.0
 matt_targett_newcastle_utd,newcastle_utd,Matt Targett,eng ENG,DF,Defender,Newcastle Utd,eng Premier League,28.0,2,0,21,0.2,0,0,0.0,0.0,0,1,1,0,0.0,0.0,0.0,0.0
 eiran_cashin_brighton,brighton,Eiran Cashin,ie IRL,DF,Defender,Brighton,eng Premier League,22.0,2,0,20,0.2,0,0,0.0,0.0,0,0,2,0,0.0,0.0,0.0,0.0
 scott_mctominay_manchester_utd,manchester_utd,Scott McTominay,sct SCO,MF,Midfielder,Manchester Utd,eng Premier League,27.0,2,0,19,0.2,0,0,0.1,0.0,0,0,1,0,0.0,0.0,0.0,0.0
@@ -548,8 +548,8 @@ mason_holgate_everton,everton,Mason Holgate,jm JAM,"FW,DF",WingBack,Everton,eng 
 jayden_meghoma_brentford,brentford,Jayden Meghoma,eng ENG,DF,Defender,Brentford,eng Premier League,18.0,1,0,5,0.1,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
 ryan_trevitt_brentford,brentford,Ryan Trevitt,eng ENG,MF,Midfielder,Brentford,eng Premier League,21.0,1,0,4,0.0,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
 george_edmundson_ipswich_town,ipswich_town,George Edmundson,eng ENG,DF,Defender,Ipswich Town,eng Premier League,26.0,1,0,2,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
-olabade_aluko_leicester_city,leicester_city,Olabade Aluko,,DF,Defender,Leicester City,eng Premier League,0.0,1,0,2,0.0,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
-mateus_mane_wolves,wolves,Mateus Mane,,MF,Midfielder,Wolves,eng Premier League,0.0,1,0,2,0.0,0,0,0.0,0.0,0,0,0,1,0.0,0.0,0.0,0.0
+olabade_aluko_leicester_city,leicester_city,Olabade Aluko,,DF,Defender,Leicester City,eng Premier League,,1,0,2,0.0,0,0,0.0,0.0,1,0,0,0,0.0,0.0,0.0,0.0
+mateus_mane_wolves,wolves,Mateus Mane,,MF,Midfielder,Wolves,eng Premier League,,1,0,2,0.0,0,0,0.0,0.0,0,0,0,1,0.0,0.0,0.0,0.0
 will_alves_leicester_city,leicester_city,Will Alves,eng ENG,FW,Forward,Leicester City,eng Premier League,19.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
 michael_golding_leicester_city,leicester_city,Michael Golding,eng ENG,MF,Midfielder,Leicester City,eng Premier League,18.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0
 alfie_pond_wolves,wolves,Alfie Pond,eng ENG,DF,Defender,Wolves,eng Premier League,20.0,1,0,1,0.0,0,0,0.0,0.0,0,0,0,0,0.0,0.0,0.0,0.0

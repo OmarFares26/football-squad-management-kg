@@ -11,6 +11,9 @@ RESULTS_DIR = Path("4 - logic/results")
 def get_age_group(age: float) -> str:
     """Map age to a decision-friendly age group."""
 
+    if pd.isna(age):
+        return "UnknownAge"
+
     if age < 23:
         return "Young"
 
@@ -63,7 +66,10 @@ def add_same_role_competition_context(df: pd.DataFrame) -> pd.DataFrame:
     grouped_players = df.groupby(["team_name", "role_group"])
 
     for _, group in grouped_players:
-        main_player = group.sort_values("minutes_played", ascending=False).iloc[0]
+        main_player = group.sort_values(
+            by=["minutes_played", "performance_score", "player_id"],
+            ascending=[False, False, True],
+        ).iloc[0]
         group_index = group.index
 
         df.loc[group_index, "main_same_role_player"] = main_player["player_name"]
@@ -118,6 +124,7 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
     is_main_same_role_player = row["is_main_same_role_player"]
     is_blocked_by_main_player = row["is_blocked_by_main_player"]
     main_player_underperforming = row["main_player_underperforming"]
+    has_known_age = not pd.isna(age)
 
     # Keep regular contributors regardless of age.
     if minutes > 1800 and percentile >= 50:
@@ -127,7 +134,7 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
         )
 
     # Sell older regulars with poor role-based performance.
-    if minutes > 1800 and percentile < 40 and age > 29:
+    if has_known_age and minutes > 1800 and percentile < 40 and age > 29:
         return (
             "Sell",
             "High minutes, poor role-based performance, and older than 29.",
@@ -153,14 +160,19 @@ def decide_player(row: pd.Series) -> tuple[str, str]:
         )
 
     # Loan young, low-minute players blocked by the main player.
-    if age < 23 and minutes < 900 and is_blocked_by_main_player:
+    if (
+        has_known_age
+        and age < 23
+        and minutes < 900
+        and is_blocked_by_main_player
+    ):
         return (
             "Loan",
             "Young player with low minutes and blocked by the main same-role player.",
         )
 
     # Sell older, low-minute players with poor performance.
-    if minutes < 900 and percentile < 40 and age > 29:
+    if has_known_age and minutes < 900 and percentile < 40 and age > 29:
         return (
             "Sell",
             "Low minutes, poor role-based performance, and older than 29.",

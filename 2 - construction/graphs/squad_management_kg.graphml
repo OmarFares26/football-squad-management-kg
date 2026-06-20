@@ -11671,8 +11671,8 @@
       <data key="d1">Jeremy Monga</data>
       <data key="d2">FW,MF</data>
       <data key="d3">AttMidWinger</data>
-      <data key="d4">0.0</data>
-      <data key="d5">Young</data>
+      <data key="d4">nan</data>
+      <data key="d5">UnknownAge</data>
       <data key="d6">112</data>
       <data key="d7">LowMinutes</data>
       <data key="d8">0.05</data>
@@ -11687,8 +11687,8 @@
       <data key="d17">False</data>
       <data key="d18">True</data>
       <data key="d19">True</data>
-      <data key="d20">Loan</data>
-      <data key="d21">Jeremy Monga is classified as Loan because: Young player with low minutes and blocked by the main same-role player.</data>
+      <data key="d20">Monitor</data>
+      <data key="d21">Jeremy Monga is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered.</data>
     </node>
     <node id="woyo_coulibaly_leicester_city">
       <data key="d0">Player</data>
@@ -12535,8 +12535,8 @@
       <data key="d1">Jake Evans</data>
       <data key="d2">FW</data>
       <data key="d3">Forward</data>
-      <data key="d4">0.0</data>
-      <data key="d5">Young</data>
+      <data key="d4">nan</data>
+      <data key="d5">UnknownAge</data>
       <data key="d6">24</data>
       <data key="d7">LowMinutes</data>
       <data key="d8">0.0</data>
@@ -12551,8 +12551,8 @@
       <data key="d17">False</data>
       <data key="d18">True</data>
       <data key="d19">False</data>
-      <data key="d20">Loan</data>
-      <data key="d21">Jake Evans is classified as Loan because: Young player with low minutes and blocked by the main same-role player.</data>
+      <data key="d20">Monitor</data>
+      <data key="d21">Jake Evans is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered.</data>
     </node>
     <node id="matt_targett_newcastle_utd">
       <data key="d0">Player</data>
@@ -13207,8 +13207,8 @@
       <data key="d1">Olabade Aluko</data>
       <data key="d2">DF</data>
       <data key="d3">Defender</data>
-      <data key="d4">0.0</data>
-      <data key="d5">Young</data>
+      <data key="d4">nan</data>
+      <data key="d5">UnknownAge</data>
       <data key="d6">2</data>
       <data key="d7">LowMinutes</data>
       <data key="d8">0.0</data>
@@ -13223,16 +13223,16 @@
       <data key="d17">False</data>
       <data key="d18">True</data>
       <data key="d19">False</data>
-      <data key="d20">Loan</data>
-      <data key="d21">Olabade Aluko is classified as Loan because: Young player with low minutes and blocked by the main same-role player.</data>
+      <data key="d20">Monitor</data>
+      <data key="d21">Olabade Aluko is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered.</data>
     </node>
     <node id="mateus_mane_wolves">
       <data key="d0">Player</data>
       <data key="d1">Mateus Mane</data>
       <data key="d2">MF</data>
       <data key="d3">Midfielder</data>
-      <data key="d4">0.0</data>
-      <data key="d5">Young</data>
+      <data key="d4">nan</data>
+      <data key="d5">UnknownAge</data>
       <data key="d6">2</data>
       <data key="d7">LowMinutes</data>
       <data key="d8">0.0</data>
@@ -13247,8 +13247,8 @@
       <data key="d17">False</data>
       <data key="d18">True</data>
       <data key="d19">False</data>
-      <data key="d20">Loan</data>
-      <data key="d21">Mateus Mane is classified as Loan because: Young player with low minutes and blocked by the main same-role player.</data>
+      <data key="d20">Monitor</data>
+      <data key="d21">Mateus Mane is classified as Monitor because: No strong keep, loan, sell, or give-more-chances rule was triggered.</data>
     </node>
     <node id="will_alves_leicester_city">
       <data key="d0">Player</data>
@@ -13697,6 +13697,10 @@
     <node id="decision::Loan">
       <data key="d0">SquadDecision</data>
       <data key="d20">Loan</data>
+    </node>
+    <node id="age_group::UnknownAge">
+      <data key="d0">AgeGroup</data>
+      <data key="d5">UnknownAge</data>
     </node>
     <edge source="matz_sels_nott'ham_forest" target="team::nott'ham_forest" id="0">
       <data key="d24">PLAYS_FOR</data>
@@ -33720,7 +33724,7 @@
     <edge source="jeremy_monga_leicester_city" target="role::AttMidWinger" id="0">
       <data key="d24">HAS_ROLE</data>
     </edge>
-    <edge source="jeremy_monga_leicester_city" target="age_group::Young" id="0">
+    <edge source="jeremy_monga_leicester_city" target="age_group::UnknownAge" id="0">
       <data key="d24">HAS_AGE_GROUP</data>
     </edge>
     <edge source="jeremy_monga_leicester_city" target="minutes_group::LowMinutes" id="0">
@@ -33732,7 +33736,7 @@
     <edge source="jeremy_monga_leicester_city" target="competition_status::Blocked" id="0">
       <data key="d24">HAS_COMPETITION_STATUS</data>
     </edge>
-    <edge source="jeremy_monga_leicester_city" target="decision::Loan" id="0">
+    <edge source="jeremy_monga_leicester_city" target="decision::Monitor" id="0">
       <data key="d24">HAS_DECISION</data>
     </edge>
     <edge source="jeremy_monga_leicester_city" target="bilal_el_khannouss_leicester_city" id="0">
@@ -35262,7 +35266,7 @@
     <edge source="jake_evans_leicester_city" target="role::Forward" id="0">
       <data key="d24">HAS_ROLE</data>
     </edge>
-    <edge source="jake_evans_leicester_city" target="age_group::Young" id="0">
+    <edge source="jake_evans_leicester_city" target="age_group::UnknownAge" id="0">
       <data key="d24">HAS_AGE_GROUP</data>
     </edge>
     <edge source="jake_evans_leicester_city" target="minutes_group::LowMinutes" id="0">
@@ -35274,7 +35278,7 @@
     <edge source="jake_evans_leicester_city" target="competition_status::Blocked" id="0">
       <data key="d24">HAS_COMPETITION_STATUS</data>
     </edge>
-    <edge source="jake_evans_leicester_city" target="decision::Loan" id="0">
+    <edge source="jake_evans_leicester_city" target="decision::Monitor" id="0">
       <data key="d24">HAS_DECISION</data>
     </edge>
     <edge source="jake_evans_leicester_city" target="jamie_vardy_leicester_city" id="0">
@@ -36447,7 +36451,7 @@
     <edge source="olabade_aluko_leicester_city" target="role::Defender" id="0">
       <data key="d24">HAS_ROLE</data>
     </edge>
-    <edge source="olabade_aluko_leicester_city" target="age_group::Young" id="0">
+    <edge source="olabade_aluko_leicester_city" target="age_group::UnknownAge" id="0">
       <data key="d24">HAS_AGE_GROUP</data>
     </edge>
     <edge source="olabade_aluko_leicester_city" target="minutes_group::LowMinutes" id="0">
@@ -36459,7 +36463,7 @@
     <edge source="olabade_aluko_leicester_city" target="competition_status::Blocked" id="0">
       <data key="d24">HAS_COMPETITION_STATUS</data>
     </edge>
-    <edge source="olabade_aluko_leicester_city" target="decision::Loan" id="0">
+    <edge source="olabade_aluko_leicester_city" target="decision::Monitor" id="0">
       <data key="d24">HAS_DECISION</data>
     </edge>
     <edge source="olabade_aluko_leicester_city" target="james_justin_leicester_city" id="0">
@@ -36501,7 +36505,7 @@
     <edge source="mateus_mane_wolves" target="role::Midfielder" id="0">
       <data key="d24">HAS_ROLE</data>
     </edge>
-    <edge source="mateus_mane_wolves" target="age_group::Young" id="0">
+    <edge source="mateus_mane_wolves" target="age_group::UnknownAge" id="0">
       <data key="d24">HAS_AGE_GROUP</data>
     </edge>
     <edge source="mateus_mane_wolves" target="minutes_group::LowMinutes" id="0">
@@ -36513,7 +36517,7 @@
     <edge source="mateus_mane_wolves" target="competition_status::Blocked" id="0">
       <data key="d24">HAS_COMPETITION_STATUS</data>
     </edge>
-    <edge source="mateus_mane_wolves" target="decision::Loan" id="0">
+    <edge source="mateus_mane_wolves" target="decision::Monitor" id="0">
       <data key="d24">HAS_DECISION</data>
     </edge>
     <edge source="mateus_mane_wolves" target="joão_gomes_wolves" id="0">

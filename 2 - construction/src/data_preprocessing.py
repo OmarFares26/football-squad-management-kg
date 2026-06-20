@@ -127,9 +127,8 @@ def main() -> None:
         }
     )
 
-    # Goalkeeper-only statistics are missing for outfield players.
+    # Age remains missing when the source does not provide it.
     numeric_columns = [
-        "age",
         "matches_played",
         "games_started",
         "minutes_played",

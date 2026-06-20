@@ -125,14 +125,14 @@ Christian Walton,Ipswich Town,Goalkeeper,28.0,630.0,6.82,Monitor,Arijanet Muric,
 Marcus Harness,Ipswich Town,Midfielder,28.0,45.0,12.73,Monitor,Sam Morsy,2751.0,31.82
 Massimo Luongo,Ipswich Town,Midfielder,31.0,201.0,29.09,Sell,Sam Morsy,2751.0,31.82
 Wes Burns,Ipswich Town,WingBack,29.0,926.0,42.86,Monitor,Ben Johnson,1354.0,78.57
-Jeremy Monga,Leicester City,AttMidWinger,0.0,112.0,9.9,Loan,Bilal El Khannouss,2182.0,31.68
+Jeremy Monga,Leicester City,AttMidWinger,,112.0,9.9,Monitor,Bilal El Khannouss,2182.0,31.68
 Patson Daka,Leicester City,AttMidWinger,25.0,736.0,25.74,Monitor,Bilal El Khannouss,2182.0,31.68
 Conor Coady,Leicester City,Defender,31.0,1714.0,38.8,Monitor,James Justin,2912.0,69.95
 Jannik Vestergaard,Leicester City,Defender,31.0,1391.0,66.12,Give More Chances,James Justin,2912.0,69.95
-Olabade Aluko,Leicester City,Defender,0.0,2.0,2.19,Loan,James Justin,2912.0,69.95
+Olabade Aluko,Leicester City,Defender,,2.0,2.19,Monitor,James Justin,2912.0,69.95
 Ricardo Pereira,Leicester City,Defender,30.0,388.0,48.09,Monitor,James Justin,2912.0,69.95
 Victor Bernth Kristiansen,Leicester City,Defender,21.0,2482.0,55.19,Keep,James Justin,2912.0,69.95
-Jake Evans,Leicester City,Forward,0.0,24.0,12.96,Loan,Jamie Vardy,2823.0,48.15
+Jake Evans,Leicester City,Forward,,24.0,12.96,Monitor,Jamie Vardy,2823.0,48.15
 Kasey McAteer,Leicester City,Forward,22.0,852.0,34.57,Loan,Jamie Vardy,2823.0,48.15
 Stephy Mavididi,Leicester City,Forward,26.0,1615.0,38.27,Monitor,Jamie Vardy,2823.0,48.15
 Will Alves,Leicester City,Forward,19.0,1.0,12.96,Loan,Jamie Vardy,2823.0,48.15
@@ -264,4 +264,4 @@ Sam Johnstone,Wolves,Goalkeeper,31.0,630.0,13.64,Sell,José Sá,2609.0,36.36
 Tom King,Wolves,Goalkeeper,29.0,1.0,10.23,Monitor,José Sá,2609.0,36.36
 Boubacar Traoré,Wolves,Midfielder,22.0,1.0,6.36,Loan,João Gomes,2974.0,40.0
 Chiquinho,Wolves,Midfielder,24.0,7.0,6.36,Monitor,João Gomes,2974.0,40.0
-Mateus Mane,Wolves,Midfielder,0.0,2.0,6.36,Loan,João Gomes,2974.0,40.0
+Mateus Mane,Wolves,Midfielder,,2.0,6.36,Monitor,João Gomes,2974.0,40.0
